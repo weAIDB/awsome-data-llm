@@ -1,12 +1,5 @@
 # Data *×* LLM: From Principles to Practices
 
-xxx
-
-Table of Contents
------------------
-
-[TOC]
-
 ## 1. INTRODUCTION
 
 **Scaling Laws for Data Filtering -- Data Curation cannot be Compute Agnostic** 
