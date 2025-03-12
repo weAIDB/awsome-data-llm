@@ -368,3 +368,7 @@ There are many related works, with a focus on prioritizing NL2SQL papers within 
 
 *Zongyue Qin, Chen Luo, Zhengyang Wang, Haoming Jiang, Yizhou Sun. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2407.15071)]
 
+**SAGE: A Framework of Precise Retrieval for RAG**
+
+*Jintao Zhang, Guoliang Li, Jinyang Su. ICDE 2025.* [[pdf](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/ICDE25-SAGE.pdf)]
+
