@@ -202,6 +202,10 @@ There are many related works, with a focus on prioritizing NL2SQL papers within 
 
 *Asim Biswal, Siddharth Jha, Carlos Guestrin, Matei Zaharia, Joseph E Gonzalez, Amog Kamsetty, Shu Liu, Liana Patel. CIDR 2025.* [[pdf](https://arxiv.org/pdf/2408.14717)]
 
+**Are Your LLM-based Text-to-SQL Models Secure? Exploring SQL Injection via Backdoor Attacks**
+
+*Meiyu Lin, Haichuan Zhang, Jiale Lao, Renyuan Li, Yuanchun Zhou, Carl Yang, Yang Cao, Mingjie Tang. arxiv 2025.* [[pdf](https://arxiv.org/pdf/2503.05445)]
+
 **CoddLLM: Empowering Large Language Models for Data Analytics**
 
 *Jiani Zhang, Hengrui Zhang, Rishav Chakravarti, Yiqun Hu, Patrick Ng, Asterios Katsifodimos, Huzefa Rangwala, George Karypis, Alon Halevy. arxiv 2025.* [[pdf](https://arxiv.org/pdf/2502.00329)]
@@ -276,7 +280,7 @@ There are many related works, with a focus on prioritizing NL2SQL papers within 
 
 ## 3. LLM for Database Optimization
 
-### 3.1 Knob Tuning
+### 3.1 Configuration Tuning
 
 **λ-Tune: Harnessing Large Language Models for Automated Database System Tuning**
 
@@ -285,6 +289,10 @@ There are many related works, with a focus on prioritizing NL2SQL papers within 
 **Automatic Database Configuration Debugging using Retrieval-Augmented Language Models**
 
 *Sibei Chen, Ju Fan, Bin Wu, Nan Tang, Chao Deng, Pengyi PYW Wang, Ye Li, Jian Tan, Feifei Li, Jingren Zhou, Xiaoyong Du. SIGMOD 2025.* [[pdf](https://arxiv.org/pdf/2412.07548)]
+
+**LLMIdxAdvis: Resource-Efficient Index Advisor Utilizing Large Language Model**
+
+*Xinxin Zhao, Haoyang Li, Jing Zhang, Xinmei Huang, Tieying Zhang, Jianjun Chen, Rui Shi, Cuiping Li, Hong Chen. arxiv 2025.* [[pdf](https://arxiv.org/pdf/2503.07884)]
 
 **LATuner: An LLM-Enhanced Database Tuning System Based on Adaptive Surrogate Model**
 
@@ -316,6 +324,10 @@ There are many related works, with a focus on prioritizing NL2SQL papers within 
 
 *Jie Tan, Kangfei Zhao, Rui Li, Jeffrey Xu Yu, Chengzhi Piao, Hong Cheng, Helen Meng, Deli Zhao, and Yu Rong. arxiv 2025.* [[pdf](https://arxiv.org/pdf/2502.05562)]
 
+**A Query Optimization Method Utilizing Large Language Models**
+
+*Zhiming Yao, Haoyang Li, Jing Zhang, Cuiping Li, Hong Chen. arxiv 2025.* [[pdf](https://arxiv.org/pdf/2503.06902)]
+
 **LLM-R2: A Large Language Model Enhanced Rule-based Rewrite System for Boosting Query Efficiency**
 
 *Zhaodonghui Li, Haitao Yuan#, Huiming Wang, Gao Cong, Lidong Bing. VLDB 2024.* [[pdf](https://arxiv.org/pdf/2404.12872)]
@@ -332,7 +344,11 @@ There are many related works, with a focus on prioritizing NL2SQL papers within 
 
 *Jie Liu, Barzan Mozafari. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2403.09060)]
 
-### 3.3 Database Diagnosis
+### 3.3 Anomaly Diagnosis
+
+**RCRank: Multimodal Ranking of Root Causes of Slow Queries in Cloud Database Systems**
+
+*Biao Ouyang, Yingying Zhang, Hanyin Cheng, Yang Shu, Chenjuan Guo, Bin Yang, Qingsong Wen, Lunting Fan, Christian S. Jensen. VLDB 2025.* [[pdf](https://arxiv.org/pdf/2503.04252)]
 
 **D-Bot: Database Diagnosis System using Large Language Models** 
 
