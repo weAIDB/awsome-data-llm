@@ -2,10 +2,19 @@
 
 * [System & Review](#0-system--review)
 * [Data Management for LLM](#1-data-management-for-llm)
-    * [Data Processing for LLM](#11-data-processing-for-llm)
-    * [Data Distillation for LLM](#12-data-distillation-for-llm)
+    * [Data Acquisition for LLM](#11-data-acquisition-for-llm)    
+    * [Data Deduplication for LLM](#12-data-deduplication-for-llm)    
+    * [Data Filtering for LLM](#13-data-filtering-for-llm)    
+    * [Data Transformation for LLM](#14-data-transformation-for-llm)    
+    * [Data Selection for LLM](#15-data-selection-for-llm)    
+    * [Data Mixing for LLM](#16-data-mixing-for-llm)    
+    * [Data Synthesis and Augmentation for LLM](#17-data-synthesis-and-augmentation-for-llm)    
+    * [Data Processing Pipelines for LLM](#18-data-processing-pipelines-for-llm)
+    * [Data Provenance for LLM](#191-data-provenance-for-llm)
+    * [Data Visualization for LLM](#192-data-visualization-for-llm)
+    * [Constructing Dense LLMs](#193-constructing-dense-llms)
 * [Data Storage for LLM](#2-data-storage-for-llm)
-    * [Data Storage For Training](#21-data-storage-for-training)
+    * [Data Storage for Training](#21-data-storage-for-training)
     * [Data Storage for Inference](#22-data-storage-for-inference)
     * [Data Storage for RAG](#23-data-storage-for-rag)
 * [Data Serving for LLM](#3-data-serving-for-llm)
@@ -26,10 +35,6 @@
     * [Database Diagnosis](#63-database-diagnosis)
 
 ## 0. System & Review
-
-**NeurDB: On the Design and Implementation of an AI-powered Autonomous Database**
-
-*hanhao Zhao, Shaofeng Cai, Haotian Gao, Hexiang Pan, Siqi Xiang, Naili Xing, Gang Chen, Beng Chin Ooi, Yanyan Shen, Yuncheng Wu, Meihui Zhang. CIDR 2025.* [[pdf](https://www.arxiv.org/pdf/2408.03013)]
 
 **Scaling Laws for Data Filtering -- Data Curation cannot be Compute Agnostic**  
 Sachin Goyal, Pratyush Maini, Zachary C. Lipton, Aditi Raghunathan, J. Zico Kolter. *CVPR 2024.* [[pdf](https://doi.org/10.48550/arXiv.2404.07177 )] 
@@ -93,15 +98,6 @@ Max Marion, Ahmet Üstün, Luiza Pozzobon, Alex Wang, Marzieh Fadaee, Sara Hooke
 
 *Sihem Amer-Yahia, Angela Bonifati, Lei Chen, Guoliang Li, Kyuseok Shim, Jianliang Xu, Xiaochun Yang. SIGMOD Record 2023.* [[pdf](https://sigmodrecord.org/publications/sigmodRecord/2309/pdfs/09_OpenForum_AmerYahia.pdf)]
 
-**Baichuan 2: Open Large-scale Language Models**  
-Aiyuan Yang, Bin Xiao, Bingning Wang, Borong Zhang, Ce Bian, Chao Yin, Chenxu Lv, Da Pan, Dian Wang, Dong Yan, Fan Yang, Fei Deng, Feng Wang, Feng Liu, Guangwei Ai, Guosheng Dong, Haizhou Zhao, Hang Xu, Haoze Sun, Hongda Zhang, Hui Liu, Jiaming Ji, Jian Xie, JunTao Dai, Kun Fang, Lei Su, Liang Song, Lifeng Liu, Liyun Ru, Luyao Ma, Mang Wang, Mickel Liu, MingAn Lin, Nuolan Nie, Peidong Guo, Ruiyang Sun, Tao Zhang, Tianpeng Li, Tianyu Li, Wei Cheng, Weipeng Chen, Xiangrong Zeng, Xiaochuan Wang, Xiaoxi Chen, Xin Men, Xin Yu, Xuehai Pan, Yanjun Shen, Yiding Wang, Yiyu Li, Youxin Jiang, Yuchen Gao, Yupeng Zhang, Zenan Zhou, Zhiying Wu. *arXiv 2023.* [[pdf](https://doi.org/10.48550/arXiv.2309.10305 )] 
-
-**Qwen Technical Report**  
-Jinze Bai, Shuai Bai, Yunfei Chu, Zeyu Cui, Kai Dang, Xiaodong Deng, Yang Fan, Wenbin Ge, Yu Han, Fei Huang, Binyuan Hui, Luo Ji, Mei Li, Junyang Lin, Runji Lin, Dayiheng Liu, Gao Liu, Chengqiang Lu, Keming Lu, Jianxin Ma, Rui Men, Xingzhang Ren, Xuancheng Ren, Chuanqi Tan, Sinan Tan, Jianhong Tu, Peng Wang, Shijie Wang, Wei Wang, Shengguang Wu, Benfeng Xu, Jin Xu, An Yang, Hao Yang, Jian Yang, Shusheng Yang, Yang Yao, Bowen Yu, Hongyi Yuan, Zheng Yuan, Jianwei Zhang, Xingxuan Zhang, Yichang Zhang, Zhenru Zhang, Chang Zhou, Jingren Zhou, Xiaohuan Zhou, Tianhang Zhu. *arXiv 2023.* [[pdf](https://doi.org/10.48550/arXiv.2309.16609 )] 
-
-**A survey of large language models**  
-Wayne Xin Zhao, Kun Zhou, Junyi Li, Tianyi Tang, Xiaolei Wang, Yupeng Hou, Yingqian Min, Beichen Zhang, Junjie Zhang, Zican Dong, Yifan Du, Chen Yang, Yushuo Chen, Zhipeng Chen, Jinhao Jiang, Ruiyang Ren, Yifan Li, Xinyu Tang, Zikang Liu, Peiyu Liu, Jian-Yun Nie, Ji-Rong Wen. *arXiv 2023.* [[pdf](https://arxiv.org/abs/2303.18223 )]
-
 **Data Management For Training Large Language Models: A Survey**  
 Zige Wang, Wanjun Zhong, Yufei Wang, Qi Zhu, Fei Mi, Baojun Wang, Lifeng Shang, Xin Jiang, Qun Liu. *arXiv 2023.* [[pdf](https://doi.org/10.48550/arXiv.2312.01700 )]
 
@@ -111,6 +107,7 @@ Zige Wang, Wanjun Zhong, Yufei Wang, Qi Zhu, Fei Mi, Baojun Wang, Lifeng Shang, 
 
 **Big data storage technologies: a survey**  
 Aisha Siddiqa, Ahmad Karim, Abdullah Gani. *Frontiers of Information Technology & Electronic Engineering 2017.* [[pdf](https://link.springer.com/article/10.1631/FITEE.1500441 )]
+
 
 ## 1. Data Management for LLM
 
@@ -152,7 +149,7 @@ Dakuan Lu, Hengkui Wu, Jiqing Liang, Yipei Xu, Qianyu He, Yipeng Geng, Mengkun H
 Shengbin Yue, Wei Chen, Siyuan Wang, Bingxuan Li, Chenchen Shen, Shujun Liu, Yuxuan Zhou, Yao Xiao, Song Yun, Xuanjing Huang, Zhongyu Wei. *arXiv 2023.* [[pdf](https://arxiv.org/abs/2309.11325 )]
 
 **Evaluating Large Language Models Trained on Code**  
-Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de Oliveira Pinto, Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, Alex Ray, Raul Puri, Gretchen Krueger, Michael Petrov, Heidy Khlaaf, Girish Sastry, Pamela Mishkin, Brooke Chan, Scott Gray, Nick Ryder, Mikhail Pavlov, Alethea Power, Lukasz Kaiser, Mohammad Bavarian, Clemens Winter, Philippe Tillet, Felipe Petroski Such, Dave Cummings, Matthias Plappert, Fotios Chantzis, Elizabeth Barnes, Ariel Herbert-Voss, William Hebgen Guss, Alex Nichol, Alex Paino, Nikolas Tezak, Jie Tang, Igor Babuschkin, Suchir Balaji, Shantanu Jain, William Saunders, Christopher Hesse, Andrew N. Carr, Jan Leike, Josh Achiam, Vedant Misra, Evan Morikawa, Alec Radford, Matthew Knight, Miles Brundage, Mira Murati, Katie Mayer, Peter Welinder, Bob McGrew, Dario Amodei, Sam McCandlish, Ilya Sutskever, Wojciech Zaremba. *arXiv 2021.* [[pdf](https://arxiv.org/abs/2107.03374v2 )]
+Mark Chen, Jerry Tworek, Heewoo Jun, et al. *arXiv 2021.* [[pdf](https://arxiv.org/abs/2107.03374v2 )]
 
 **What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams**  
 Di Jin, Eileen Pan, Nassim Oufattole, Wei-Hung Weng, Hanyi Fang, Peter Szolovits. *AAAI 2021.* [[pdf](https://arxiv.org/abs/2009.13081v1 )]
@@ -160,9 +157,7 @@ Di Jin, Eileen Pan, Nassim Oufattole, Wei-Hung Weng, Hanyi Fang, Peter Szolovits
 **Advances in natural language processing**  
 Julia Hirschberg, Christopher D. Manning. *Science 2015.* [[pdf](https://doi.org/10.1126/science.aaa8685 )]
 
-### 1.1 Data Processing for LLM
-
-*1.1.1 Data Acquisition*
+### 1.1 Data Acquisition for LLM
 
 **CulturaX: A Cleaned, Enormous, and Multilingual Dataset for Large Language Models in 167 Languages**
  Thuat Nguyen, Chien Van Nguyen, Viet Dac Lai, Hieu Man, Nghia Trung Ngo, Franck Dernoncourt, Ryan A. Rossi, Thien Huu Nguyen. *LREC-COLING 2024.* [[pdf](https://aclanthology.org/2024.lrec-main.377.pdf)]
@@ -233,7 +228,8 @@ Julia Hirschberg, Christopher D. Manning. *Science 2015.* [[pdf](https://doi.org
 **Fact or Fiction: Content Classification for Digital Libraries**
  Aidan Finn, N. Kushmerick, Barry Smyth. *DELOS Workshops / Conferences 2001.* [[pdf](https://www.semanticscholar.org/paper/Fact-or-Fiction%3A-Content-Classification-for-Digital-Finn-Kushmerick/73ccd5c477b37a082f66557a1793852d405e4b6d)]
 
-*1.1.2 Data Deduplication*
+
+### 1.2 Data Deduplication for LLM
 
 **Data-Juicer: A One-Stop Data Processing System for Large Language Models**
  Daoyuan Chen, Yilun Huang, Zhijian Ma, Hesen Chen, Xuchen Pan, Ce Ge, Dawei Gao, Yuexiang Xie, Zhaoyang Liu, Jinyang Gao, Yaliang Li, Bolin Ding, Jingren Zhou. *SIGMOD 2024.* [[pdf](https://doi.org/10.1145/3626246.3653385)]
@@ -304,7 +300,9 @@ Julia Hirschberg, Christopher D. Manning. *Science 2015.* [[pdf](https://doi.org
 **Suffix arrays: a new method for on-line string searches**
  Udi Manber, Gene Myers. *SIAM Journal on Computing 1993.* [[pdf](https://doi.org/10.1137/0222058)]
 
-*1.1.3 Data Filtering*
+
+
+### 1.3 Data Filtering for LLM
 
 **Perplexed by Perplexity: Perplexity-Based Data Pruning With Small Reference Models**
  Zachary Ankner, Cody Blakeney, Kartik Sreenivasan, Max Marion, Matthew L. Leavitt, Mansheej Paul. *ICLR 2025.* [[pdf](https://iclr.cc/virtual/2025/poster/31214)]
@@ -373,7 +371,7 @@ Julia Hirschberg, Christopher D. Manning. *Science 2015.* [[pdf](https://doi.org
  Roberto Navigli, Simone Conia, Björn Ross. *ACM JDIQ, 2023.* [[pdf](https://doi.org/10.1145/3597307)]
 
 **Baichuan 2: Open Large-scale Language Models**
- Aiyuan Yang, Bin Xiao, Bingning Wang, Borong Zhang, Ce Bian, Chao Yin, Chenxu Lv, Da Pan, Dian Wang, Dong Yan, Fan Yang, Fei Deng, Feng Wang, Feng Liu, Guangwei Ai, Guosheng Dong, Haizhou Zhao, Hang Xu, Haoze Sun, Hongda Zhang, Hui Liu, Jiaming Ji, Jian Xie, JunTao Dai, Kun Fang, Lei Su, Liang Song, Lifeng Liu, Liyun Ru, Luyao Ma, Mang Wang, Mickel Liu, MingAn Lin, Nuolan Nie, Peidong Guo, Ruiyang Sun, Tao Zhang, Tianpeng Li, Tianyu Li, Wei Cheng, Weipeng Chen, Xiangrong Zeng, Xiaochuan Wang, Xiaoxi Chen, Xin Men, Xin Yu, Xuehai Pan, Yanjun Shen, Yiding Wang, Yiyu Li, Youxin Jiang, Yuchen Gao, Yupeng Zhang, Zenan Zhou, Zhiying Wu. *arXiv 2023.* [[pdf](https://arxiv.org/abs/2309.10305)]
+ Aiyuan Yang, Bin Xiao, Bingning Wang, Borong Zhang, et al. *arXiv 2023.* [[pdf](https://arxiv.org/abs/2309.10305)]
 
 **Analyzing Leakage of Personally Identifiable Information in Language Models**
  Nils Lukas, Ahmed Salem, Robert Sim, Shruti Tople, Lukas Wutschitz, Santiago Zanella-Béguelin. *IEEE S&P 2023.* [[pdf](https://arxiv.org/abs/2302.00539)]
@@ -396,7 +394,9 @@ Julia Hirschberg, Christopher D. Manning. *Science 2015.* [[pdf](https://doi.org
 **Annotating longitudinal clinical narratives for de-identification: The 2014 i2b2/UTHealth corpus**
  Amber Stubbs, Özlem Uzuner. *J. Biomed. Inform 2015.* [[pdf](https://www.sciencedirect.com/science/article/pii/S1532046415001823)]
 
-*1.1.4 Data Transformation* 
+
+
+### 1.4 Data Transformation for LLM
 
 **Mix-CPT: A Domain Adaptation Framework via Decoupling Knowledge Learning and Format Alignment**
  Jinhao Jiang, Junyi Li, Wayne Xin Zhao, Yang Song, Tao Zhang, Ji-Rong Wen. *ICLR 2025.* [[pdf](https://iclr.cc/virtual/2025/poster/28784)]
@@ -408,7 +408,7 @@ Julia Hirschberg, Christopher D. Manning. *Science 2015.* [[pdf](https://doi.org
  Ranchi Zhao, Zhen Leng Thai, Yifan Zhang, Shengding Hu, Jie Zhou, Yunqi Ba, Jie Cai, Zhiyuan Liu, Maosong Sun. *EMNLP 2024.* [[pdf](https://aclanthology.org/2024.emnlp-main.83/)]
 
 **MM1: Methods, Analysis and Insights from Multimodal LLM Pre-training**
- Brandon McKinzie, Zhe Gan, Jean-Philippe Fauconnier, Sam Dodge, Bowen Zhang, Philipp Dufter, Dhruti Shah, Xianzhi Du, Futang Peng, Anton Belyi, Haotian Zhang, Karanjeet Singh, Doug Kang, Hongyu Hè, Max Schwarzer, Tom Gunter, Xiang Kong, Aonan Zhang, Jianyu Wang, Chong Wang, Nan Du, Tao Lei, Sam Wiseman, Mark Lee, Zirui Wang, Ruoming Pang, Peter Grasch, Alexander Toshev, Yinfei Yang. *ECCV 2024.* [[pdf](https://arxiv.org/abs/2403.09611)]
+ Brandon McKinzie, Zhe Gan, Jean-Philippe Fauconnier, et al. *ECCV 2024.* [[pdf](https://arxiv.org/abs/2403.09611)]
 
 **ShareGPT4V: Improving Large Multi-modal Models with Better Captions**
  Lin Chen, Jinsong Li, Xiaoyi Dong, Pan Zhang, Conghui He, Jiaqi Wang, Feng Zhao, Dahua Lin. *ECCV 2024.* [[pdf](https://arxiv.org/abs/2311.12793)]
@@ -440,7 +440,9 @@ Julia Hirschberg, Christopher D. Manning. *Science 2015.* [[pdf](https://doi.org
 **Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision**
  Chao Jia, Yinfei Yang, Ye Xia, Yi-Ting Chen, Zarana Parekh, Hieu Pham, Quoc Le, Yun-Hsuan Sung, Zhen Li, Tom Duerig. *ICML 2021.* [[pdf](https://proceedings.mlr.press/v139/jia21b.html)]
 
-*1.1.5 Data Selection*
+
+
+### 1.5 Data Selection for LLM
 
 **Improving Pretraining Data Using Perplexity Correlations**
  Tristan Thrush, Christopher Potts, Tatsunori Hashimoto. *ICLR 2025.* [[pdf](https://iclr.cc/virtual/2025/poster/28733)]
@@ -517,9 +519,9 @@ Julia Hirschberg, Christopher D. Manning. *Science 2015.* [[pdf](https://doi.org
 **Bag of Tricks for Efficient Text Classification**
  Armand Joulin, Edouard Grave, Piotr Bojanowski, Tomas Mikolov. *EACL 2017.* [[pdf](https://aclanthology.org/E17-2068.pdf)]
 
-### 1.2 Data Distillation for LLM
 
-*1.2.1 Data Mixing*
+
+### 1.6 Data Mixing for LLM
 
 **Task-level Distributionally Robust Optimization for Large Language Model-based Dense Retrieval**
  Guangyuan Ma, Yongliang Ma, Xing Wu, Zhenpeng Su, Ming Zhou, Songlin Hu. *AAAI 2025.* [[pdf](https://arxiv.org/abs/2408.10613)]
@@ -573,7 +575,7 @@ Julia Hirschberg, Christopher D. Manning. *Science 2015.* [[pdf](https://doi.org
  Alon Albalak, Liang-Ming Pan, Colin Raffel, William Yang Wang. *NeurIPS 2023.* [[pdf](https://nips.cc/virtual/2023/81179)]
 
 **Qwen Technical Report**
- Jinze Bai, Shuai Bai, Yunfei Chu, Zeyu Cui, Kai Dang, Xiaodong Deng, Yang Fan, Wenbin Ge, Yu Han, Fei Huang, Binyuan Hui, Luo Ji, Mei Li, Junyang Lin, Runji Lin, Dayiheng Liu, Gao Liu, Chengqiang Lu, Keming Lu, Jianxin Ma, Rui Men, Xingzhang Ren, Xuancheng Ren, Chuanqi Tan, Sinan Tan, Jianhong Tu, Peng Wang, Shijie Wang, Wei Wang, Shengguang Wu, Benfeng Xu, Jin Xu, An Yang, Hao Yang, Jian Yang, Shusheng Yang, Yang Yao, Bowen Yu, Hongyi Yuan, Zheng Yuan, Jianwei Zhang, Xingxuan Zhang, Yichang Zhang, Zhenru Zhang, Chang Zhou, Jingren Zhou, Xiaohuan Zhou, Tianhang Zhu. *arXiv 2023.* [[pdf](https://arxiv.org/abs/2309.16609v1)]
+ Jinze Bai, Shuai Bai, Yunfei Chu, Zeyu Cui, et al. *arXiv 2023.* [[pdf](https://arxiv.org/abs/2309.16609v1)]
 
 **LightGBM: a highly efficient gradient boosting decision tree**
  Guolin Ke, Qi Meng, Thomas Finley, Taifeng Wang, Wei Chen, Weidong Ma, Qiwei Ye, Tie-Yan Liu. *NeurIPS 2017.* [[pdf](https://dl.acm.org/doi/10.5555/3294996.3295074)]
@@ -581,7 +583,9 @@ Julia Hirschberg, Christopher D. Manning. *Science 2015.* [[pdf](https://doi.org
 **An overview of bilevel optimization**
  Benoît Colson, Patrice Marcotte, Gilles Savard. *AOR 2007.* [[pdf](https://link.springer.com/article/10.1007/s10479-007-0176-2)]
 
-*1.2.2 Data Synthesis and Augmentation*
+
+
+### 1.7 Data Synthesis and Augmentation for LLM
 
 **Advancing Language Model Reasoning through Reinforcement Learning and Inference Scaling**
  Zhenyu Hou, Xin Lv, Rui Lu, Jiajie Zhang, Yujiang Li, Zijun Yao, Juanzi Li, Jie Tang, Yuxiao Dong. *arXiv 2025.* [[pdf](https://doi.org/10.48550/arXiv.2501.11651)]
@@ -599,7 +603,7 @@ Julia Hirschberg, Christopher D. Manning. *Science 2015.* [[pdf](https://doi.org
  Luísa Shimabucoro, Sebastian Ruder, Julia Kreutzer, Marzieh Fadaee, Sara Hooker. *EMNLP 2024.* [[pdf](https://aclanthology.org/2024.emnlp-main.521)]
 
 **Synthetic Data (Almost) from Scratch: Generalized Instruction Tuning for Language Models**
- Haoran Li, Qingxiu Dong, Zhengyang Tang, Chaojun Wang, Xingxing Zhang, Haoyang Huang, Shaohan Huang, Xiaolong Huang, Zeqiang Huang, Dongdong Zhang, Yuxian Gu, Xin Cheng, Xun Wang, Si-Qing Chen, Li Dong, Wei Lu, Zhifang Sui, Benyou Wang, Wai Lam, Furu Wei. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2402.13064)]
+ Haoran Li, Qingxiu Dong, Zhengyang Tang, et al. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2402.13064)]
 
 **Mitigating the Privacy Issues in Retrieval-Augmented Generation (RAG) via Pure Synthetic Data**
  Shenglai Zeng, Jiankun Zhang, Pengfei He, Jie Ren, Tianqi Zheng, Hanqing Lu, Han Xu, Hui Liu, Yue Xing, Jiliang Tang. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2406.14773)]
@@ -644,9 +648,11 @@ Julia Hirschberg, Christopher D. Manning. *Science 2015.* [[pdf](https://doi.org
  Hunter Lightman, Vineet Kosaraju, Yura Burda, Harri Edwards, Bowen Baker, Teddy Lee, Jan Leike, John Schulman, Ilya Sutskever, Karl Cobbe. *arXiv 2023.* [[pdf](https://doi.org/10.48550/arXiv.2305.20050)]
 
 **Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback**
- Yuntao Bai, Andy Jones, Kamal Ndousse, Amanda Askell, Anna Chen, Nova DasSarma, Dawn Drain, Stanislav Fort, Deep Ganguli, Tom Henighan, Nicholas Joseph, Saurav Kadavath, Jackson Kernion, Tom Conerly, Sheer El-Showk, Nelson Elhage, Zac Hatfield-Dodds, Danny Hernandez, Tristan Hume, Scott Johnston, Shauna Kravec, Liane Lovitt, Neel Nanda, Catherine Olsson, Dario Amodei, Tom Brown, Jack Clark, Sam McCandlish, Chris Olah, Ben Mann, Jared Kaplan. *arXiv 2022.* [[pdf](https://doi.org/10.48550/arXiv.2204.05862)]
+ Yuntao Bai, Andy Jones, Kamal Ndousse, Amanda Askell, et al. *arXiv 2022.* [[pdf](https://doi.org/10.48550/arXiv.2204.05862)]
 
-*1.2.3 End-to-End Data Processing Pipelines*
+
+
+### 1.8 Data Processing Pipelines for LLM
 
 **Data-Juicer: A One-Stop Data Processing System for Large Language Models**
  Daoyuan Chen, Yilun Huang, Zhijian Ma, Hesen Chen, Xuchen Pan, Ce Ge, Dawei Gao, Yuexiang Xie, Zhaoyang Liu, Jinyang Gao, Yaliang Li, Bolin Ding, Jingren Zhou. *SIGMOD 2024.* [[pdf](https://doi.org/10.1145/3626246.3653385)]
@@ -673,7 +679,7 @@ Julia Hirschberg, Christopher D. Manning. *Science 2015.* [[pdf](https://doi.org
  Guilherme Penedo, Hynek Kydlíček, Loubna Ben allal, Anton Lozhkov, Margaret Mitchell, Colin Raffel, Leandro Von Werra, Thomas Wolf. *NeurIPS 2024.* [[pdf](https://papers.neurips.cc/paper_files/paper/2024/file/370df50ccfdf8bde18f8f9c2d9151bda-Paper-Datasets_and_Benchmarks_Track.pdf)]
 
 **DataComp-LM: In search of the next generation of training sets for language models**
- Jeffrey Li, Alex Fang, Georgios Smyrnis, Maor Ivgi, Matt Jordan, Samir Gadre, Hritik Bansal, Etash Guha, Sedrick Keh, Kushal Arora, Saurabh Garg, Rui Xin, Niklas Muennighoff, Reinhard Heckel, Jean Mercat, Mayee Chen, Suchin Gururangan, Mitchell Wortsman, Alon Albalak, Yonatan Bitton, Marianna Nezhurina, Amro Abbas, Cheng - Yu Hsieh, Dhruba Ghosh, Josh Gardner, Maciej Kilian, Hanlin Zhang, Rulin Shao, Sarah Pratt, Sunny Sanyal, Gabriel Ilharco, Giannis Daras, Kalyani Marathe, Aaron Gokaslan, Jieyu Zhang, Khyathi Chandu, Thao Nguyen, Igor Vasiljevic, Sham Kakade, Shuran Song, Sujay Sanghavi, Fartash Faghri, Sewoong Oh, Luke Zettlemoyer, Kyle Lo, Alaaeldin El - Nouby, Hadi Pouransari, Alexander Toshev, Stephanie Wang, Dirk Groeneveld, Luca Soldaini, Pang Wei Koh, Jenia Jitsev, Thomas Kollar, Alexandros G. Dimakis, Yair Carmon, Achal Dave, Ludwig Schmidt, Vaishaal Shankar. *NeurIPS 2024.* [[pdf](https://arxiv.org/abs/2406.11794v3)]
+ Jeffrey Li, Alex Fang, Georgios Smyrnis, Maor Ivgi, et al. *NeurIPS 2024.* [[pdf](https://arxiv.org/abs/2406.11794v3)]
 
 **Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset**
  Dan Su, Kezhi Kong, Ying Lin, Joseph Jennings, Brandon Norick, Markus Kliegl, Mostofa Patwary, Mohammad Shoeybi, Bryan Catanzaro. *arXiv 2024.* [[pdf](https://arxiv.org/abs/2412.02595v1)]
@@ -685,10 +691,10 @@ Julia Hirschberg, Christopher D. Manning. *Science 2015.* [[pdf](https://doi.org
  Guilherme Penedo, Quentin Malartic, Daniel Hesslow, Ruxandra Cojocaru, Hamza Alobeidli, Alessandro Cappelli, Baptiste Pannier, Ebtesam Almazrouei, Julien Launay. *NeurIPS 2023.* [[pdf](https://arxiv.org/abs/2306.01116v1)]
 
 **Baichuan 2: Open Large-scale Language Models**
- Aiyuan Yang, Bin Xiao, Bingning Wang, Borong Zhang, Ce Bian, Chao Yin, Chenxu Lv, Da Pan, Dian Wang, Dong Yan, Fan Yang, Fei Deng, Feng Wang, Feng Liu, Guangwei Ai, Guosheng Dong, Haizhou Zhao, Hang Xu, Haoze Sun, Hongda Zhang, Hui Liu, Jiaming Ji, Jian Xie, JunTao Dai, Kun Fang, Lei Su, Liang Song, Lifeng Liu, Liyun Ru, Luyao Ma, Mang Wang, Mickel Liu, MingAn Lin, Nuolan Nie, Peidong Guo, Ruiyang Sun, Tao Zhang, Tianpeng Li, Tianyu Li, Wei Cheng, Weipeng Chen, Xiangrong Zeng, Xiaochuan Wang, Xiaoxi Chen, Xin Men, Xin Yu, Xuehai Pan, Yanjun Shen, Yiding Wang, Yiyu Li, Youxin Jiang, Yuchen Gao, Yupeng Zhang, Zenan Zhou, Zhiying Wu. *arXiv 2023.* [[pdf](https://doi.org/10.48550/arXiv.2309.10305)]
+ Aiyuan Yang, Bin Xiao, Bingning Wang, Borong Zhang, et al. *arXiv 2023.* [[pdf](https://doi.org/10.48550/arXiv.2309.10305)]
 
 **Scaling Language Models: Methods, Analysis & Insights from Training Gopher**
- Jack W. Rae, Sebastian Borgeaud, Trevor Cai, Katie Millican, Jordan Hoffmann, Francis Song, John Aslanides, Sarah Henderson, Roman Ring, Susannah Young, Eliza Rutherford, Tom Hennigan, Jacob Menick, Albin Cassirer, Richard Powell, George van den Driessche, Lisa Anne Hendricks, Maribeth Rauh, Po-Sen Huang, Amelia Glaese, Johannes Welbl, Sumanth Dathathri, Saffron Huang, Jonathan Uesato, John Mellor, Irina Higgins, Antonia Creswell, Nat McAleese, Amy Wu, Erich Elsen, Siddhant Jayakumar, Elena Buchatskaya, David Budden, Esme Sutherland, Karen Simonyan, Michela Paganini, Laurent Sifre, Lena Martens, Xiang Lorraine Li, Adhiguna Kuncoro, Aida Nematzadeh, Elena Gribovskaya, Domenic Donato, Angeliki Lazaridou, Arthur Mensch, Jean-Baptiste Lespiau, Maria Tsimpoukelli, Nikolai Grigorev, Doug Fritz, Thibault Sottiaux, Mantas Pajarskas, Toby Pohlen, Zhitao Gong, Daniel Toyama, Cyprien de Masson d'Autume, Yujia Li, Tayfun Terzi, Vladimir Mikulik, Igor Babuschkin, Aidan Clark, Diego de Las Casas, Aurelia Guy, Chris Jones, James Bradbury, Matthew Johnson, Blake Hechtman, Laura Weidinger, Iason Gabriel, William Isaac, Ed Lockhart, Simon Osindero, Laura Rimell, Chris Dyer, Oriol Vinyals, Kareem Ayoub, Jeff Stanway, Lorrayne Bennett, Demis Hassabis, Koray Kavukcuoglu, Geoffrey Irving. *arXiv 2021.* [[pdf](https://arxiv.org/abs/2112.11446v2)]
+ Jack W. Rae, Sebastian Borgeaud, Trevor Cai, Katie Millican, et al. *arXiv 2021.* [[pdf](https://arxiv.org/abs/2112.11446v2)]
 
 **Trafilatura: A Web Scraping Library and Command-Line Tool for Text Discovery and Extraction**
  Adrien Barbaresi. *ACL 2021.* [[pdf](https://aclanthology.org/2021.acl-demo.15.pdf)]
@@ -702,9 +708,11 @@ Julia Hirschberg, Christopher D. Manning. *Science 2015.* [[pdf](https://doi.org
 **Removing Boilerplate and Duplicate Content from Web Corpora**
  Jan Pomikálek. Doctoral dissertation(Masaryk University, Brno, Czech Republic) 2011. [[pdf](https://docslib.org/doc/706394/removing-boilerplate-and-duplicate-content-from-web-corpora)]
 
-*1.2.4 Utilities*
 
-*1.2.4.1 Data Provenance for LLMs*
+
+### 1.9 Utilities
+
+#### 1.9.1 Data Provenance for LLM
 
 **Provable Robust Watermarking for AI-Generated Text**
  Xuandong Zhao, Prabhanjan Ananth, Lei Li, Yu-Xiang Wang. *ICLR 2024.* [[pdf](https://arxiv.org/pdf/2306.17439v2.pdf)]
@@ -727,15 +735,17 @@ Julia Hirschberg, Christopher D. Manning. *Science 2015.* [[pdf](https://doi.org
 **A comprehensive survey on data provenance: State-of-the-art approaches and their deployments for IoT security enforcement**
  Md Morshed Alam, Weichao Wang. *Journal of Computer Security 2021.* [[pdf](https://doi.org/10.3233/JCS-200108)]
 
-*1.2.4.2 Data Visualization for LLMs*
+
+#### 1.9.2 Data Visualization for LLM
 
 **Data-Juicer: A One-Stop Data Processing System for Large Language Models**
 Daoyuan Chen, Yilun Huang, Zhijian Ma, Hesen Chen, Xuchen Pan, Ce Ge, Dawei Gao, Yuexiang Xie, Zhaoyang Liu, Jinyang Gao, Yaliang Li, Bolin Ding, Jingren Zhou. *SIGMOD 2024.* [[pdf](https://doi.org/10.1145/3626246.3653385)]
 
-*1.2.4.3 Constructing Dense LLMs*
+
+#### 1.9.3 Constructing Dense LLMs
 
 **MiniMax-01: Scaling Foundation Models with Lightning Attention**
- MiniMax, Aonian Li, Bangwei Gong, Bo Yang, Boji Shan, Chang Liu, Cheng Zhu, Chunhao Zhang, Congchao Guo, Da Chen, Dong Li, Enwei Jiao, Gengxin Li, Guojun Zhang, Haohai Sun, Houze Dong, Jiadai Zhu, Jiaqi Zhuang, Jiayuan Song, Jin Zhu, Jingtao Han, Jingyang Li, Junbin Xie, Junhao Xu, Junjie Yan, Kaishun Zhang, Kecheng Xiao, Kexi Kang, Le Han, Leyang Wang, Lianfei Yu, Liheng Feng, Lin Zheng, Linbo Chai, Long Xing, Meizhi Ju, Mingyuan Chi, Mozhi Zhang, Peikai Huang, Pengcheng Niu, Pengfei Li, Pengyu Zhao, Qi Yang, Qidi Xu, Qiexiang Wang, Qin Wang, Qiuhui Li, Ruitao Leng, Shengmin Shi, Shuqi Yu, Sichen Li, Songquan Zhu, Tao Huang, Tianrun Liang, Weigao Sun, Weixuan Sun, Weiyu Cheng, Wenkai Li, Xiangjun Song, Xiao Su, Xiaodong Han, Xinjie Zhang, Xinzhu Hou, Xu Min, Xun Zou, Xuyang Shen, Yan Gong, Yingjie Zhu, Yipeng Zhou, Yiran Zhong, Yongyi Hu, Yuanxiang Fan, Yue Yu, Yufeng Yang, Yuhao Li, Yunan Huang, Yunji Li, Yunpeng Huang, Yunzhi Xu, Yuxin Mao, Zehan Li, Zekang Li, Zewei Tao, Zewen Ying, Zhaoyang Cong, Zhen Qin, Zhenhua Fan, Zhihang Yu, Zhuo Jiang, Zijia Wu. *arXiv 2025.* [[pdf](https://doi.org/10.48550/arXiv.2501.08313)]
+ MiniMax, Aonian Li, Bangwei Gong, Bo Yang, Boji Shan, et al. *arXiv 2025.* [[pdf](https://doi.org/10.48550/arXiv.2501.08313)]
 
 **Process Reinforcement through Implicit Rewards**
  Ganqu Cui, Lifan Yuan, Zefan Wang, Hanbin Wang, Wendi Li, Bingxiang He, Yuchen Fan, Tianyu Yu, Qixin Xu, Weize Chen, Jiarui Yuan, Huayu Chen, Kaiyan Zhang, Xingtai Lv, Shuo Wang, Yuan Yao, Xu Han, Hao Peng, Yu Cheng, Zhiyuan Liu, Maosong Sun, Bowen Zhou, Ning Ding. *arXiv 2025.* [[pdf](https://doi.org/10.48550/arXiv.2502.01456)]
@@ -744,16 +754,16 @@ Daoyuan Chen, Yilun Huang, Zhijian Ma, Hesen Chen, Xuchen Pan, Ce Ge, Dawei Gao,
  Chaojun Xiao, Jie Cai, Weilin Zhao, Guoyang Zeng, Biyuan Lin, Jie Zhou, Zhi Zheng, Xu Han, Zhiyuan Liu, Maosong Sun. *arXiv 2024.* [[pdf](https://arxiv.org/abs/2412.04315)]
 
 **InternLM2 Technical Report**
- Zheng Cai, Maosong Cao, Haojiong Chen, Kai Chen, Keyu Chen, Xin Chen, Xun Chen, Zehui Chen, Zhi Chen, Pei Chu, Xiaoyi Dong, Haodong Duan, Qi Fan, Zhaoye Fei, Yang Gao, Jiaye Ge, Chenya Gu, Yuzhe Gu, Tao Gui, Aijia Guo, Qipeng Guo, Conghui He, Yingfan Hu, Ting Huang, Tao Jiang, Penglong Jiao, Zhenjiang Jin, Zhikai Lei, Jiaxing Li, Jingwen Li, Linyang Li, Shuaibin Li, Wei Li, Yining Li, Hongwei Liu, Jiangning Liu, Jiawei Hong, Kaiwen Liu, Kuikun Liu, Xiaoran Liu, Chengqi Lv, Haijun Lv, Kai Lv, Li Ma, Runyuan Ma, Zerun Ma, Wenchang Ning, Linke Ouyang, Jiantao Qiu, Yuan Qu, Fukai Shang, Yunfan Shao, Demin Song, Zifan Song, Zhihao Sui, Peng Sun, Yu Sun, Huanze Tang, Bin Wang, Guoteng Wang, Jiaqi Wang, Jiayu Wang, Rui Wang, Yudong Wang, Ziyi Wang, Xingjian Wei, Qizhen Weng, Fan Wu, Yingtong Xiong, Chao Xu, Ruiliang Xu, Hang Yan, Yirong Yan, Xiaogui Yang, Haochen Ye, Huaiyuan Ying, Jia Yu, Jing Yu, Yuhang Zang, Chuyu Zhang, Li Zhang, Pan Zhang, Peng Zhang, Ruijie Zhang, Shuo Zhang, Songyang Zhang, Wenjian Zhang, Wenwei Zhang, Xingcheng Zhang, Xinyue Zhang, Hui Zhao, Qian Zhao, Xiaomeng Zhao, Fengzhe Zhou, Zaida Zhou, Jingming Zhuo, Yicheng Zou, Xipeng Qiu, Yu Qiao, Dahua Lin. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2403.17297)]
+ Zheng Cai, Maosong Cao, Haojiong Chen, Kai Chen, et al. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2403.17297)]
 
 **DeepSeek-V3 Technical Report**
- DeepSeek-AI, Aixin Liu, Bei Feng, Bing Xue, Bingxuan Wang, Bochao Wu, Chengda Lu, Chenggang Zhao, Chengqi Deng, Chenyu Zhang, Chong Ruan, Damai Dai, Daya Guo, Dejian Yang, Deli Chen, Dongjie Ji, Erhang Li, Fangyun Lin, Fucong Dai, Fuli Luo, Guangbo Hao, Guanting Chen, Guowei Li, H. Zhang, Han Bao, Hanwei Xu, Haocheng Wang, Haowei Zhang, Honghui Ding, Huajian Xin, Huazuo Gao, Hui Li, Hui Qu, J.L. Cai, Jian Liang, Jianzhong Guo, Jiaqi Ni, Jiashi Li, Jiawei Wang, Jin Chen, Jingchang Chen, Jingyang Yuan, Junjie Qiu, Junlong Li, Junxiao Song, Kai Dong, Kai Hu, Kaige Gao, Kang Guan, Kexin Huang, Kuai Yu, Lean Wang, Lecong Zhang, Lei Xu, Leyi Xia, Liang Zhao, Litong Wang, Liyue Zhang, Meng Li, Miaojun Wang, Mingchuan Zhang, Minghua Zhang, Minghui Tang, Mingming Li, Ning Tian, Panpan Huang, Peiyi Wang, Peng Zhang, Qiancheng Wang, Qihao Zhu, Qinyu Chen, Qiushi Du, R.J. Chen, R.L. Jin, Ruiqi Ge, Ruisong Zhang, Ruizhe Pan, Runji Wang, Runxin Xu, Ruoyu Zhang, Ruyi Chen, S.S. Li, Shanghao Lu, Shangyan Zhou, Shanhuang Chen, Shaoqing Wu, Shengfeng Ye, Shengfeng Ye, Shirong Ma, Shiyu Wang, Shuang Zhou, Shuiping Yu, Shunfeng Zhou, Shuting Pan, T. Wang, Tao Yun, Tian Pei, Tianyu Sun, W.L. Xiao, Wangding Zeng et al. (100 additional authors not shown). *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2412.19437)]
+ DeepSeek-AI, Aixin Liu, Bei Feng, Bing Xue, et al. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2412.19437)]
 
 **MiniCPM: Unveiling the Potential of Small Language Models with Scalable Training Strategies**
- Shengding Hu, Yuge Tu, Xu Han, Chaoqun He, Ganqu Cui, Xiang Long, Zhi Zheng, Yewei Fang, Yuxiang Huang, Weilin Zhao, Xinrong Zhang, Zheng Leng Thai, Kaihuo Zhang, Chongyi Wang, Yuan Yao, Chenyang Zhao, Jie Zhou, Jie Cai, Zhongwu Zhai, Ning Ding, Chao Jia, Guoyang Zeng, Dahai Li, Zhiyuan Liu, Maosong Sun. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2404.06395)]
+ Shengding Hu, Yuge Tu, Xu Han, Chaoqun He, et al. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2404.06395)]
 
 **Mixtral of Experts**
- Albert Q. Jiang, Alexandre Sablayrolles, Antoine Roux, Arthur Mensch, Blanche Savary, Chris Bamford, Devendra Singh Chaplot, Diego de las Casas, Emma Bou Hanna, Florian Bressand, Gianna Lengyel, Guillaume Bour, Guillaume Lample, Lélio Renard Lavaud, Lucile Saulnier, Marie-Anne Lachaux, Pierre Stock, Sandeep Subramanian, Sophia Yang, Szymon Antoniak, Teven Le Scao, Théophile Gervet, Thibaut Lavril, Thomas Wang, Timothée Lacroix, William El Sayed. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2401.04088)]
+ Albert Q. Jiang, Alexandre Sablayrolles, Antoine Roux, Arthur Mensch, et al. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2401.04088)]
 
 **Linearizing Large Language Models**
  Jean Mercat, Igor Vasiljevic, Sedrick Keh, Kushal Arora, Achal Dave, Adrien Gaidon, Thomas Kollar. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2405.06640)]
@@ -762,10 +772,10 @@ Daoyuan Chen, Yilun Huang, Zhijian Ma, Hesen Chen, Xuchen Pan, Ce Ge, Dawei Gao,
  Albert Q. Jiang, Alexandre Sablayrolles, Arthur Mensch, Chris Bamford, Devendra Singh Chaplot, Diego de las Casas, Florian Bressand, Gianna Lengyel, Guillaume Lample, Lucile Saulnier, Lélio Renard Lavaud, Marie-Anne Lachaux, Pierre Stock, Teven Le Scao, Thibaut Lavril, Thomas Wang, Timothée Lacroix, William El Sayed. *arXiv 2023.* [[pdf](https://doi.org/10.48550/arXiv.2310.06825)]
 
 **GPT-4 Technical Report**
- OpenAI, Josh Achiam, Steven Adler, Sandhini Agarwal, Lama Ahmad, Ilge Akkaya, Florencia Leoni Aleman, Diogo Almeida, Janko Altenschmidt, Sam Altman, Shyamal Anadkat, Red Avila, Igor Babuschkin, Suchir Balaji, Valerie Balcom, Paul Baltescu, Haiming Bao, Mohammad Bavarian, Jeff Belgum, Irwan Bello, Jake Berdine, Gabriel Bernadett-Shapiro, Christopher Berner, Lenny Bogdonoff, Oleg Boiko, Madelaine Boyd, Anna-Luisa Brakman, Greg Brockman, Tim Brooks, Miles Brundage, Kevin Button, Trevor Cai, Rosie Campbell, Andrew Cann, Brittany Carey, Chelsea Carlson, Rory Carmichael, Brooke Chan, Che Chang, Fotis Chantzis, Derek Chen, Sully Chen, Ruby Chen, Jason Chen, Mark Chen, Ben Chess, Chester Cho, Casey Chu, Hyung Won Chung, Dave Cummings, Jeremiah Currier, Yunxing Dai, Cory Decareaux, Thomas Degry, Noah Deutsch, Damien Deville, Arka Dhar, David Dohan, Steve Dowling, Sheila Dunning, Adrien Ecoffet, Atty Eleti, Tyna Eloundou, David Farhi, Liam Fedus, Niko Felix, Simón Posada Fishman, Juston Forte, Isabella Fulford, Leo Gao, Elie Georges, Christian Gibson, Vik Goel, Tarun Gogineni, Gabriel Goh, Rapha Gontijo-Lopes, Jonathan Gordon, Morgan Grafstein, Scott Gray, Ryan Greene, Joshua Gross, Shixiang Shane Gu, Yufei Guo, Chris Hallacy, Jesse Han, Jeff Harris, Yuchen He, Mike Heaton, Johannes Heidecke, Chris Hesse, Alan Hickey, Wade Hickey, Peter Hoeschele, Brandon Houghton, Kenny Hsu, Shengli Hu, Xin Hu, Joost Huizinga, Shantanu Jain, Shawn Jain et al. (181 additional authors not shown). *arXiv 2023.* [[pdf](https://doi.org/10.48550/arXiv.2303.08774)]
+ OpenAI, Josh Achiam, Steven Adler, Sandhini Agarwal, et al. *arXiv 2023.* [[pdf](https://doi.org/10.48550/arXiv.2303.08774)]
 
 **LLaMA: Open and Efficient Foundation Language Models**
- Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal Azhar, Aurelien Rodriguez, Armand Joulin, Edouard Grave, Guillaume Lample. *arXiv 2023.* [[pdf](https://doi.org/10.48550/arXiv.2302.13971)]
+ Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, et al. *arXiv 2023.* [[pdf](https://doi.org/10.48550/arXiv.2302.13971)]
 
 **Training compute-optimal large language models**
  Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor Cai, Eliza Rutherford, Diego de Las Casas, Lisa Anne Hendricks, Johannes Welbl, Aidan Clark, et al. *NeurIPS 2022.* [[pdf](https://dl.acm.org/doi/10.5555/3600270.3602446)]
@@ -773,9 +783,10 @@ Daoyuan Chen, Yilun Huang, Zhijian Ma, Hesen Chen, Xuchen Pan, Ce Ge, Dawei Gao,
 **Scaling Laws for Neural Language Models**
  Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B. Brown, Benjamin Chess, Rewon Child, Scott Gray, Alec Radford, Jeffrey Wu, Dario Amodei. *arXiv 2020.* [[pdf](https://arxiv.org/abs/2001.08361)]
 
+
 ## 2. Data Storage for LLM
 
-### 2.1 Data Storage For Training
+### 2.1 Data Storage for Training
 
 *2.1.1 Training Data Storage*
 
@@ -830,7 +841,7 @@ Daoyuan Chen, Yilun Huang, Zhijian Ma, Hesen Chen, Xuchen Pan, Ce Ge, Dawei Gao,
  Beatrice Casey, Kaia Damian, Andrew Cotaj, Joanna C. S. Santos. *arXiv 2025.* [[pdf](https://doi.org/10.48550/arXiv.2501.02170)]
 
 **MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs**
- Ziheng Jiang, Haibin Lin, Yinmin Zhong, Qi Huang, Yangrui Chen, Zhi Zhang, Yanghua Peng, Xiang Li, Cong Xie, Shibiao Nong, Yulu Jia, Sun He, Hongmin Chen, Zhihao Bai, Qi Hou, Shipeng Yan, Ding Zhou, Yiyao Sheng, Zhuo Jiang, Haohan Xu, Haoran Wei, Zhang Zhang, Pengfei Nie, Leqi Zou, Sida Zhao, Liang Xiang, Zherui Liu, Zhe Li, Xiaoying Jia, Jianxi Ye, Xin Jin, Xin Liu. *USENIX NSDI 2024.* [[pdf](https://doi.org/10.48550/arXiv.2402.15627)]
+ Ziheng Jiang, Haibin Lin, Yinmin Zhong, Qi Huang, et al. *USENIX NSDI 2024.* [[pdf](https://doi.org/10.48550/arXiv.2402.15627)]
 
 **ProTrain: Efficient LLM Training via Memory-Aware Techniques**
  Hanmei Yang, Jin Zhou, Yao Fu, Xiaoqun Wang, Ramine Roane, Hui Guan, Tongping Liu. *arXiv 2024.* [[pdf](https://arxiv.org/abs/2406.08334)]
@@ -978,6 +989,10 @@ Daoyuan Chen, Yilun Huang, Zhijian Ma, Hesen Chen, Xuchen Pan, Ce Ge, Dawei Gao,
 
 Huiqiang Jiang, Qianhui Wu, Xufang Luo, Dongsheng Li, Chin-Yew Lin, Yuqing Yang, Lili Qiu. *ACL 2024.* [[pdf](https://aclanthology.org/2024.acl-long.91/)]
 
+**CoachLM: Automatic Instruction Revisions Improve the Data Quality in LLM Instruction Tuning**
+
+*Liu, Yilun, Shimin Tao, Xiaofeng Zhao, Ming Zhu, Wenbing Ma, Junhao Zhu, Chang Su et al. ICDE 2024.* [[pdf](https://ieeexplore.ieee.org/document/10597991)]
+
 **LLMLingua-2: Data Distillation for Efficient and Faithful Task-Agnostic Prompt Compression**
 
 Zhuoshi Pan, Qianhui Wu, Huiqiang Jiang, Menglin Xia, Xufang Luo, Jue Zhang, Qingwei Lin, Victor Rühle, Yuqing Yang, Chin-Yew Lin, H. Vicky Zhao, Lili Qiu, Dongmei Zhang. *ACL 2024.* [[pdf](https://aclanthology.org/2024.findings-acl.57.pdf)]
@@ -1008,6 +1023,9 @@ Jesse Mu, Xiang Lisa Li, Noah Goodman. *NeurIPS 2023.* [[pdf](https://arxiv.org/
 **MiniRAG: Towards Extremely Simple Retrieval-Augmented Generation**
  Tianyu Fan, Jingyuan Wang, Xubin Ren, Chao Huang. *arXiv 2025.* [[pdf](https://doi.org/10.48550/arXiv.2501.06713)]
 
+**SAGE: A Framework of Precise Retrieval for RAG**
+ *Jintao Zhang, Guoliang Li, Jinyang Su. ICDE 2025.* [[pdf](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/ICDE25-SAGE.pdf)]
+
 **xRAG: Extreme Context Compression for Retrieval-augmented Generation with One Token**
  Xin Cheng, Xun Wang, Xingxing Zhang, Tao Ge, Si-Qing Chen, Furu Wei, Huishuai Zhang, Dongyan Zhao. *NeurIPS 2024.* [[pdf](https://doi.org/10.48550/arXiv.2405.13792)]
 
@@ -1032,6 +1050,10 @@ Jesse Mu, Xiang Lisa Li, Noah Goodman. *NeurIPS 2023.* [[pdf](https://arxiv.org/
 **RECOMP: Improving Retrieval-Augmented LMs with Context Compression and Selective Augmentation**
  Fangyuan Xu, Weijia Shi, Eunsol Choi. *ICLR 2024.* [[pdf](https://iclr.cc/virtual/2024/poster/17885)]
 
+**Relational Database Augmented Large Language Model**
+
+*Zongyue Qin, Chen Luo, Zhengyang Wang, Haoming Jiang, Yizhou Sun. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2407.15071)]
+
 **LightRAG: Simple and Fast Retrieval-Augmented Generation**
  Zirui Guo, Lianghao Xia, Yanhua Yu, Tu Ao, Chao Huang. *arXiv 2024.* [[pdf](https://arxiv.org/abs/2410.05779)]
 
@@ -1046,6 +1068,8 @@ Jesse Mu, Xiang Lisa Li, Noah Goodman. *NeurIPS 2023.* [[pdf](https://arxiv.org/
 
 **Learning Transferable Visual Models From Natural Language Supervision**
  Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, Ilya Sutskever. *arXiv 2021.* [[pdf](https://arxiv.org/abs/2103.00020)]
+
+
 
 ## 4. LLM for Data Processing
 
@@ -1080,6 +1104,7 @@ Jesse Mu, Xiang Lisa Li, Noah Goodman. *NeurIPS 2023.* [[pdf](https://arxiv.org/
 
 **Data Cleaning Using Large Language Models**
  Shuo Zhang, Zezhou Huang, Eugene Wu. *arXiv 2024.* [[pdf](https://arxiv.org/pdf/2410.15547)]
+
 
 ### 4.2 Entity Matching
 
@@ -1142,6 +1167,8 @@ Simran Arora, Brandon Yang, Sabri Eyuboglu, Avanika Narayan, Andrew Hojel, Imman
 **DeepJoin: Joinable Table Discovery with Pre-trained Language Models**
 
 Yuyang Dong, Chuan Xiao, Takuma Nozawa, Masafumi Enomoto, Masafumi Oyamada. *VLDB 2023.* [[pdf](https://www.vldb.org/pvldb/vol16/p2458-dong.pdf)]
+
+
 
 ## 5. LLM for Data Analysis
 
@@ -1207,7 +1234,7 @@ Yuyang Dong, Chuan Xiao, Takuma Nozawa, Masafumi Enomoto, Masafumi Oyamada. *VLD
 *Zhisheng Lin, Yifu Liu, Zhiling Luo, Jinyang Gao, Yu Li. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2410.18406)]
 
 **Data Interpreter: An LLM Agent For Data Science**
- Sirui Hong, Yizhang Lin, Bang Liu, Bangbang Liu, Binhao Wu, Ceyao Zhang, Chenxing Wei, Danyang Li, Jiaqi Chen, Jiayi Zhang, Jinlin Wang, Li Zhang, Lingyao Zhang, Min Yang, Mingchen Zhuge, Taicheng Guo, Tuo Zhou, Wei Tao, Xiangru Tang, Xiangtao Lu, Xiawu Zheng, Xinbing Liang, Yaying Fei, Yuheng Cheng, Zhibin Gou, Zongze Xu, Chenglin Wu. *arXiv 2024.* [[pdf](https://arxiv.org/abs/2402.18679)]
+ Sirui Hong, Yizhang Lin, Bang Liu, Bangbang Liu, et al. *arXiv 2024.* [[pdf](https://arxiv.org/abs/2402.18679)]
 
 **Contextualized Data-Wrangling Code Generation in Computational Notebooks**
  Junjie Huang, Daya Guo, Chenglong Wang, Jiazhen Gu, Shuai Lu, Jeevana Priya Inala, Cong Yan, Jianfeng Gao, Nan Duan, Michael R. Lyu. *ASE 2024.* [[pdf](https://doi.org/10.48550/arXiv.2409.13551)]
@@ -1228,10 +1255,10 @@ Yuyang Dong, Chuan Xiao, Takuma Nozawa, Masafumi Enomoto, Masafumi Oyamada. *VLD
  Sohan Patnaik, Heril Changwal, Milan Aggarwal, Sumit Bhatia, Yaman Kumar, Balaji Krishnamurthy. *ICLR 2024.* [[pdf](https://doi.org/10.48550/arXiv.2402.01155)]
 
 **Qwen2.5 Technical Report**
- An Yang, Baosong Yang, Beichen Zhang, Binyuan Hui, Bo Zheng, Bowen Yu, Chengyuan Li, Dayiheng Liu, Fei Huang, Haoran Wei, Huan Lin, Jian Yang, Jianhong Tu, Jianwei Zhang, Jianxin Yang, Jiaxi Yang, Jingren Zhou, Junyang Lin, Kai Dang, Keming Lu, Keqin Bao, Kexin Yang, Le Yu, Mei Li, Mingfeng Xue, Pei Zhang, Qin Zhu, Rui Men, Runji Lin, Tianhao Li, Tianyi Tang, Tingyu Xia, Xingzhang Ren, Xuancheng Ren, Yang Fan, Yang Su, Yichang Zhang, Yu Wan, Yuqiong Liu, Zeyu Cui, Zhenru Zhang, Zihan Qiu. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2412.15115)]
+ An Yang, Baosong Yang, Beichen Zhang, Binyuan Hui, et al. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2412.15115)]
 
 **TableGPT2: A Large Multimodal Model with Tabular Data Integration**
- Aofeng Su, Aowen Wang, Chao Ye, Chen Zhou, Ga Zhang, Gang Chen, Guangcheng Zhu, Haobo Wang, Haokai Xu, Hao Chen, Haoze Li, Haoxuan Lan, Jiaming Tian, Jing Yuan, Junbo Zhao, Junlin Zhou, Kaizhe Shou, Liangyu Zha, Lin Long, Liyao Li, Pengzuo Wu, Qi Zhang, Qingyi Huang, Saisai Yang, Tao Zhang, Wentao Ye, Wufang Zhu, Xiaomeng Hu, Xijun Gu, Xinjie Sun, Xiang Li, Yuhang Yang, Zhiqing Xiao. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2411.02059)]
+ Aofeng Su, Aowen Wang, Chao Ye, Chen Zhou, et al. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2411.02059)]
 
 **CHESS: Contextual Harnessing for Efficient SQL Synthesis**
  Shayan Talaei, Mohammadreza Pourreza, Yu-Chen Chang, Azalia Mirhoseini, Amin Saberi. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2405.16755)]
@@ -1356,6 +1383,7 @@ Renzo Angles, Claudio Gutierrez. *CSUR 2008.* [[pdf](https://doi.org/10.1145/132
 
 E. F. Codd. *Communications of the ACM 1970.* [[pdf](https://doi.org/10.1145/362384.362685)]
 
+
 ### 5.2 Semi-Structured Data Analysis
 
 **MiMoTable: A Multi-scale Spreadsheet Benchmark with Meta Operations for Table Reasoning**
@@ -1369,6 +1397,8 @@ E. F. Codd. *Communications of the ACM 1970.* [[pdf](https://doi.org/10.1145/362
 
 **Querying Semi-Structured Data**
  Serge Abiteboul. *ICDT 1997.* [[pdf](https://dl.acm.org/doi/10.5555/645502.656103)]
+
+
 
 ### 5.3 Unstructured Data Analysis
 
@@ -1447,6 +1477,7 @@ E. F. Codd. *Communications of the ACM 1970.* [[pdf](https://doi.org/10.1145/362
 **The JPEG Still Picture Compression Standard**
  Gregory K. Wallace. *Communications of the ACM 1991.* [[pdf](https://doi.org/10.1145/103085.103089)]
 
+
 ### 5.4 Data Exploration
 
 **AutoDDG: Automated Dataset Description Generation using Large Language Models**
@@ -1455,13 +1486,14 @@ E. F. Codd. *Communications of the ACM 1970.* [[pdf](https://doi.org/10.1145/362
 
 **Db-gpt: Empowering database interactions with private large language models**
 
-*Siqiao Xue, Caigao Jiang, Wenhui Shi, Fangyin Cheng, Keting Chen, Hongjun Yang, Zhiping Zhang, Jianshan He, Hongyang Zhang, Ganglin Wei, Wang Zhao, Fan Zhou, Danrui Qi, Hong Yi, Shaodong Liu, Faqiang Chen. arxiv 2023.* [[pdf](https://arxiv.org/pdf/2312.17449)]
+*Siqiao Xue, Caigao Jiang, Wenhui Shi, Fangyin Cheng, et al. arxiv 2023.* [[pdf](https://arxiv.org/pdf/2312.17449)]
 
 ### 5.5 Data Visualization
 
 **LLM4Vis: Explainable Visualization Recommendation using ChatGPT**
 
 *Lei Wang, Songheng Zhang, Yun Wang, Ee-Peng Lim, Yong Wang. EMNLP 2023.* [[pdf](https://aclanthology.org/2023.emnlp-industry.64.pdf)]
+
 
 ## 6. LLM for Data System Optimization
 
@@ -1510,6 +1542,7 @@ Immanuel Trummer. *SIGMOD 2022.* [[pdf](https://doi.org/10.1145/3514221.3517843)
 **Automatic Database Management System Tuning Through Large-scale Machine Learning**
 
 Dana Van Aken, Andrew Pavlo, Geoffrey J. Gordon, Bohan Zhang. *SIGMOD 2017.* [[pdf](https://doi.org/10.1145/3035918.3064029)]
+
 
 ### 6.2 Query Optimization
 
@@ -1567,20 +1600,3 @@ Xuanhe Zhou, Guoliang Li, Zhaoyan Sun, Zhiyuan Liu, Weize Chen, Jianming Wu, Jie
 **LLM As DBA**  
 Xuanhe Zhou, Guoliang Li, Zhiyuan Liu. *arXiv 2023.* [[pdf](https://doi.org/10.48550/arXiv.2308.05481)]
 
-## 7. Data Management for LLM
-
-**SAGE: A Framework of Precise Retrieval for RAG**
-
-*Jintao Zhang, Guoliang Li, Jinyang Su. ICDE 2025.* [[pdf](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/ICDE25-SAGE.pdf)]
-
-**Data-Juicer: A One-Stop Data Processing System for Large Language Models**
-
-*Daoyuan Chen, Yilun Huang, Zhijian Ma, Hesen Chen, Xuchen Pan, Ce Ge, Dawei Gao, Yuexiang Xie, Zhaoyang Liu, Jinyang Gao, Yaliang Li, Bolin Ding, Jingren Zhou. SIGMOD 2024.* [[pdf](https://arxiv.org/pdf/2309.02033)]
-
-**CoachLM: Automatic Instruction Revisions Improve the Data Quality in LLM Instruction Tuning**
-
-*Liu, Yilun, Shimin Tao, Xiaofeng Zhao, Ming Zhu, Wenbing Ma, Junhao Zhu, Chang Su et al. ICDE 2024.* [[pdf](https://ieeexplore.ieee.org/document/10597991)]
-
-**Relational Database Augmented Large Language Model**
-
-*Zongyue Qin, Chen Luo, Zhengyang Wang, Haoming Jiang, Yizhou Sun. arxiv 2024.* [[pdf](https://arxiv.org/pdf/2407.15071)]
