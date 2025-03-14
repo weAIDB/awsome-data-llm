@@ -1181,6 +1181,10 @@ Yuyang Dong, Chuan Xiao, Takuma Nozawa, Masafumi Enomoto, Masafumi Oyamada. *VLD
 **TableMaster: A Recipe to Advance Table Understanding with Language Models**
  Lang Cao. *arXiv 2025.* [[pdf](https://doi.org/10.48550/arXiv.2501.19378)]
 
+**Are Your LLM-based Text-to-SQL Models Secure? Exploring SQL Injection via Backdoor Attacks**
+
+*Meiyu Lin, Haichuan Zhang, Jiale Lao, Renyuan Li, Yuanchun Zhou, Carl Yang, Yang Cao, Mingjie Tang. arxiv 2025.* [[pdf](https://arxiv.org/pdf/2503.05445)]
+
 **CoddLLM: Empowering Large Language Models for Data Analytics**
 
 *Jiani Zhang, Hengrui Zhang, Rishav Chakravarti, Yiqun Hu, Patrick Ng, Asterios Katsifodimos, Huzefa Rangwala, George Karypis, Alon Halevy. arxiv 2025.* [[pdf](https://arxiv.org/pdf/2502.00329)]
@@ -1501,7 +1505,7 @@ E. F. Codd. *Communications of the ACM 1970.* [[pdf](https://doi.org/10.1145/362
 
 **LLMIdxAdvis: Resource-Efficient Index Advisor Utilizing Large Language Model**
 
-*Xinxin Zhao, Haoyang Li, Jing Zhang, Xinmei Huang, Tieying Zhang, Jianjun Chen, Rui Shi, Cuiping Li, Hong Chen. arxiv 2025.* [[pdf](https://arxiv.org/pdf/2503.07884)]
+Xinxin Zhao, Haoyang Li, Jing Zhang, Xinmei Huang, Tieying Zhang, Jianjun Chen, Rui Shi, Cuiping Li, Hong Chen. *arxiv 2025.* [[pdf](https://arxiv.org/pdf/2503.07884)]
 
 **λ-Tune: Harnessing Large Language Models for Automated Database System Tuning**
 
@@ -1513,7 +1517,7 @@ Xinmei Huang, Haoyang Li, Jing Zhang, Xinxin Zhao, Zhiming Yao, Yiyan Li, Tieyin
 
 **LLMTune: Accelerate Database Knob Tuning with Large Language Models**
 
-*Huang X, Li H, Zhang J, et al. arXiv 2024.* [[pdf](https://arxiv.org/pdf/2404.11581)]
+Huang X, Li H, Zhang J, et al. *arXiv 2024.* [[pdf](https://arxiv.org/pdf/2404.11581)]
 
 **LATuner: An LLM-Enhanced Database Tuning System Based on Adaptive Surrogate Model**
 
@@ -1542,6 +1546,11 @@ Immanuel Trummer. *SIGMOD 2022.* [[pdf](https://doi.org/10.1145/3514221.3517843)
 **Automatic Database Management System Tuning Through Large-scale Machine Learning**
 
 Dana Van Aken, Andrew Pavlo, Geoffrey J. Gordon, Bohan Zhang. *SIGMOD 2017.* [[pdf](https://doi.org/10.1145/3035918.3064029)]
+
+**A Query Optimization Method Utilizing Large Language Models**
+
+*Zhiming Yao, Haoyang Li, Jing Zhang, Cuiping Li, Hong Chen. arxiv 2025.* [[pdf](https://arxiv.org/pdf/2503.06902)]
+
 
 
 ### 6.2 Query Optimization
@@ -1599,4 +1608,8 @@ Xuanhe Zhou, Guoliang Li, Zhaoyan Sun, Zhiyuan Liu, Weize Chen, Jianming Wu, Jie
 
 **LLM As DBA**  
 Xuanhe Zhou, Guoliang Li, Zhiyuan Liu. *arXiv 2023.* [[pdf](https://doi.org/10.48550/arXiv.2308.05481)]
+
+**SAGE: A Framework of Precise Retrieval for RAG**
+
+*Jintao Zhang, Guoliang Li, Jinyang Su. ICDE 2025.* [[pdf](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/ICDE25-SAGE.pdf)]
 
