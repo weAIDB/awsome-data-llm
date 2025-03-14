@@ -3,7 +3,7 @@
 * [0. System & Review](#0-system--review)
 * [1. Data Management for LLM](#1-data-management-for-llm)
     * [1.1 Data Acquisition for LLM](#11-data-acquisition-for-llm)    
-    * [1.2Data Deduplication for LLM](#12-data-deduplication-for-llm)    
+    * [1.2 Data Deduplication for LLM](#12-data-deduplication-for-llm)    
     * [1.3 Data Filtering for LLM](#13-data-filtering-for-llm)    
     * [1.4 Data Transformation for LLM](#14-data-transformation-for-llm)    
     * [1.5 Data Selection for LLM](#15-data-selection-for-llm)    
