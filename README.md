@@ -1,7 +1,7 @@
 # Data × LLM: From Principles to Practices
 
 * [0. System & Review](#0-system--review)
-* [1. Data Management for LLM](#1-data-management-for-llm)
+* [1. Data Processing for LLM](#1-data-processing-for-llm)
     * [1.1 Data Acquisition for LLM](#11-data-acquisition-for-llm)    
     * [1.2 Data Deduplication for LLM](#12-data-deduplication-for-llm)    
     * [1.3 Data Filtering for LLM](#13-data-filtering-for-llm)    
@@ -36,6 +36,7 @@
     * [6.1 Configuration Tuning](#61-configuration-tuning)
     * [6.2 Query Optimization](#62-query-optimization)
     * [6.3 Anomaly  Diagnosis](#63-anomaly-diagnosis)
+
 
 ## 0. System & Review
 
@@ -112,7 +113,7 @@ Zige Wang, Wanjun Zhong, Yufei Wang, Qi Zhu, Fei Mi, Baojun Wang, Lifeng Shang, 
 Aisha Siddiqa, Ahmad Karim, Abdullah Gani. *Frontiers of Information Technology & Electronic Engineering 2017.* [[pdf](https://link.springer.com/article/10.1631/FITEE.1500441 )]
 
 
-## 1. Data Management for LLM
+## 1. Data Processing for LLM
 
 **DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning**  
 DeepSeek-AI, Daya Guo, Dejian Yang, et al. *arXiv 2025.* [[pdf](https://doi.org/10.48550/arXiv.2501.12948 )]
