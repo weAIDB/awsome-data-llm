@@ -655,7 +655,6 @@ Julia Hirschberg, Christopher D. Manning. *Science 2015.* [[pdf](https://doi.org
  Yuntao Bai, Andy Jones, Kamal Ndousse, Amanda Askell, et al. *arXiv 2022.* [[pdf](https://doi.org/10.48550/arXiv.2204.05862)]
 
 
-
 ### 1.8 Data Processing Pipelines for LLM
 
 **Data-Juicer: A One-Stop Data Processing System for Large Language Models**
@@ -667,8 +666,8 @@ Julia Hirschberg, Christopher D. Manning. *Science 2015.* [[pdf](https://doi.org
 **An Integrated Data Processing Framework for Pretraining Foundation Models**
  Yiding Sun, Feng Wang, Yutao Zhu, Wayne Xin Zhao, Jiaxin Mao. *SIGIR 2024.* [[pdf](https://doi.org/10.1145/3626772.3657671)]
 
-**Query Rewriting via Large Language Models**
- Jie Liu, Barzan Mozafari. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2403.09060)]
+**SAGE: A Framework of Precise Retrieval for RAG**
+*Jintao Zhang, Guoliang Li, Jinyang Su. ICDE 2025.* [[pdf](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/ICDE25-SAGE.pdf)]
 
 **Oasis: data curation and assessment system for pretraining of large language models**
  Tong Zhou, Yubo Chen, Pengfei Cao, Kang Liu, Shengping Liu, Jun Zhao. *IJCAI 2024.* [[pdf](https://doi.org/10.24963/ijcai.2024/1048)]
@@ -1262,9 +1261,6 @@ Yuyang Dong, Chuan Xiao, Takuma Nozawa, Masafumi Enomoto, Masafumi Oyamada. *VLD
 **CABINET: Content Relevance based Noise Reduction for Table Question Answering**
  Sohan Patnaik, Heril Changwal, Milan Aggarwal, Sumit Bhatia, Yaman Kumar, Balaji Krishnamurthy. *ICLR 2024.* [[pdf](https://doi.org/10.48550/arXiv.2402.01155)]
 
-**Qwen2.5 Technical Report**
- An Yang, Baosong Yang, Beichen Zhang, Binyuan Hui, et al. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2412.15115)]
-
 **TableGPT2: A Large Multimodal Model with Tabular Data Integration**
  Aofeng Su, Aowen Wang, Chao Ye, Chen Zhou, et al. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2411.02059)]
 
@@ -1406,9 +1402,10 @@ E. F. Codd. *Communications of the ACM 1970.* [[pdf](https://doi.org/10.1145/362
 **Querying Semi-Structured Data**
  Serge Abiteboul. *ICDT 1997.* [[pdf](https://dl.acm.org/doi/10.5555/645502.656103)]
 
-
-
 ### 5.3 Unstructured Data Analysis
+
+**DAgent: A Relational Database-Driven Data Analysis Report Generation Agent**
+Wenyi Xu, Yuren Mao, Xiaolu Zhang, Chao Zhang, Xuemei Dong, Mengfei Zhang, Jun Zhou, Yunjun Gao. *arxiv 2025.* [[pdf](https://arxiv.org/pdf/2503.13269)]
 
 **DocFormerv2: Local Features for Document Understanding**
  Srikar Appalaraju, Peng Tang, Qi Dong, Nishant Sankaran, Yichu Zhou, R. Manmatha. *AAAI 2024.* [[pdf](https://doi.org/10.1609/aaai.v38i2.27828)]
@@ -1612,7 +1609,3 @@ Xuanhe Zhou, Guoliang Li, Zhaoyan Sun, Zhiyuan Liu, Weize Chen, Jianming Wu, Jie
 
 **LLM As DBA**  
 Xuanhe Zhou, Guoliang Li, Zhiyuan Liu. *arXiv 2023.* [[pdf](https://doi.org/10.48550/arXiv.2308.05481)]
-
-**SAGE: A Framework of Precise Retrieval for RAG**
-
-*Jintao Zhang, Guoliang Li, Jinyang Su. ICDE 2025.* [[pdf](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/ICDE25-SAGE.pdf)]
