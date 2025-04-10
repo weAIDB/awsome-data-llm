@@ -1,4 +1,4 @@
-# Data × LLM: From Principles to Practices
+# Advances and Challenges in Data×LLM
 
 * [0. System & Review](#0-system--review)
 * [1. Data Processing for LLM](#1-data-processing-for-llm)
@@ -87,6 +87,17 @@ Shukang Yin, Chaoyou Fu, Sirui Zhao, Ke Li, Xing Sun, Tong Xu, Enhong Chen. *Nat
 
 *Xupeng Miao, Zhihao Jia, and Bin Cui. SIGMOD 2024.* [[pdf](https://dl.acm.org/doi/pdf/10.1145/3626246.3654683)]
 
+**A Survey on Data Selection for LLM Instruction Tuning**
+ Jiahao Wang, Bolin Zhang, Qianlong Du, Jiajun Zhang, Dianhui Chu. *arXiv 2024.* [[pdf](https://arxiv.org/abs/2402.05123)]
+
+**Graph Learning in the Era of LLMs: A Survey from the Perspective of Data, Models, and Tasks** 
+
+Xunkai Li, Zhengyu Wu, Jiayi Wu, Hanwen Cui, Jishuo Jia, Rong-Hua Li, Guoren Wang. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2412.12456)]
+
+**Leveraging Biomolecule and Natural Language through Multi-Modal Learning: A Survey** 
+
+Qizhi Pei, Lijun Wu, Kaiyuan Gao, Jinhua Zhu, Yue Wang, Zun Wang, Tao Qin, Rui Yan. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2403.01528)]
+
 **DB-GPT: Large Language Model Meets Database**
 
 *Xuanhe Zhou, Zhaoyan Sun, Guoliang Li. Data Science and Engineering 2023.* [[pdf](http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/dbgpt-dse.pdf)]
@@ -105,12 +116,27 @@ Max Marion, Ahmet Üstün, Luiza Pozzobon, Alex Wang, Marzieh Fadaee, Sara Hooke
 **Data Management For Training Large Language Models: A Survey**  
 Zige Wang, Wanjun Zhong, Yufei Wang, Qi Zhu, Fei Mi, Baojun Wang, Lifeng Shang, Xin Jiang, Qun Liu. *arXiv 2023.* [[pdf](https://doi.org/10.48550/arXiv.2312.01700 )]
 
+**Survey of Hallucination in Natural Language Generation**
+ Ziwei Ji, Nayeon Lee, Rita Frieske, Tiezheng Yu, Dan Su, Yan Xu, Etsuko Ishii, Ye Jin Bang, Andrea Madotto, Pascale Fung. *ACM Computing Surveys 2023.* [[pdf](https://doi.org/10.1145/3571730)]
+
+**Retrieval-Augmented Generation for Large Language Models: A Survey**
+ Yunfan Gao, Yun Xiong, Xinyu Gao, Kangxiang Jia, Jinliu Pan, Yuxi Bi, Yi Dai, Jiawei Sun, Meng Wang, Haofen Wang. *arXiv 2023.* [[pdf](https://arxiv.org/abs/2312.10997)]
+
 **Can Foundation Models Wrangle Your Data?**
 
 *Avanika Narayan, Ines Chami, Laurel J. Orr, Christopher Ré. VLDB 2022.* [[pdf](https://www.vldb.org/pvldb/vol16/p738-narayan.pdf)]
 
+**A comprehensive survey on data provenance: State-of-the-art approaches and their deployments for IoT security enforcement**
+ Md Morshed Alam, Weichao Wang. *Journal of Computer Security 2021.* [[pdf](https://doi.org/10.3233/JCS-200108)]
+
 **Big data storage technologies: a survey**  
 Aisha Siddiqa, Ahmad Karim, Abdullah Gani. *Frontiers of Information Technology & Electronic Engineering 2017.* [[pdf](https://link.springer.com/article/10.1631/FITEE.1500441 )]
+
+**Survey of Graph Database Models** 
+
+Renzo Angles, Claudio Gutierrez. *CSUR 2008.* [[pdf](https://doi.org/10.1145/1322432.1322433)]
+
+
 
 
 ## 1. Data Processing for LLM
@@ -304,8 +330,6 @@ Julia Hirschberg, Christopher D. Manning. *Science 2015.* [[pdf](https://doi.org
 **Suffix arrays: a new method for on-line string searches**
  Udi Manber, Gene Myers. *SIAM Journal on Computing 1993.* [[pdf](https://doi.org/10.1137/0222058)]
 
-
-
 ### 1.3 Data Filtering for LLM
 
 **Perplexed by Perplexity: Perplexity-Based Data Pruning With Small Reference Models**
@@ -398,8 +422,6 @@ Julia Hirschberg, Christopher D. Manning. *Science 2015.* [[pdf](https://doi.org
 **Annotating longitudinal clinical narratives for de-identification: The 2014 i2b2/UTHealth corpus**
  Amber Stubbs, Özlem Uzuner. *J. Biomed. Inform 2015.* [[pdf](https://www.sciencedirect.com/science/article/pii/S1532046415001823)]
 
-
-
 ### 1.4 Data Transformation for LLM
 
 **Mix-CPT: A Domain Adaptation Framework via Decoupling Knowledge Learning and Format Alignment**
@@ -468,12 +490,6 @@ Julia Hirschberg, Christopher D. Manning. *Science 2015.* [[pdf](https://doi.org
 
 **Autonomous Data Selection with Language Models for Mathematical Texts**
  Yifan Zhang, Yifan Luo, Yang Yuan, Andrew Chi-Chih Yao. *ICLR 2024.* [[pdf](https://arxiv.org/abs/2402.07625)]
-
-**A Survey on Data Selection for Language Models**
- Alon Albalak, Yanai Elazar, Sang Michael Xie, Shayne Longpre, Nathan Lambert, Xinyi Wang, Niklas Muennighoff, Bairu Hou, Liangming Pan, Haewon Jeong, Colin Raffel, Shiyu Chang, Tatsunori Hashimoto, William Yang Wang. *arXiv 2024.* [[pdf](https://arxiv.org/abs/2402.16827)]
-
-**A Survey on Data Selection for LLM Instruction Tuning**
- Jiahao Wang, Bolin Zhang, Qianlong Du, Jiajun Zhang, Dianhui Chu. *arXiv 2024.* [[pdf](https://arxiv.org/abs/2402.05123)]
 
 **How to Train Data-Efficient LLMs**
  Noveen Sachdeva, Benjamin Coleman, Wang-Cheng Kang, Jianmo Ni, Lichan Hong, Ed H. Chi, James Caverlee, Julian McAuley, Derek Zhiyuan Cheng. *arXiv 2024.* [[pdf](https://arxiv.org/abs/2402.09668)]
@@ -735,9 +751,6 @@ Julia Hirschberg, Christopher D. Manning. *Science 2015.* [[pdf](https://doi.org
 **Publicly-Detectable Watermarking for Language Models**
  Jaiden Fairoze, Sanjam Garg, Somesh Jha, Saeed Mahloujifar, Mohammad Mahmoody, Mingyuan Wang. *arXiv 2023.* [[pdf](https://arxiv.org/abs/2310.18491)]
 
-**A comprehensive survey on data provenance: State-of-the-art approaches and their deployments for IoT security enforcement**
- Md Morshed Alam, Weichao Wang. *Journal of Computer Security 2021.* [[pdf](https://doi.org/10.3233/JCS-200108)]
-
 
 #### 1.9.2 Data Visualization for LLM
 
@@ -916,9 +929,6 @@ Daoyuan Chen, Yilun Huang, Zhijian Ma, Hesen Chen, Xuchen Pan, Ce Ge, Dawei Gao,
 **TurboRAG: Accelerating Retrieval-Augmented Generation with Precomputed KV Caches for Chunked Text**
  Songshuo Lu, Hua Wang, Yutian Rong, Zhi Chen, Yaohua Tang. *arXiv 2024.* [[pdf](https://arxiv.org/abs/2410.07590)]
 
-**Survey of vector database management systems**
- James Jie Pan, Jianguo Wang, Guoliang Li. *VLDB 2024.* [[pdf](https://doi.org/10.1007/s00778-024-00864-x)]
-
 **GleanVec: Accelerating Vector Search with Minimalist Nonlinear Dimensionality Reduction**
  Mariano Tepper, Ishwar Singh Bhati, Cecilia Aguerrebere, Ted Willke. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2410.22347)]
 
@@ -933,9 +943,6 @@ Daoyuan Chen, Yilun Huang, Zhijian Ma, Hesen Chen, Xuchen Pan, Ce Ge, Dawei Gao,
 
 **Similarity Search in the Blink of an Eye with Compressed Indices**
  Cecilia Aguerrebere, Ishwar Singh Bhati, Mark Hildebrand, Mariano Tepper, Theodore Willke. *VLDB 2023.* [[pdf](https://doi.org/10.14778/3611479.3611537)]
-
-**Survey of Hallucination in Natural Language Generation**
- Ziwei Ji, Nayeon Lee, Rita Frieske, Tiezheng Yu, Dan Su, Yan Xu, Etsuko Ishii, Ye Jin Bang, Andrea Madotto, Pascale Fung. *ACM Computing Surveys 2023.* [[pdf](https://doi.org/10.1145/3571730)]
 
 **Empirical Evaluation of a Cloud-Based Graph Database: the Case of Neptune**
  Ghislain Auguste Atemezing. *KGSWC 2021.* [[pdf](https://doi.org/10.1007/978-3-030-91305-2_3)]
@@ -1059,9 +1066,6 @@ Jesse Mu, Xiang Lisa Li, Noah Goodman. *NeurIPS 2023.* [[pdf](https://arxiv.org/
 
 **LightRAG: Simple and Fast Retrieval-Augmented Generation**
  Zirui Guo, Lianghao Xia, Yanhua Yu, Tu Ao, Chao Huang. *arXiv 2024.* [[pdf](https://arxiv.org/abs/2410.05779)]
-
-**Retrieval-Augmented Generation for Large Language Models: A Survey**
- Yunfan Gao, Yun Xiong, Xinyu Gao, Kangxiang Jia, Jinliu Pan, Yuxi Bi, Yi Dai, Jiawei Sun, Meng Wang, Haofen Wang. *arXiv 2023.* [[pdf](https://arxiv.org/abs/2312.10997)]
 
 **Towards General Text Embeddings with Multi-stage Contrastive Learning**
  Zehan Li, Xin Zhang, Yanzhao Zhang, Dingkun Long, Pengjun Xie, Meishan Zhang. *arXiv 2023.* [[pdf](https://arxiv.org/abs/2308.03281)]
@@ -1291,10 +1295,6 @@ Yuyang Dong, Chuan Xiao, Takuma Nozawa, Masafumi Enomoto, Masafumi Oyamada. *VLD
 **Call Me When Necessary: LLMs can Efficiently and Faithfully Reason over Structured Environments**
  Sitao Cheng, Ziyuan Zhuang, Yong Xu, Fangkai Yang, Chaoyun Zhang, Xiaoting Qin, Xiang Huang, Ling Chen, Qingwei Lin, Dongmei Zhang, Saravan Rajmohan, Qi Zhang. *ACL 2024.* [[pdf](https://doi.org/10.48550/arXiv.2403.08593)]
 
-**Graph Learning in the Era of LLMs: A Survey from the Perspective of Data, Models, and Tasks** 
-
-Xunkai Li, Zhengyu Wu, Jiayi Wu, Hanwen Cui, Jishuo Jia, Rong-Hua Li, Guoren Wang. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2412.12456)]
-
 **FlexKBQA: A Flexible LLM-Powered Framework for Few-Shot Knowledge Base Question Answering** 
 
 Zhenyu Li, Sunqi Fan, Yu Gu, Xiuxing Li, Zhichao Duan, Bowen Dong, Ning Liu, Jianyong Wang. *AAAI 2024.* [[pdf](https://doi.org/10.48550/arXiv.2308.12060)]
@@ -1302,10 +1302,6 @@ Zhenyu Li, Sunqi Fan, Yu Gu, Xiuxing Li, Zhichao Duan, Bowen Dong, Ning Liu, Jia
 **NAT-NL2GQL: A Novel Multi-Agent Framework for Translating Natural Language to Graph Query Language** 
 
 Yuanyuan Liang, Tingyu Xie, Gan Peng, Zihao Huang, Yunshi Lan, Weining Qian. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2412.10434)]
-
-**Leveraging Biomolecule and Natural Language through Multi-Modal Learning: A Survey** 
-
-Qizhi Pei, Lijun Wu, Kaiyuan Gao, Jinhua Zhu, Yue Wang, Zun Wang, Tao Qin, Rui Yan. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2403.01528)]
 
 **GraphGPT: Graph Instruction Tuning for Large Language Models** 
 
@@ -1378,10 +1374,6 @@ Thomas N. Kipf, Max Welling. *ICLR 2017.* [[pdf](https://doi.org/10.48550/arXiv.
 **A Comparison of Current Graph Database Models** 
 
 Renzo Angles. *ICDEW 2012.* [[pdf](https://doi.org/10.1109/ICDEW.2012.31)]
-
-**Survey of Graph Database Models** 
-
-Renzo Angles, Claudio Gutierrez. *CSUR 2008.* [[pdf](https://doi.org/10.1145/1322432.1322433)]
 
 **A Relational Model of Data for Large Shared Data Banks** 
 
