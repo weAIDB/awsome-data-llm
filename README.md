@@ -87,14 +87,8 @@ Shukang Yin, Chaoyou Fu, Sirui Zhao, Ke Li, Xing Sun, Tong Xu, Enhong Chen. *Nat
 
 *Xupeng Miao, Zhihao Jia, and Bin Cui. SIGMOD 2024.* [[pdf](https://dl.acm.org/doi/pdf/10.1145/3626246.3654683)]
 
-**A Survey on Data Selection for Language Models**
- Alon Albalak, Yanai Elazar, Sang Michael Xie, Shayne Longpre, Nathan Lambert, Xinyi Wang, Niklas Muennighoff, Bairu Hou, Liangming Pan, Haewon Jeong, Colin Raffel, Shiyu Chang, Tatsunori Hashimoto, William Yang Wang. *arXiv 2024.* [[pdf](https://arxiv.org/abs/2402.16827)]
-
 **A Survey on Data Selection for LLM Instruction Tuning**
  Jiahao Wang, Bolin Zhang, Qianlong Du, Jiajun Zhang, Dianhui Chu. *arXiv 2024.* [[pdf](https://arxiv.org/abs/2402.05123)]
-
-**Survey of vector database management systems**
- James Jie Pan, Jianguo Wang, Guoliang Li. *VLDB 2024.* [[pdf](https://doi.org/10.1007/s00778-024-00864-x)]
 
 **Graph Learning in the Era of LLMs: A Survey from the Perspective of Data, Models, and Tasks** 
 
