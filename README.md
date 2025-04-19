@@ -1496,9 +1496,9 @@ Wenyi Xu, Yuren Mao, Xiaolu Zhang, Chao Zhang, Xuemei Dong, Mengfei Zhang, Jun Z
 
 ### 6.1 Configuration Tuning
 
-**LLMIdxAdvis: Resource-Efficient Index Advisor Utilizing Large Language Model**
+**Automatic Database Configuration Debugging using Retrieval-Augmented Language Models**
 
-Xinxin Zhao, Haoyang Li, Jing Zhang, Xinmei Huang, Tieying Zhang, Jianjun Chen, Rui Shi, Cuiping Li, Hong Chen. *arxiv 2025.* [[pdf](https://arxiv.org/pdf/2503.07884)]
+Sibei Chen, Ju Fan, Bin Wu, Nan Tang, Chao Deng, Pengyi Wang, Ye Li, Jian Tan, Feifei Li, Jingren Zhou, Xiaoyong Du. *SIGMOD 2025.* [[pdf](https://arxiv.org/pdf/2412.07548)]
 
 **λ-Tune: Harnessing Large Language Models for Automated Database System Tuning**
 
@@ -1507,6 +1507,10 @@ Victor Giannankouris, Immanuel Trummer. *SIGMOD 2025.* [[pdf](https://doi.org/10
 **E2ETune: End-to-End Knob Tuning via Fine-tuned Generative Language Model**
 
 Xinmei Huang, Haoyang Li, Jing Zhang, Xinxin Zhao, Zhiming Yao, Yiyan Li, Tieying Zhang, Jianjun Chen, Hong Chen, Cuiping Li. *VLDB 2025.* [[pdf](https://doi.org/10.48550/arXiv.2404.11581)]
+
+**LLMIdxAdvis: Resource-Efficient Index Advisor Utilizing Large Language Model**
+
+Xinxin Zhao, Haoyang Li, Jing Zhang, Xinmei Huang, Tieying Zhang, Jianjun Chen, Rui Shi, Cuiping Li, Hong Chen. *arxiv 2025.* [[pdf](https://arxiv.org/pdf/2503.07884)]
 
 **LLMTune: Accelerate Database Knob Tuning with Large Language Models**
 
@@ -1523,10 +1527,6 @@ Jiale Lao, Yibo Wang, Yufei Li, Jianping Wang, Yunjia Zhang, Zhiyuan Cheng, Wang
 **Is Large Language Model Good at Database Knob Tuning? A Comprehensive Experimental Evaluation**
 
 Yiyan Li, Haoyang Li, Zhao Pu, Jing Zhang, Xinyi Zhang, Tao Ji, Luming Sun, Cuiping Li, Hong Chen. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2408.02213)]
-
-**Breaking It Down: An In-Depth Study of Index Advisors**
-
-Wei Zhou, Chen Lin, Xuanhe Zhou, Guoliang Li. *VLDB 2024.* [[pdf](https://doi.org/10.14778/3675034.3675035)]
 
 **DB-GPT: Large Language Model Meets Database**
 
