@@ -1512,10 +1512,6 @@ Xinmei Huang, Haoyang Li, Jing Zhang, Xinxin Zhao, Zhiming Yao, Yiyan Li, Tieyin
 
 Xinxin Zhao, Haoyang Li, Jing Zhang, Xinmei Huang, Tieying Zhang, Jianjun Chen, Rui Shi, Cuiping Li, Hong Chen. *arxiv 2025.* [[pdf](https://arxiv.org/pdf/2503.07884)]
 
-**LLMTune: Accelerate Database Knob Tuning with Large Language Models**
-
-Huang X, Li H, Zhang J, et al. *arXiv 2024.* [[pdf](https://arxiv.org/pdf/2404.11581)]
-
 **LATuner: An LLM-Enhanced Database Tuning System Based on Adaptive Surrogate Model**
 
 Chongjiong Fan, Zhicheng Pan, Wenwen Sun, Chengcheng Yang, Wei-Neng Chen. *ECML PKDD 2024.* [[pdf](https://doi.org/10.1007/978-3-031-70362-1_22)]
@@ -1540,12 +1536,6 @@ Immanuel Trummer. *SIGMOD 2022.* [[pdf](https://doi.org/10.1145/3514221.3517843)
 
 Dana Van Aken, Andrew Pavlo, Geoffrey J. Gordon, Bohan Zhang. *SIGMOD 2017.* [[pdf](https://doi.org/10.1145/3035918.3064029)]
 
-**A Query Optimization Method Utilizing Large Language Models**
-
-*Zhiming Yao, Haoyang Li, Jing Zhang, Cuiping Li, Hong Chen. arxiv 2025.* [[pdf](https://arxiv.org/pdf/2503.06902)]
-
-
-
 ### 6.2 Query Optimization
 
 **Can Large Language Models Be Query Optimizer for Relational Databases?**
@@ -1564,6 +1554,10 @@ Sriram Dharwada, Himanshu Devrani, Jayant Haritsa, Harish Doraiswamy. *arXiv 202
 
 Zhaodonghui Li, Haitao Yuan, Huiming Wang, Gao Cong, Lidong Bing. *VLDB 2024.* [[pdf](https://doi.org/10.14778/3696435.3696440)]
 
+**R-Bot: An LLM-based Query Rewrite System**
+
+Zhaoyan Sun, Xuanhe Zhou, Guoliang Li. *arXiv 2024.* [[pdf](https://arxiv.org/abs/2412.01661)]
+
 **Query Rewriting via Large Language Models**
 
 Jie Liu, Barzan Mozafari. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2403.09060)]
@@ -1572,13 +1566,9 @@ Jie Liu, Barzan Mozafari. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.24
 
 Peter Akioyamen, Zixuan Yi, Ryan Marcus. *NeurIPS 2024.* [[pdf](https://doi.org/10.48550/arXiv.2411.02862)]
 
-**R-Bot: An LLM-based Query Rewrite System**
+**A Query Optimization Method Utilizing Large Language Models**
 
-Zhaoyan Sun, Xuanhe Zhou, Guoliang Li. *arXiv 2024.* [[pdf](https://arxiv.org/abs/2412.01661)]
-
-**DB-GPT: Large Language Model Meets Database**
-
-Xuanhe Zhou, Zhaoyan Sun, Guoliang Li. *Data Science and Engineering 2024.* [[pdf](https://link.springer.com/article/10.1007/s41019-023-00235-6)]
+*Zhiming Yao, Haoyang Li, Jing Zhang, Cuiping Li, Hong Chen. arxiv 2025.* [[pdf](https://arxiv.org/pdf/2503.06902)]
 
 ### 6.3 Anomaly Diagnosis
 
@@ -1586,18 +1576,22 @@ Xuanhe Zhou, Zhaoyan Sun, Guoliang Li. *Data Science and Engineering 2024.* [[pd
 
 *Biao Ouyang, Yingying Zhang, Hanyin Cheng, Yang Shu, Chenjuan Guo, Bin Yang, Qingsong Wen, Lunting Fan, Christian S. Jensen. VLDB 2025.* [[pdf](https://arxiv.org/pdf/2503.04252)]
 
+**D-Bot: Database Diagnosis System using Large Language Models**
+
+Xuanhe Zhou, Guoliang Li, Zhaoyan Sun, Zhiyuan Liu, Weize Chen, Jianming Wu, Jiesi Liu, Ruohang Feng, Guoyang Zeng. *VLDB 2024.* [[pdf](https://doi.org/10.14778/3675034.3675043)]
+
+**Panda: Performance Debugging for Databases using LLM Agents**
+
+Vikramank Singh, Kapil Eknath Vaidya, Vinayshekhar Bannihatti Kumar, Sopan Khosla, Balakrishnan Narayanaswamy, Rashmi Gangadharaiah, Tim Kraska. *CIDR 2024.* [[pdf](https://www.cidrdb.org/cidr2024/papers/p6-singh.pdf)]
+
 **DBG-PT: A Large Language Model Assisted Query Performance Regression Debugger**
 
 Victor Giannakouris, Immanuel Trummer. *VLDB 2024.* [[pdf](https://doi.org/10.14778/3685800.3685869)]
 
-**Panda: Performance Debugging for Databases using LLM Agents**  
-Vikramank Singh, Kapil Eknath Vaidya, Vinayshekhar Bannihatti Kumar, Sopan Khosla, Balakrishnan Narayanaswamy, Rashmi Gangadharaiah, Tim Kraska. *CIDR 2024.* [[pdf](https://www.cidrdb.org/cidr2024/papers/p6-singh.pdf)]
-
 **Query Performance Explanation through Large Language Model for HTAP Systems**  
-Haibo Xiu, Li Zhang, Tieying Zhang, Jun Yang, Jianjun Chen. *ICDE 2025.* [[pdf](https://doi.org/10.48550/arXiv.2412.01709)]
 
-**D-Bot: Database Diagnosis System using Large Language Models**  
-Xuanhe Zhou, Guoliang Li, Zhaoyan Sun, Zhiyuan Liu, Weize Chen, Jianming Wu, Jiesi Liu, Ruohang Feng, Guoyang Zeng. *VLDB 2024.* [[pdf](https://doi.org/10.14778/3675034.3675043)]
+Haibo Xiu, Li Zhang, Tieying Zhang, Jun Yang, Jianjun Chen. *arxiv 2025.* [[pdf](https://doi.org/10.48550/arXiv.2412.01709)]
 
 **LLM As DBA**  
+
 Xuanhe Zhou, Guoliang Li, Zhiyuan Liu. *arXiv 2023.* [[pdf](https://doi.org/10.48550/arXiv.2308.05481)]
