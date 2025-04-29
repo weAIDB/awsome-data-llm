@@ -1566,10 +1566,6 @@ Jie Liu, Barzan Mozafari. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.24
 
 Peter Akioyamen, Zixuan Yi, Ryan Marcus. *NeurIPS 2024.* [[pdf](https://doi.org/10.48550/arXiv.2411.02862)]
 
-**A Query Optimization Method Utilizing Large Language Models**
-
-*Zhiming Yao, Haoyang Li, Jing Zhang, Cuiping Li, Hong Chen. arxiv 2025.* [[pdf](https://arxiv.org/pdf/2503.06902)]
-
 ### 6.3 Anomaly Diagnosis
 
 **RCRank: Multimodal Ranking of Root Causes of Slow Queries in Cloud Database Systems**
