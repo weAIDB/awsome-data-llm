@@ -1568,13 +1568,13 @@ Peter Akioyamen, Zixuan Yi, Ryan Marcus. *NeurIPS 2024.* [[pdf](https://doi.org/
 
 ### 6.3 Anomaly Diagnosis
 
-**RCRank: Multimodal Ranking of Root Causes of Slow Queries in Cloud Database Systems**
+**Query Performance Explanation through Large Language Model for HTAP Systems**  
 
-*Biao Ouyang, Yingying Zhang, Hanyin Cheng, Yang Shu, Chenjuan Guo, Bin Yang, Qingsong Wen, Lunting Fan, Christian S. Jensen. VLDB 2025.* [[pdf](https://arxiv.org/pdf/2503.04252)]
+Haibo Xiu, Li Zhang, Tieying Zhang, Jun Yang, Jianjun Chen. *arxiv 2025.* [[pdf](https://doi.org/10.48550/arXiv.2412.01709)]
 
 **D-Bot: Database Diagnosis System using Large Language Models**
 
-Xuanhe Zhou, Guoliang Li, Zhaoyan Sun, Zhiyuan Liu, Weize Chen, Jianming Wu, Jiesi Liu, Ruohang Feng, Guoyang Zeng. *VLDB 2024.* [[pdf](https://doi.org/10.14778/3675034.3675043)]
+Xuanhe Zhou, Guoliang Li, Zhaoyan Sun, Zhiyuan Liu, Weize Chen, Jianming Wu, Jiesi Liu, Ruohang Feng, Guoyang Zeng. *VLDB 2024.* [[pdf](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/dbot_vldb_camera_ready_v1.pdf)]
 
 **Panda: Performance Debugging for Databases using LLM Agents**
 
@@ -1584,10 +1584,6 @@ Vikramank Singh, Kapil Eknath Vaidya, Vinayshekhar Bannihatti Kumar, Sopan Khosl
 
 Victor Giannakouris, Immanuel Trummer. *VLDB 2024.* [[pdf](https://doi.org/10.14778/3685800.3685869)]
 
-**Query Performance Explanation through Large Language Model for HTAP Systems**  
-
-Haibo Xiu, Li Zhang, Tieying Zhang, Jun Yang, Jianjun Chen. *arxiv 2025.* [[pdf](https://doi.org/10.48550/arXiv.2412.01709)]
-
 **LLM As DBA**  
 
-Xuanhe Zhou, Guoliang Li, Zhiyuan Liu. *arXiv 2023.* [[pdf](https://doi.org/10.48550/arXiv.2308.05481)]
+Xuanhe Zhou, Guoliang Li, Zhiyuan Liu. *arXiv 2023.* [[pdf](https://arxiv.org/pdf/2308.05481)]
