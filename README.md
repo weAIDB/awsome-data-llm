@@ -527,64 +527,64 @@ Armand Joulin, Edouard Grave, Piotr Bojanowski, Tomas Mikolov. *EACL 2017.* [[pd
 ### 1.6 Data Mixing for LLM
 
 **Task-level Distributionally Robust Optimization for Large Language Model-based Dense Retrieval**  
-Guangyuan Ma, Yongliang Ma, Xing Wu, Zhenpeng Su, Ming Zhou, Songlin Hu. *AAAI 2025.* [ [pdf](https://arxiv.org/abs/2408.10613) ].
+Guangyuan Ma, Yongliang Ma, Xing Wu, Zhenpeng Su, Ming Zhou, Songlin Hu. *AAAI 2025.* [ [pdf](https://arxiv.org/abs/2408.10613) ]
 
 **RegMix: Data Mixture as Regression for Language Model Pre-training**  
-Qian Liu, Xiaosen Zheng, Niklas Muennighoff, Guangtao Zeng, Longxu Dou, Tianyu Pang, Jing Jiang, Min Lin. *ICLR 2025.* [ [pdf](https://iclr.cc/virtual/2025/poster/30960) ].
+Qian Liu, Xiaosen Zheng, Niklas Muennighoff, Guangtao Zeng, Longxu Dou, Tianyu Pang, Jing Jiang, Min Lin. *ICLR 2025.* [ [pdf](https://iclr.cc/virtual/2025/poster/30960) ]
 
 **Velocitune: A Velocity-based Dynamic Domain Reweighting Method for Continual Pre-training**  
-Zheheng Luo, Xin Zhang, Xiao Liu, Haoling Li, Yeyun Gong, Chen Qi, Peng Cheng. *arXiv 2024.* [ [pdf](https://doi.org/10.48550/arXiv.2411.14318) ].
+Zheheng Luo, Xin Zhang, Xiao Liu, Haoling Li, Yeyun Gong, Chen Qi, Peng Cheng. *arXiv 2024.* [ [pdf](https://doi.org/10.48550/arXiv.2411.14318) ]
 
 **BiMix: Bivariate Data Mixing Law for Language Model Pretraining**  
-Ce Ge, Zhijian Ma, Daoyuan Chen, Yaliang Li, Bolin Ding. *arXiv 2024.* [ [pdf](https://arxiv.org/abs/2405.14908) ].
+Ce Ge, Zhijian Ma, Daoyuan Chen, Yaliang Li, Bolin Ding. *arXiv 2024.* [ [pdf](https://arxiv.org/abs/2405.14908) ]
 
 **CMR Scaling Law: Predicting Critical Mixture Ratios for Continual Pre-training of Language Models**  
-Jiawei Gu, Zacc Yang, Chuanghao Ding, Rui Zhao, Fei Tan. *EMNLP 2024.* [ [pdf](https://aclanthology.org/2024.emnlp-main.903) ].
+Jiawei Gu, Zacc Yang, Chuanghao Ding, Rui Zhao, Fei Tan. *EMNLP 2024.* [ [pdf](https://aclanthology.org/2024.emnlp-main.903) ]
 
 **Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance**  
-Jiasheng Ye, Peiju Liu, Tianxiang Sun, Yunhua Zhou, Jun Zhan, Xipeng Qiu. *arXiv 2024.* [ [pdf](https://arxiv.org/abs/2403.16952) ].
+Jiasheng Ye, Peiju Liu, Tianxiang Sun, Yunhua Zhou, Jun Zhan, Xipeng Qiu. *arXiv 2024.* [ [pdf](https://arxiv.org/abs/2403.16952) ]
 
 **Maximize Your Data's Potential: Enhancing LLM Accuracy with Two-Phase Pretraining**  
-Steven Feng, Shrimai Prabhumoye, Kezhi Kong, Dan Su, Mostofa Patwary, Mohammad Shoeybi, Bryan Catanzaro. *arXiv 2024.* [ [pdf](https://arxiv.org/abs/2412.15285) ].
+Steven Feng, Shrimai Prabhumoye, Kezhi Kong, Dan Su, Mostofa Patwary, Mohammad Shoeybi, Bryan Catanzaro. *arXiv 2024.* [ [pdf](https://arxiv.org/abs/2412.15285) ]
 
 **Mixture-of-LoRAs: An Efficient Multitask Tuning for Large Language Models**  
-Wenfeng Feng, Chuzhan Hao, Yuewei Zhang, Yu Han, Hao Wang. *COLING 2024.* [ [pdf](https://arxiv.org/abs/2403.03432v1) ].
+Wenfeng Feng, Chuzhan Hao, Yuewei Zhang, Yu Han, Hao Wang. *COLING 2024.* [ [pdf](https://arxiv.org/abs/2403.03432v1) ]
 
 **Scalable Data Ablation Approximations for Language Models through Modular Training and Merging**  
-Clara Na, Ian Magnusson, Ananya Harsh Jha, Tom Sherborne, Emma Strubell, Jesse Dodge, Pradeep Dasigi. *EMNLP 2024.* [ [pdf](https://arxiv.org/abs/2410.15661v1) ].
+Clara Na, Ian Magnusson, Ananya Harsh Jha, Tom Sherborne, Emma Strubell, Jesse Dodge, Pradeep Dasigi. *EMNLP 2024.* [ [pdf](https://arxiv.org/abs/2410.15661v1) ]
 
 **Mixture-of-Skills: Learning to Optimize Data Usage for Fine-Tuning Large Language Models**  
-Minghao Wu, Thuy-Trang Vu, Lizhen Qu, Reza Haf. *EMNLP 2024.* [ [pdf](https://aclanthology.org/2024.emnlp-main.787) ].
+Minghao Wu, Thuy-Trang Vu, Lizhen Qu, Reza Haf. *EMNLP 2024.* [ [pdf](https://aclanthology.org/2024.emnlp-main.787) ]
 
 **ScaleBiO: Scalable Bilevel Optimization for LLM Data Reweighting**  
-Rui Pan, Jipeng Zhang, Xingyuan Pan, Renjie Pi, Xiaoyu Wang, Tong Zhang. *arXiv 2024.* [ [pdf](https://arxiv.org/abs/2406.19976) ].
+Rui Pan, Jipeng Zhang, Xingyuan Pan, Renjie Pi, Xiaoyu Wang, Tong Zhang. *arXiv 2024.* [ [pdf](https://arxiv.org/abs/2406.19976) ]
 
 **D-CPT Law: Domain-specific Continual Pre-Training Scaling Law for Large Language Models**  
-Haoran Que, Jiaheng Liu, Ge Zhang, Chenchen Zhang, Xingwei Qu, Yinghao Ma, Feiyu Duan, Zhiqi Bai, Jiakai Wang, Yuanxing Zhang, Xu Tan, Jie Fu, Wenbo Su, Jiamang Wang, Lin Qu, Bo Zheng. *arXiv 2024.* [ [pdf](https://doi.org/10.48550/arXiv.2406.01375) ].
+Haoran Que, Jiaheng Liu, Ge Zhang, Chenchen Zhang, Xingwei Qu, Yinghao Ma, Feiyu Duan, Zhiqi Bai, Jiakai Wang, Yuanxing Zhang, Xu Tan, Jie Fu, Wenbo Su, Jiamang Wang, Lin Qu, Bo Zheng. *arXiv 2024.* [ [pdf](https://doi.org/10.48550/arXiv.2406.01375) ]
 
 **Data Proportion Detection for Optimized Data Management for Large Language Models**  
-Hao Liang, Keshi Zhao, Yajie Yang, Bin Cui, Guosheng Dong, Zenan Zhou, Wentao Zhang. *arXiv 2024.* [ [pdf](https://doi.org/10.48550/arXiv.2409.17527) ].
+Hao Liang, Keshi Zhao, Yajie Yang, Bin Cui, Guosheng Dong, Zenan Zhou, Wentao Zhang. *arXiv 2024.* [ [pdf](https://doi.org/10.48550/arXiv.2409.17527) ]
 
 **DoGE: Domain Reweighting with Generalization Estimation**  
-Simin Fan, Matteo Pagliardini, Martin Jaggi. *ICML 2024.* [ [pdf](https://doi.org/10.48550/arXiv.2310.15393) ].
+Simin Fan, Matteo Pagliardini, Martin Jaggi. *ICML 2024.* [ [pdf](https://doi.org/10.48550/arXiv.2310.15393) ]
 
 **DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining**  
-Sang Michael Xie, Hieu Pham, Xuanyi Dong, Nan Du, Hanxiao Liu, Yifeng Lu, Percy Liang, Quoc V. Le, Tengyu Ma, Adams Wei Yu. *NeurIPS 2023.* [ [pdf](https://arxiv.org/abs/2305.10429) ].
+Sang Michael Xie, Hieu Pham, Xuanyi Dong, Nan Du, Hanxiao Liu, Yifeng Lu, Percy Liang, Quoc V. Le, Tengyu Ma, Adams Wei Yu. *NeurIPS 2023.* [ [pdf](https://arxiv.org/abs/2305.10429) ]
 
 **SlimPajama-DC: Understanding Data Combinations for LLM Training**  
-Zhiqiang Shen, Tianhua Tao, Liqun Ma, Willie Neiswanger, Zhengzhong Liu, Hongyi Wang, Bowen Tan, Joel Hestness, Natalia Vassilieva, Daria Soboleva, Eric Xing. *arXiv 2023.* [ [pdf](https://arxiv.org/abs/2309.10818) ].
+Zhiqiang Shen, Tianhua Tao, Liqun Ma, Willie Neiswanger, Zhengzhong Liu, Hongyi Wang, Bowen Tan, Joel Hestness, Natalia Vassilieva, Daria Soboleva, Eric Xing. *arXiv 2023.* [ [pdf](https://arxiv.org/abs/2309.10818) ]
 
 **Efficient Online Data Mixing For Language Model Pre-Training**  
-Alon Albalak, Liang-Ming Pan, Colin Raffel, William Yang Wang. *NeurIPS 2023.* [ [pdf](https://nips.cc/virtual/2023/81179) ].
+Alon Albalak, Liang-Ming Pan, Colin Raffel, William Yang Wang. *NeurIPS 2023.* [ [pdf](https://nips.cc/virtual/2023/81179) ]
 
 **Qwen Technical Report**  
-Jinze Bai, Shuai Bai, Yunfei Chu, Zeyu Cui, et al. *arXiv 2023.* [ [pdf](https://arxiv.org/abs/2309.16609v1) ].
+Jinze Bai, Shuai Bai, Yunfei Chu, Zeyu Cui, et al. *arXiv 2023.* [ [pdf](https://arxiv.org/abs/2309.16609v1) ]
 
 **LightGBM: a highly efficient gradient boosting decision tree**  
-Guolin Ke, Qi Meng, Thomas Finley, Taifeng Wang, Wei Chen, Weidong Ma, Qiwei Ye, Tie-Yan Liu. *NeurIPS 2017.* [ [pdf](https://dl.acm.org/doi/10.5555/3294996.3295074) ].
+Guolin Ke, Qi Meng, Thomas Finley, Taifeng Wang, Wei Chen, Weidong Ma, Qiwei Ye, Tie-Yan Liu. *NeurIPS 2017.* [ [pdf](https://dl.acm.org/doi/10.5555/3294996.3295074) ]
 
 **An overview of bilevel optimization**  
-Benoît Colson, Patrice Marcotte, Gilles Savard. *AOR 2007.* [ [pdf](https://link.springer.com/article/10.1007/s10479-007-0176-2) ].
+Benoît Colson, Patrice Marcotte, Gilles Savard. *AOR 2007.* [ [pdf](https://link.springer.com/article/10.1007/s10479-007-0176-2) ]
 
 ### 1.7 Data Synthesis and Augmentation for LLM
 
