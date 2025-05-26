@@ -21,11 +21,10 @@
     * [3.1 Data Serving for Training](#31-data-serving-for-training)
     * [3.2 Data Serving for Inference](#32-data-serving-for-inference)
     * [3.3 Data Serving for RAG](#33-data-serving-for-rag)
-* [4. LLM for Data Processing](#4-llm-for-data-processing)
+* [4. LLM for Data Manipulation](#4-llm-for-data-manipulation)
     * [4.1 Data Cleaning](#41-data-cleaning)
-    * [4.2 Entity Matching](#42-entity-matching)
-    * [4.3 Schema Matching](#43-schema-matching)
-    * [4.4 Data Discovery](#44-data-discovery)
+    * [4.2 Data Integration](#42-data-integration)
+    * [4.3 Data Discovery](#44-data-discovery)
 * [5. LLM for Data Analysis](#5-llm-for-data-analysis)
     * [5.1 Structured Data Analysis](#51-structured-data-analysis)
     * [5.2 Semi-Structured Data Analysis](#52-semi-structured-data-analysis)
@@ -1054,7 +1053,7 @@ Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini
 
 
 
-## 4. LLM for Data Processing
+## 4. LLM for Data Manipulation
 
 ### 4.1 Data Cleaning
 
@@ -1089,10 +1088,16 @@ Haochen Zhang, Yuyang Dong, Chuan Xiao, Masafumi Oyamada. *arXiv 2023.* [[pdf](h
 Shuo Zhang, Zezhou Huang, Eugene Wu. *arXiv 2024.* [[pdf](https://arxiv.org/pdf/2410.15547)]
 
 
-### 4.2 Entity Matching
+### 4.2 Data Integration
+
+**Agent-OM: Leveraging LLM Agents for Ontology Matching**
+Zhangcheng Qiang, Weiqing Wang, Kerry Taylor. *VLDB 2025.* [[pdf](https://www.vldb.org/pvldb/vol18/p516-qiang.pdf)]
 
 **Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching**  
 Tianshu Wang, Hongyu Lin, Xiaoyang Chen, Xianpei Han, Hao Wang, Zhenyu Zeng, Le Sun. *COLING 2025.* [[pdf](https://arxiv.org/pdf/2405.16884)]
+
+**Schema Matching with Large Language Models: an Experimental Study**  
+Marcel Parciak, Brecht Vandevoort, Frank Neven, Liesbet M. Peeters, Stijn Vansummeren. *VLDB 2024.* [[pdf](https://doi.org/10.48550/arXiv.2407.11852)]
 
 **Cost-Effective In-Context Learning for Entity Resolution: A Design Space Exploration**  
 Meihao Fan, Xiaoyue Han, Ju Fan, Chengliang Chai, Nan Tang, Guoliang Li, Xiaoyong Du. *ICDE 2024.* [[pdf](https://arxiv.org/pdf/2312.03987)]
@@ -1102,23 +1107,6 @@ Xingyu Du, Gongsheng Yuan, Sai Wu, Gang Chen, and Peng Lu. *ICDE 2024.* [[pdf](h
 
 **KcMF: A Knowledge-compliant Framework for Schema and Entity Matching with Fine-tuning-free LLMs**  
 Yongqin Xu, Huan Li, Ke Chen, Lidan Shou. *arXiv 2024.* [[pdf](https://arxiv.org/pdf/2410.12480)]
-
-**Unicorn: A Unified Multi-tasking Model for Supporting Matching Tasks in Data Integration**  
-Jianhong Tu, Ju Fan, Nan Tang, Peng Wang, Guoliang Li, Xiaoyong Du. *SIGMOD 2023.* [[pdf](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/Unicorn_PACMMOD.pdf)]
-
-**Entity matching using large language models**  
-Ralph Peeters, Christian Bizer. *arXiv 2023.* [[pdf](https://arxiv.org/pdf/2310.11244)]
-
-**Deep Entity Matching with Pre-Trained Language Models**  
-Yuliang Li, Jinfeng Li, Yoshihiko Suhara, AnHai Doan, Wang-Chiew Tan. *VLDB 2021.* [[pdf](https://www.vldb.org/pvldb/vol14/p50-li.pdf)]
-
-**Dual-Objective Fine-Tuning of BERT for Entity Matching**  
-Ralph Peeters, Christian Bizer. *VLDB 2021.* [[pdf](https://madoc.bib.uni-mannheim.de/59958/1/p1913-peeters.pdf)]
-
-### 4.3 Schema Matching
-
-**Schema Matching with Large Language Models: an Experimental Study**  
-Marcel Parciak, Brecht Vandevoort, Frank Neven, Liesbet M. Peeters, Stijn Vansummeren. *VLDB 2024.* [[pdf](https://doi.org/10.48550/arXiv.2407.11852)]
 
 **Magneto: Combining Small and Large Language Models for Schema Matching**  
 Yurong Liu, Eduardo Pena, Aecio Santos, Eden Wu, Juliana Freire. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2412.08194)]
@@ -1132,7 +1120,19 @@ Marcel Parciak, Brecht Vandevoort, Frank Neven, Liesbet M. Peeters, Stijn Vansum
 **KcMF: A Knowledge-compliant Framework for Schema and Entity Matching with Fine-tuning-free LLMs**  
 Yongqin Xu, Huan Li, Ke Chen, Lidan Shou. *arxiv 2024.* [[pdf](https://arxiv.org/pdf/2410.12480)]
 
-### 4.4 Data Discovery
+**Unicorn: A Unified Multi-tasking Model for Supporting Matching Tasks in Data Integration**  
+Jianhong Tu, Ju Fan, Nan Tang, Peng Wang, Guoliang Li, Xiaoyong Du. *SIGMOD 2023.* [[pdf](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/Unicorn_PACMMOD.pdf)]
+
+**Entity matching using large language models**  
+Ralph Peeters, Christian Bizer. *arXiv 2023.* [[pdf](https://arxiv.org/pdf/2310.11244)]
+
+**Deep Entity Matching with Pre-Trained Language Models**  
+Yuliang Li, Jinfeng Li, Yoshihiko Suhara, AnHai Doan, Wang-Chiew Tan. *VLDB 2021.* [[pdf](https://www.vldb.org/pvldb/vol14/p50-li.pdf)]
+
+**Dual-Objective Fine-Tuning of BERT for Entity Matching**  
+Ralph Peeters, Christian Bizer. *VLDB 2021.* [[pdf](https://madoc.bib.uni-mannheim.de/59958/1/p1913-peeters.pdf)]
+
+### 4.3 Data Discovery
 
 **CHORUS: Foundation Models for Unified Data Discovery and Exploration**  
 Moe Kayali, Anton Lykov, Ilias Fountalis, Nikolaos Vasiloglou, Dan Olteanu, Dan Suciu. *VLDB 2024.* [[pdf](https://www.vldb.org/pvldb/vol17/p2104-kayali.pdf)]
