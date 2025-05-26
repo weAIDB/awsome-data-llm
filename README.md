@@ -1149,6 +1149,9 @@ Yuyang Dong, Chuan Xiao, Takuma Nozawa, Masafumi Enomoto, Masafumi Oyamada. *VLD
 
 ### 5.1 Structured Data Analysis
 
+**Sphinteract: Resolving Ambiguities in NL2SQL Through User Interaction**
+Fuheng Zhao, Shaleen Deep, Fotis Psallidas, Avrilia Floratou, Divyakant Agrawal, Amr El Abbadi. *VLDB 2025.* [[pdf](https://www.vldb.org/pvldb/vol18/p1145-zhao.pdf)]
+
 **Text2SQL is Not Enough: Unifying AI and Databases with TAG**  
 Asim Biswal, Siddharth Jha, Carlos Guestrin, Matei Zaharia, Joseph E Gonzalez, Amog Kamsetty, Shu Liu, Liana Patel. *CIDR 2025.* [[pdf](https://arxiv.org/pdf/2408.14717)]
 
