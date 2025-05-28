@@ -1,6 +1,6 @@
 # A Survey of LLM × DATA
 
-> A collection of papers and projects related to LLMs and corresponding data-centric methods. [![arXiv](https://huggingface.co/datasets/huggingface/badges/raw/main/arXiv-sm-dark.svg)](https://arxiv.org/abs/2505.18458v2)
+> A collection of papers and projects related to LLMs and corresponding data-centric methods. [![arXiv](https://huggingface.co/datasets/huggingface/badges/raw/main/paper-page-sm-dark.svg)](https://arxiv.org/abs/2505.18458v2)
 > 
 > If you find our survey useful, please cite the paper:
 
