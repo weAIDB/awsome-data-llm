@@ -1,4 +1,19 @@
-# A Survey of Data × LLM
+# A Survey of LLM × DATA
+
+> A collection of papers and projects related to LLMs and corresponding data-centric methods. [![arXiv](https://huggingface.co/datasets/huggingface/badges/raw/main/paper-page-sm-dark.svg)](https://arxiv.org/abs/2505.18458v2) 
+> If you find our survey useful, please cite the paper:
+
+```
+@article{LLMDATASurvey,
+    title={A Survey of LLM × DATA},
+    author={Xuanhe Zhou, Junxuan He, Wei Zhou, Haodong Chen, Zirui Tang, Haoyu Zhao, Xin Tong, Guoliang Li, Youmin Chen, Jun Zhou, Zhaojun Sun, Binyuan Hui, Shuo Wang, Conghui He, Zhiyuan Liu, Jingren Zhou, Fan Wu},
+    year={2025},
+    journal={arXiv preprint arXiv:2505.18458v2},
+    url={https://arxiv.org/abs/2505.18458v2}
+}
+```
+
+## Table of Contents
 
 * [0. System & Review](#0-system--review)
 * [1. Data Processing for LLM](#1-data-processing-for-llm)
