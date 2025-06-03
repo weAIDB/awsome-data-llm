@@ -2,7 +2,7 @@
 
 
 
-> A collection of papers and projects related to LLMs and corresponding data-centric methods. [![arXiv](https://camo.githubusercontent.com/dc1f84975e5d05724930d5c650e4b6eaea49e9f4c03d00de50bd7bf950394b4f/68747470733a2f2f68756767696e67666163652e636f2f64617461736574732f68756767696e67666163652f6261646765732f7261772f6d61696e2f70617065722d706167652d736d2d6461726b2e737667)](https://arxiv.org/abs/2505.18458v3)
+> A collection of papers and projects related to LLMs and corresponding data-centric methods. [![arXiv](https://camo.githubusercontent.com/dc1f84975e5d05724930d5c650e4b6eaea49e9f4c03d00de50bd7bf950394b4f/68747470733a2f2f68756767696e67666163652e636f2f64617461736574732f68756767696e67666163652f6261646765732f7261772f6d61696e2f70617065722d706167652d736d2d6461726b2e737667)](https://arxiv.org/abs/2505.18458v2)
 >
 > If you find our survey useful, please cite the paper:
 
@@ -224,7 +224,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 12. BookCorpus: **Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books**  
     Yukun Zhu, Ryan Kiros, Richard Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, Sanja Fidler. *ICCV 2015*.[[pdf](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zhu_Aligning_Books_and_ICCV_2015_paper.pdf)] 
 
-##### Private Data    
+
 
 #### Data Acquisition Methods
 
@@ -1197,7 +1197,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 
 1. **Cracking SQL Barriers: An LLM-based Dialect Translation System**  
    Wei Zhou, Yuyang Gao, Xuanhe Zhou, Guoliang Li. *SIGMOD 2025*. [[pdf](https://dbgroup.cs.tsinghua.edu.cn/ligl/SIGMOD25-CrackSQL.pdf)]
-2. **CrackSQL: A Hybrid SQL Dialect Translation System Powered by Large Language Models ** 
+2. **CrackSQL: A Hybrid SQL Dialect Translation System Powered by Large Language Models**    
    Wei Zhou, Yuyang Gao, Xuanhe Zhou, Guoliang Li. *arXiv 2025*. [[pdf](https://arxiv.org/abs/2504.00882#:~:text=In%20this%20demonstration%2C%20we%20present%20CrackSQL%2C%20the%20first,rule%20and%20LLM-based%20methods%20to%20overcome%20these%20limitations.)]
 3. **FinSQL: Model-Agnostic LLMs-based Text-to-SQL Framework for Financial Analysis**  
    Chao Zhang, Yuren Mao, Yijiang Fan, Yu Mi, Yunjun Gao, Lu Chen, Dongfang Lou, Jinshu Lin. *SIGMOD 2024.* [[pdf](https://doi.org/10.1145/3626246.3653375)]
