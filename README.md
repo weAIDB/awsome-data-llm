@@ -1253,11 +1253,11 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 
 ##### 4.2.1.2 Graph Data Analysis
 
-1. **A Comparison of Current Graph Database Models**   
+1. Blazegraph: [[Source](https://blazegraph.com/)]
+2. GraphDB: [[Source](https://graphdb.ontotext.com/)]
+3. Neo4j: [[Github](https://github.com/neo4j/neo4j)]
+4. **A Comparison of Current Graph Database Models**   
    Renzo Angles. *ICDEW 2012.* [[Paper](https://doi.org/10.1109/ICDEW.2012.31)]
-2. Blazegraph: [[Source](https://blazegraph.com/)]
-3. GraphDB: [[Source](https://graphdb.ontotext.com/)]
-4. Neo4j: [[Github](https://github.com/neo4j/neo4j)]
 
 ###### Natural Language To Graph Analysis Query
 
