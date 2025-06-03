@@ -439,7 +439,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
    Weijie Kong, Qi Tian, Zijian Zhang, Rox Min, Zuozhuo Dai, Jin Zhou, Jiangfeng Xiong, Xin Li, Bo Wu, Jianwei Zhang, Kathrina Wu, Qin Lin, Junkun Yuan, Yanxin Long, Aladdin Wang, Andong Wang, Changlin Li, Duojun Huang, Fang Yang, Hao Tan, Hongmei Wang, Jacob Song, Jiawang Bai, Jianbing Wu, Jinbao Xue, Joey Wang, Kai Wang, Mengyang Liu, Pengyu Li, Shuai Li, Weiyan Wang, Wenqing Yu, Xinchi Deng, Yang Li, Yi Chen, Yutao Cui, Yuanbo Peng, Zhentao Yu, Zhiyu He, Zhiyong Xu, Zixiang Zhou, Zunnan Xu, Yangyu Tao, Qinglin Lu, Songtao Liu, Dax Zhou, Hongfa Wang, Yong Yang, Di Wang, Yuhong Liu, Jie Jiang, Caesar Zhong (refer to the report for detailed contributions). *arXiv 2025*. [[pdf](https://arxiv.org/abs/2412.03603v6)]
 4. Wan: **Wan: Open and Advanced Large-Scale Video Generative Models**  
    Team Wan et al. *arXiv 2025*. [[pdf](https://arxiv.org/abs/2503.20314)]
-5. Video-LLaMA: **Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding **  
+5. Video-LLaMA: **Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding**   
    Hang Zhang, Xin Li, Lidong Bing. *EMNLP 2023 (System Demonstrations)*. [[pdf](https://arxiv.org/abs/2306.02858)]
 6. **Analyzing Leakage of Personally Identifiable Information in Language Models**  
    Nils Lukas, Ahmed Salem, Robert Sim, Shruti Tople, Lukas Wutschitz, Santiago Zanella-Béguelin. *IEEE S&P 2023.* [[pdf](https://arxiv.org/abs/2302.00539)]
@@ -604,7 +604,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
    Bin Xiao, Haiping Wu, Weijian Xu, Xiyang Dai, Houdong Hu, Yumao Lu, Michael Zeng, Ce Liu, Lu Yuan. *CVPR 2024*. [[pdf](https://openaccess.thecvf.com/content/CVPR2024/papers/Xiao_Florence-2_Advancing_a_Unified_Representation_for_a_Variety_of_Vision_CVPR_2024_paper.pdf)]
 6. DiffuseMix: **DiffuseMix: Label-Preserving Data Augmentation with Diffusion Models**  
    Khawar Islam, Muhammad Zaigham Zaheer, Arif Mahmood, Karthik Nandakumar. *CVPR 2024*. [[pdf](https://arxiv.org/abs/2405.14881)]
-7. Magicoder-S-DS-6.7B: **Magicoder: Empowering Code Generation with OSS-Instruct **  
+7. Magicoder-S-DS-6.7B: **Magicoder: Empowering Code Generation with OSS-Instruct**   
    Yuxiang Wei, Zhe Wang, Jiawei Liu, Yifeng Ding, Lingming Zhang. *ICML 2024*. [[pdf](https://arxiv.org/abs/2312.02120)]
 8. Instruction PT: **Instruction Pre-Training: Language Models are Supervised Multitask Learners**  
    Daixuan Cheng, Yuxian Gu, Shaohan Huang, Junyu Bi, Minlie Huang, Furu Wei. *EMNLP 2024*. [[pdf](https://arxiv.org/abs/2406.14491)]
@@ -614,7 +614,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
     Pratyush Maini, Skyler Seto, Richard Bai, David Grangier, Yizhe Zhang, Navdeep Jaitly. *ACL 2024*. [[pdf](https://aclanthology.org/2024.acl-long.757/)]
 11. VeCLIP: **VeCLIP: Improving CLIP Training via Visual-Enriched Captions**  
     Zhengfeng Lai, Haotian Zhang, Bowen Zhang, Wentao Wu, Haoping Bai, Aleksei Timofeev, Xianzhi Du, Zhe Gan, Jiulong Shan, Chen-Nee Chuah, Yinfei Yang, Meng Cao. *ECCV 2024*. [[pdf](https://dl.acm.org/doi/10.1007/978-3-031-72946-1_7)]
-12. Diffusion Models: **Diffusion Models and Representation Learning: A Survey **  
+12. Diffusion Models: **Diffusion Models and Representation Learning: A Survey**  
     Michael Fuest, Pingchuan Ma, Ming Gui, Johannes Schusterbauer, Vincent Tao Hu, Bjorn Ommer. *arXiv 2024*. [[pdf](https://arxiv.org/abs/2407.00783)]
 13. CtrlSynth: **CtrlSynth: Controllable Image Text Synthesis for Data-Efficient Multimodal Learning**  
     Qingqing Cao, Mahyar Najibi, Sachin Mehta. *arXiv 2024*. [[pdf](https://arxiv.org/abs/2410.11963)]
@@ -959,7 +959,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
    Zheheng Luo, Xin Zhang, Xiao Liu, Haoling Li, Yeyun Gong, Chen Qi, Peng Cheng. *ACL 2025*. [[pdf](https://arxiv.org/abs/2411.14318)]
 2. **How Abilities in Large Language Models are Affected by Supervised Fine-tuning Data Composition**  
    Guanting Dong, Hongyi Yuan, Keming Lu, Chengpeng Li, Mingfeng Xue, Dayiheng Liu, Wei Wang, Zheng Yuan, Chang Zhou, Jingren Zhou. *ACL 2024.* [[pdf](https://aclanthology.org/2024.acl-long.12/)]
-3. MOS: **Mixture-of-Skills: Learning to Optimize Data Usage for Fine-Tuning Large Language Models **    
+3. MOS: **Mixture-of-Skills: Learning to Optimize Data Usage for Fine-Tuning Large Language Models**    
    Minghao Wu, Thuy-Trang Vu, Lizhen Qu, Gholamreza Haffari. *EMNLP 2024.* [[pdf](https://aclanthology.org/2024.emnlp-main.787/)]
 4. DMT: **Strategic Data Ordering: Enhancing Large Language Model Performance through Curriculum Learning**  
    Jisu Kim, Juhwan Lee. *arXiv 2024.* [[pdf](https://doi.org/10.48550/arXiv.2405.07490)]
@@ -1398,7 +1398,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
    Wei Zhou; Chen Lin; Xuanhe Zhou; Guoliang Li; Tianqing Wang. *2024 IEEE 40th International Conference on Data Engineering (ICDE)*. [[pdf](https://ieeexplore.ieee.org/document/10597867)]
 3. **Automatic Database Knob Tuning: A Survey**  
    Xinyang Zhao, Xuanhe Zhou, Guoliang Li. *IEEE Transactions on Knowledge and Data Engineering, Volume 35, Issue 12. 2023.*  [[pdf](https://dl.acm.org/doi/10.1109/TKDE.2023.3266893)]
-4. **Demonstration of ViTA: Visualizing, Testing and Analyzing Index Advisors **    
+4. **Demonstration of ViTA: Visualizing, Testing and Analyzing Index Advisors**    
    Wei Zhou, Chen Lin, Xuanhe Zhou, Guoliang Li, Tianqing Wang. *CIKM 2023.* [[pdf](https://dl.acm.org/doi/abs/10.1145/3583780.3614738)]
 5. **An Efficient Transfer Learning Based Configuration Adviser for Database Tuning**  
    Xinyi Zhang, Hong Wu, Yang Li, Zhengju Tang, Jian Tan, Feifei Li, Bin Cui. *Proceedings of the VLDB Endowment, Volume 17, Issue 3. 2023.* [[pdf](https://dl.acm.org/doi/abs/10.14778/3632093.3632114)]
