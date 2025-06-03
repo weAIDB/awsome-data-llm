@@ -1139,7 +1139,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 ##### Schema Matching
 
 1. KG-RAG4SM: **Knowledge Graph-based Retrieval-Augmented Generation for Schema Matching**  
-   *Chuangtao Ma, Sriom Chakrabarti, Arijit Khan, Bálint Molnár*. *arxiv 2025. [[Paper](https://arxiv.org/abs/2501.08686)]*
+   *Chuangtao Ma, Sriom Chakrabarti, Arijit Khan, Bálint Molnár*. *arxiv 2025.* [[Paper](https://arxiv.org/abs/2501.08686)]
 2. Harmonia: **Interactive Data Harmonization with LLM Agents**  
    Aécio Santos, Eduardo H. M. Pena, Roque Lopez, Juliana Freire. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2502.07132)]
 3. LLMSchemaBench: **Schema Matching with Large Language Models: an Experimental Study**  
