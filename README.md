@@ -447,7 +447,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
    Zhengliang Liu, Yue Huang, Xiaowei Yu, Lu Zhang, Zihao Wu, Chao Cao, Haixing Dai, Lin Zhao, Yiwei Li, Peng Shu, Fang Zeng, Lichao Sun, Wei Liu, Dinggang Shen, Quanzheng Li, Tianming Liu, Dajiang Zhu, Xiang Li. *arXiv 2023.* [[pdf](https://arxiv.org/abs/2303.11032)]
 8. Baichuan 2: **Baichuan 2: Open Large-scale Language Models**  
    Aiyuan Yang, Bin Xiao, Bingning Wang, Borong Zhang, et al. *arXiv 2023.* [[pdf](https://arxiv.org/abs/2309.10305)]
-9. Dover: **Exploring Video Quality Assessment on User Generated Contents from Aesthetic and Technical Perspectives **  
+9. Dover: **Exploring Video Quality Assessment on User Generated Contents from Aesthetic and Technical Perspectives**  
    Haoning Wu, Erli Zhang, Liang Liao, Chaofeng Chen, Jingwen Hou, Annan Wang, Wenxiu Sun, Qiong Yan, Weisi Lin. *arXiv 2022*. [[pdf](https://arxiv.org/abs/2211.04894)]
 10. YOLOX: **YOLOX: Exceeding YOLO Series in 2021**  
       Zheng Ge, Songtao Liu, Feng Wang, Zeming Li, Jian Sun. *arXiv 2021*. [[pdf](https://arxiv.org/abs/2107.08430)]
