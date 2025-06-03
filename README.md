@@ -9,8 +9,8 @@
     title={A Survey of LLM × DATA},
     author={Xuanhe Zhou, Junxuan He, Wei Zhou, Haodong Chen, Zirui Tang, Haoyu Zhao, Xin Tong, Guoliang Li, Youmin Chen, Jun Zhou, Zhaojun Sun, Binyuan Hui, Shuo Wang, Conghui He, Zhiyuan Liu, Jingren Zhou, Fan Wu},
     year={2025},
-    journal={arXiv preprint arXiv:2505.18458v2},
-    url={https://arxiv.org/abs/2505.18458v2}
+    journal={arXiv preprint arXiv:2505.18458},
+    url={https://arxiv.org/abs/2505.18458}
 }
 ```
 
