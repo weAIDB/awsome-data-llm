@@ -414,7 +414,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 ##### (3) Hybrid Methods
 
 1. **Emergent and predictable memorization in large language models**  
-   Stella Biderman, USVSN Sai Prashanth, Lintang Sutawika, Hailey Schoelkopf, Quentin Anthony, Shivanshu Purohit, Edward Raff. *NeurIPS 2023*. [[[Paper](https://dl.acm.org/doi/10.5555/3666122.3667341?__cf_chl_tk=sWnInkGSOKRsrS.z3RwRKDT836eoSy1i.k5oxZcfDzA-1748509375-1.0.1.1-lmH0EWkZpuiyEr5uZPEd_C92GFkM6u6BY416q24qBww)]]
+   Stella Biderman, USVSN Sai Prashanth, Lintang Sutawika, Hailey Schoelkopf, Quentin Anthony, Shivanshu Purohit, Edward Raff. *NeurIPS 2023*. [[Paper](https://dl.acm.org/doi/10.5555/3666122.3667341?__cf_chl_tk=sWnInkGSOKRsrS.z3RwRKDT836eoSy1i.k5oxZcfDzA-1748509375-1.0.1.1-lmH0EWkZpuiyEr5uZPEd_C92GFkM6u6BY416q24qBww)]
 2. **When Less is More: Investigating Data Pruning for Pretraining LLMs at Scale**  
    Max Marion, Ahmet Üstün, Luiza Pozzobon, Alex Wang, Marzieh Fadaee, Sara Hooker. *arXiv 2023.* [[Paper](https://arxiv.org/abs/2309.04564)]
 3. InstructionMining: **Instruction Mining: Instruction Data Selection for Tuning Large Language Models**  
@@ -677,9 +677,9 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 7. Math-Shepherd: **Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations**  
    Peiyi Wang, Lei Li, Zhihong Shao, Runxin Xu, Damai Dai, Yifei Li, Deli Chen, Yu Wu, Zhifang Sui. *ACL 2024.* [[Paper](https://aclanthology.org/2024.acl-long.510)]
 8. Numina-Math: **NuminaMath: The largest public dataset in AI4Maths with 860k pairs of competition math problems and solutions**   
-   Jia Li, Edward Beeching, Lewis Tunstall, Ben Lipkin, Roman Soletskyi, Shengyi Huang, Kashif Rasul, Longhui Yu, Albert Q. Jiang, Ziju Shen, Zihan Qin, Bin Dong, Li Zhou, Yann Fleureau, Guillaume Lample, Stanislas Polu. *2024*. [[Paper](http://faculty.bicmr.pku.edu.cn/~dongbin/Publications/numina_dataset.pdf)] [[Source](https://huggingface.co/datasets/AI-MO/NuminaMath-CoT)]
+   Jia Li, Edward Beeching, Lewis Tunstall, Ben Lipkin, Roman Soletskyi, Shengyi Huang, Kashif Rasul, Longhui Yu, Albert Q. Jiang, Ziju Shen, Zihan Qin, Bin Dong, Li Zhou, Yann Fleureau, Guillaume Lample, Stanislas Polu. *2024*. [[Paper](http://faculty.bicmr.pku.edu.cn/~dongbin/Publications/numina_dataset.pdf)]
 9. QwQ-32B-Preview: **QwQ: Reflect Deeply on the Boundaries of the Unknown**   
-   Qwen Team. *2024*. [[Blog](https://qwenlm.github.io/blog/qwq-32b-preview/)] [[Source](https://huggingface.co/Qwen/QwQ-32B-Preview)]
+   Qwen Team. *2024*. [[Source](https://qwenlm.github.io/blog/qwq-32b-preview/)]
 10. **Let's Verify Step by Step**  
     Hunter Lightman, Vineet Kosaraju, Yura Burda, Harri Edwards, Bowen Baker, Teddy Lee, Jan Leike, John Schulman, Ilya Sutskever, Karl Cobbe. *arXiv 2023*. [[Paper](https://arxiv.org/abs/2305.20050)]
 
