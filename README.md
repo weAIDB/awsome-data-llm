@@ -16,11 +16,10 @@
 
 ## 🌤 The IaaS Concept of DATA4LLM
 
-The **IaaS** concept characterizes high-quality LLM datasets across four dimensions. (1) **Inclusiveness** ensures broad coverage across domains, tasks, sources, languages, styles, and modalities. (2) **Abundance** emphasizes sufficient and well-balanced data volume to support scaling, fine-tuning, and continual learning without overfitting. (3) **Articulation** requires clear, coherent, and instructive content with step-by-step reasoning to enhance model understanding and task performance. (4) **Sanitization** involves rigorous filtering to remove private, toxic, unethical, and misleading content, ensuring data safety, neutrality, and compliance.
+The **IaaS** concept characterizes high-quality LLM datasets across four dimensions. (1) **Inclusiveness** ensures broad coverage across domains, tasks, sources, languages, styles, and modalities. (2) **Abundance** emphasizes sufficient and well-balanced data volume to support scaling, fine-tuning, and continual learning without overfitting. (3) **Articulation** requires clear, coherent, and instructive content with step-by-step reasoning to enhance model understanding and task performance. (4) **Sanitization** involves rigorous filtering to remove private, toxic, unethical, and misleading content, ensuring data safety, neutrality, and compliance. [![arXiv](https://huggingface.co/datasets/huggingface/badges/raw/main/paper-page-sm-dark.svg)](assets/data_llm_survey_v3)
 
 
 <div align=center><img src="assets/iaas_overview_v2.png" alt="Cover" width="95%"/></div>
-
 
 
 ## Table of Contents
