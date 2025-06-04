@@ -716,9 +716,9 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
    Jack W. Rae, Sebastian Borgeaud, Trevor Cai, Katie Millican, et al. *arXiv 2021.* [[Paper](https://arxiv.org/abs/2112.11446v2)]
 5. **CCNet: Extracting High Quality Monolingual Datasets from Web Crawl Data**  
    Guillaume Wenzek, Marie - Anne Lachaux, Alexis Conneau, Vishrav Chaudhary, Francisco Guzmán, Armand Joulin, Edouard Grave. *LREC 2020.* [[Paper](https://aclanthology.org/2020.lrec-1.494/)]
-6. Exploring the limits of transfer learning with a unified text-to-text transformer**  
+6. **Exploring the limits of transfer learning with a unified text-to-text transformer**  
    Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu. *JMLR 2020.* [[Paper](https://arxiv.org/abs/1910.10683v4)]
-7. Bag of Tricks for Efficient Text Classification**  
+7. **Bag of Tricks for Efficient Text Classification**  
    Armand Joulin, Edouard Grave, Piotr Bojanowski, Tomas Mikolov. *EACL 2017.* [[Paper](https://aclanthology.org/E17-2068.pdf)]
 
 #### 1.7.3 Orchestration of data pipelines
