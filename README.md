@@ -1435,21 +1435,23 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 
 ##### Optimization-Aware Prompt Engineering
 
-1. **Can Large Language Models Be Query Optimizer for Relational Databases?**  
+1. **QUITE: A Query Rewrite System Beyond Rules with LLM Agents**  
+   Yuyang Song, Hanxu Yan, Jiale Lao, Yibo Wang, Yufei Li, Yuanchun Zhou, Jianguo Wang, Mingjie Tang. *arXiv 2025.* [[Paper](https://arxiv.org/pdf/2506.07675)]
+2. **Can Large Language Models Be Query Optimizer for Relational Databases?**  
    Jie Tan, Kangfei Zhao, Rui Li, Jeffrey Xu Yu, Chengzhi Piao, Hong Cheng, Helen Meng, Deli Zhao, Yu Rong. *arXiv 2025.* [[Paper](https://doi.org/10.48550/arXiv.2502.05562)]
-2. **A Query Optimization Method Utilizing Large Language Models**  
+3. **A Query Optimization Method Utilizing Large Language Models**  
    Zhiming Yao, Haoyang Li, Jing Zhang, Cuiping Li, Hong Chen. *arxiv 2025.* [[Paper](https://arxiv.org/abs/2503.06902)]
-3. **Query Rewriting via LLMs**  
+4. **Query Rewriting via LLMs**  
    Sriram Dharwada, Himanshu Devrani, Jayant Haritsa, Harish Doraiswamy. *arXiv 2025.* [[Paper](https://doi.org/10.48550/arXiv.2502.12918)]
-4. DB-GPT: **DB-GPT: Large Language Model Meets Database**    
+5. DB-GPT: **DB-GPT: Large Language Model Meets Database**    
    Xuanhe Zhou, Zhaoyan Sun, Guoliang Li. *Data Science and Engineering 2024.* [[Paper](https://link.springer.com/article/10.1007/s41019-023-00235-6)]
-5. **LLM-R2: A Large Language Model Enhanced Rule-Based Rewrite System for Boosting Query Efficiency**  
+6. **LLM-R2: A Large Language Model Enhanced Rule-Based Rewrite System for Boosting Query Efficiency**  
    Zhaodonghui Li, Haitao Yuan, Huiming Wang, Gao Cong, Lidong Bing. *VLDB 2024.* [[Paper](https://doi.org/10.14778/3696435.3696440)]
-6. **The Unreasonable Effectiveness of LLMs for Query Optimization**  
+7. **The Unreasonable Effectiveness of LLMs for Query Optimization**  
    Peter Akioyamen, Zixuan Yi, Ryan Marcus. *ML for Systems Workshop at NeurIPS 2024.* [[Paper](https://doi.org/10.48550/arXiv.2411.02862)]
-7. **R-Bot: An LLM-based Query Rewrite System**  
+8. **R-Bot: An LLM-based Query Rewrite System**  
    Zhaoyan Sun, Xuanhe Zhou, Guoliang Li. *arXiv 2024.* [[Paper](https://arxiv.org/abs/2412.01661)]
-8. **Query Rewriting via Large Language Models**  
+9. **Query Rewriting via Large Language Models**  
    Jie Liu, Barzan Mozafari. *arXiv 2024.* [[Paper](https://doi.org/10.48550/arXiv.2403.09060)]
 
 
