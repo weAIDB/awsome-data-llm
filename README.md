@@ -1443,7 +1443,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
    Zhiming Yao, Haoyang Li, Jing Zhang, Cuiping Li, Hong Chen. *arxiv 2025.* [[Paper](https://arxiv.org/abs/2503.06902)]
 4. **Query Rewriting via LLMs**  
    Sriram Dharwada, Himanshu Devrani, Jayant Haritsa, Harish Doraiswamy. *arXiv 2025.* [[Paper](https://doi.org/10.48550/arXiv.2502.12918)]
-5. DB-GPT: **DB-GPT: Large Language Model Meets Database**    
+5. **DB-GPT: Large Language Model Meets Database**    
    Xuanhe Zhou, Zhaoyan Sun, Guoliang Li. *Data Science and Engineering 2024.* [[Paper](https://link.springer.com/article/10.1007/s41019-023-00235-6)]
 6. **LLM-R2: A Large Language Model Enhanced Rule-Based Rewrite System for Boosting Query Efficiency**  
    Zhaodonghui Li, Haitao Yuan, Huiming Wang, Gao Cong, Lidong Bing. *VLDB 2024.* [[Paper](https://doi.org/10.14778/3696435.3696440)]
