@@ -1409,19 +1409,22 @@ with Large Language Models**
 
 #### 4.3.1 LLM for Configuration Tuning
 
-1. **Breaking It Down: An In-Depth Study of Index Advisors**  
-   Wei Zhou, Chen Lin, Xuanhe Zhou, Guoliang Li. *Proceedings of the VLDB Endowment, Volume 17, Issue 10. 2024.*. [[Paper](https://dl.acm.org/doi/10.14778/3675034.3675035)]
-2. **TRAP: Tailored Robustness Assessment for Index Advisors via Adversarial Perturbation**  
+1. **ELMo-Tune-V2: LLM-Assisted Full-Cycle Auto-Tuning to Optimize
+LSM-Based Key-Value Stores**  
+    Viraj Thakkar, Qi Lin, Kenanya Keandra Adriel Prasetyo, Raden Haryosatyo Wisjnunandono, Achmad Imam Kistijantoro, Reza Fuad Rachmadi, Zhichao Cao. *arxiv 2025* [[Paper](https://arxiv.org/abs/2502.17606)]
+2. **Breaking It Down: An In-Depth Study of Index Advisors**  
+   Wei Zhou, Chen Lin, Xuanhe Zhou, Guoliang Li. *Proceedings of the VLDB Endowment, Volume 17, Issue 10. 2024.* [[Paper](https://dl.acm.org/doi/10.14778/3675034.3675035)]
+3. **TRAP: Tailored Robustness Assessment for Index Advisors via Adversarial Perturbation**  
    Wei Zhou; Chen Lin; Xuanhe Zhou; Guoliang Li; Tianqing Wang. *2024 IEEE 40th International Conference on Data Engineering (ICDE)*. [[Paper](https://ieeexplore.ieee.org/document/10597867)]
-3. **Automatic Database Knob Tuning: A Survey**  
+4. **Automatic Database Knob Tuning: A Survey**  
    Xinyang Zhao, Xuanhe Zhou, Guoliang Li. *IEEE Transactions on Knowledge and Data Engineering, Volume 35, Issue 12. 2023.*  [[Paper](https://dl.acm.org/doi/10.1109/TKDE.2023.3266893)]
-4. **Demonstration of ViTA: Visualizing, Testing and Analyzing Index Advisors**    
+5. **Demonstration of ViTA: Visualizing, Testing and Analyzing Index Advisors**    
    Wei Zhou, Chen Lin, Xuanhe Zhou, Guoliang Li, Tianqing Wang. *CIKM 2023.* [[Paper](https://dl.acm.org/doi/abs/10.1145/3583780.3614738)]
-5. **An Efficient Transfer Learning Based Configuration Adviser for Database Tuning**  
+6. **An Efficient Transfer Learning Based Configuration Adviser for Database Tuning**  
    Xinyi Zhang, Hong Wu, Yang Li, Zhengju Tang, Jian Tan, Feifei Li, Bin Cui. *Proceedings of the VLDB Endowment, Volume 17, Issue 3. 2023.* [[Paper](https://dl.acm.org/doi/abs/10.14778/3632093.3632114)]
-6. **Code-aware cross-program transfer hyperparameter optimization**  
+7. **Code-aware cross-program transfer hyperparameter optimization**  
    Zijia Wang, Xiangyu He, Kehan Chen, Chen Lin, Jinsong Su. *AAAI 2023.* [[Paper](https://dl.acm.org/doi/10.1609/aaai.v37i9.26226)]
-7. **QTune: a query-aware database tuning system with deep reinforcement learning**  
+8. **QTune: a query-aware database tuning system with deep reinforcement learning**  
    Guoliang Li, Xuanhe Zhou, Shifu Li, Bo Gao. *Proceedings of the VLDB Endowment, Volume 12, Issue 12. 2019.* [[Paper](https://dl.acm.org/doi/10.14778/3352063.3352129)]
 
 ##### Tuning Task-Aware Prompt Engineering
