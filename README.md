@@ -1318,9 +1318,11 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 
 1. **MiMoTable: A Multi-scale Spreadsheet Benchmark with Meta Operations for Table Reasoning**  
    Zheng Li, Yang Du, Mao Zheng, Mingyang Song. *COLING 2025.* [[Paper](https://doi.org/10.48550/arXiv.2412.11711)]
-2. **SpreadsheetBench: Towards Challenging Real World Spreadsheet Manipulation**  
+2. **AOP: Automated and Interactive LLM Pipeline Orchestration for Answering Complex Queries**  
+   Jiayi Wang, Guoliang Li. *CIDR 2025* [[Paper](https://vldb.org/cidrdb/papers/2025/p32-wang.pdf)]
+3. **SpreadsheetBench: Towards Challenging Real World Spreadsheet Manipulation**  
    Zeyao Ma, Bohan Zhang, Jing Zhang, Jifan Yu, Xiaokang Zhang, Xiaohan Zhang, Sijia Luo, Xi Wang, Jie Tang. *NeurIPS 2024.* [[Paper](https://doi.org/10.48550/arXiv.2406.14991)]
-3. **TempTabQA: Temporal Question Answering for Semi-Structured Tables**  
+4. **TempTabQA: Temporal Question Answering for Semi-Structured Tables**  
    Vivek Gupta, Pranshu Kandoi, Mahek Bhavesh Vora, Shuo Zhang, Yujie He, Ridho Reinanda, Vivek Srikumar. *EMNLP 2023.* [[Paper](https://doi.org/10.48550/arXiv.2311.08002)]
 
 
@@ -1329,27 +1331,36 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 
 ##### 4.2.3.1 Documents
 
-1. **DocFormerv2: Local Features for Document Understanding**  
+1. **AOP: Automated and Interactive LLM Pipeline Orchestration
+for Answering Complex Queries**  
+    Jiayi Wang, Guoliang Li. *CIDR 2025* [[Paper](https://vldb.org/cidrdb/papers/2025/p32-wang.pdf)]
+2. **Palimpzest: Optimizing AI-Powered Analytics with Declarative
+Query Processing**  
+    Chunwei Liu, Matthew Russo, Michael Cafarella, Lei Cao, Peter Baile Chen, Zui Chen, Michael Franklin, Tim Kraska, Samuel Madden, Rana Shahout, Gerardo Vitagliano. *CIDR 2025* [[Paper](https://www.vldb.org/cidrdb/papers/2025/p12-liu.pdf)]
+3. **Towards Accurate and Efficient Document Analytics
+with Large Language Models**  
+    Y. Lin, M. Hulsebos, R. Ma, S. Shankar, S. Zeighami, A. G. Parameswaran, E. Wu. *arxiv 2024.* [[Paper](https://arxiv.org/abs/2405.04674/)]
+4. **DocFormerv2: Local Features for Document Understanding**  
    Srikar Appalaraju, Peng Tang, Qi Dong, Nishant Sankaran, Yichu Zhou, R. Manmatha. *AAAI 2024.* [[Paper](https://doi.org/10.1609/aaai.v38i2.27828)]
-2. **mPLUG-DocOwl 1.5: Unified Structure Learning for OCR-free Document Understanding**  
+5. **mPLUG-DocOwl 1.5: Unified Structure Learning for OCR-free Document Understanding**  
    Anwen Hu, Haiyang Xu, Jiabo Ye, Ming Yan, Liang Zhang, Bo Zhang, Ji Zhang, Qin Jin, Fei Huang, Jingren Zhou. *Findings of EMNLP 2024.* [[Paper](https://aclanthology.org/2024.findings-emnlp.175/)]
-3. **DocPedia: Unleashing the Power of Large Multimodal Model in the Frequency Domain for Versatile Document Understanding**  
+6. **DocPedia: Unleashing the Power of Large Multimodal Model in the Frequency Domain for Versatile Document Understanding**  
    Hao Feng, Qi Liu, Hao Liu, Jingqun Tang, Wengang Zhou, Houqiang Li, Can Huang. *SCIS 2024.* [[Paper](https://doi.org/10.48550/arXiv.2311.11810)]
-4. **Focus Anywhere for Fine-grained Multi-page Document Understanding**  
+7. **Focus Anywhere for Fine-grained Multi-page Document Understanding**  
    Chenglong Liu, Haoran Wei, Jinyue Chen, Lingyu Kong, Zheng Ge, Zining Zhu, Liang Zhao, Jianjian Sun, Chunrui Han, Xiangyu Zhang. *arXiv 2024.* [[Paper](https://arxiv.org/abs/2405.14295)]
-5. **General OCR Theory: Towards OCR-2.0 via a Unified End-to-end Model**  
+8. **General OCR Theory: Towards OCR-2.0 via a Unified End-to-end Model**  
    Haoran Wei, Chenglong Liu, Jinyue Chen, Jia Wang, Lingyu Kong, Yanming Xu, Zheng Ge, Liang Zhao, Jianjian Sun, Yuang Peng, Chunrui Han, Xiangyu Zhang. *arXiv 2024.* [[Paper](https://arxiv.org/abs/2409.01704v1)]
-6. **DUBLIN: Visual Document Understanding By Language-Image Network**  
+9. **DUBLIN: Visual Document Understanding By Language-Image Network**  
    Kriti Aggarwal, Aditi Khandelwal, Kumar Tanmay, Owais Khan Mohammed, Qiang Liu, Monojit Choudhury, Hardik Chauhan, Subhojit Som, Vishrav Chaudhary, Saurabh Tiwary. *EMNLP Industry Track 2023.* [[Paper](https://aclanthology.org/2023.emnlp-industry.65/)]
-7. **Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding**  
+10. **Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding**  
    Kenton Lee, Mandar Joshi, Iulia Turc, Hexiang Hu, Fangyu Liu, Julian Eisenschlos, Urvashi Khandelwal, Peter Shaw, Ming-Wei Chang, Kristina Toutanova. *ICML 2023.* [[Paper](https://dl.acm.org/doi/10.5555/3618408.3619188?ref=localhost)]
-8. **Unifying Vision, Text, and Layout for Universal Document Processing**  
+11. **Unifying Vision, Text, and Layout for Universal Document Processing**  
    Zineng Tang, Ziyi Yang, Guoxin Wang, Yuwei Fang, Yang Liu, Chenguang Zhu, Michael Zeng, Cha Zhang, Mohit Bansal. *CVPR 2023.* [[Paper](https://arxiv.org/abs/2212.02623v3)]
-9. **Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer**  
+12. **Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer**  
    Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu. *JMLR 2020.* [[Paper](https://dl.acm.org/doi/10.5555/3455716.3455856)]
-10. **An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale**  
+13. **An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale**  
     Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, Neil Houlsby. *ICLR  2021.* [[Paper](https://iclr.cc/virtual/2021/oral/3458)]
-11. **The JPEG Still Picture Compression Standard**  
+14. **The JPEG Still Picture Compression Standard**  
     Gregory K. Wallace. *Communications of the ACM 1991.* [[Paper](https://doi.org/10.1145/103085.103089)]
 
 
