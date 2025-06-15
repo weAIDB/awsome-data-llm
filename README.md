@@ -1167,11 +1167,11 @@ Mike Conover and Matt Hayes and Ankit Mathur and Jianwei Xie and Jun Wan and Sam
    Lei Sheng, Shuai-Shuai Xu. *arXiv 2025* [[Paper](https://arxiv.org/abs/2505.13271)]
 6. **OmniSQL: Synthesizing High-quality Text-to-SQL Data at Scale**    
    Haoyang Li, Shang Wu, Xiaokang Zhang, et al. *arXiv 2025* [[Paper](https://arxiv.org/abs/2503.02240)]
-7. **OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment **   
+7. **OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment**   
    Xiangjin Xie, Guangwei Xu, Lingyan Zhao, Ruijie Guo. *arXiv 2025* [[Paper](https://arxiv.org/abs/2502.14913)]
 8. **Cheaper, Better, Faster, Stronger: Robust Text-to-SQL without Chain-of-Thought or Fine-Tuning**    
    Yusuf Denizay Dönder, Derek Hommel, Andrea W Wen-Yi, David Mimno, Unso Eun Seo Jo. *arXiv 2025* [[Paper](https://arxiv.org/abs/2505.14174)]
-9. **A Preview of XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL **   
+9. **A Preview of XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL**   
    Yingqi Gao, Yifu Liu, Xiaoxia Li, et al. *arXiv 2025* [[Paper](https://arxiv.org/abs/2411.08599)]
 10. **FinSQL: Model-Agnostic LLMs-based Text-to-SQL Framework for Financial Analysis**  
     Chao Zhang, Yuren Mao, Yijiang Fan, Yu Mi, Yunjun Gao, Lu Chen, Dongfang Lou, Jinshu Lin. *SIGMOD 2024.* [[Paper](https://doi.org/10.1145/3626246.3653375)]
