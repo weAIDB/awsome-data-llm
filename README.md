@@ -127,9 +127,8 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 
 #### General Instruction Following
 
-1. **Free dolly: Introducing the world’s first truly open instruction-tuned llm**  
-
-   Mike Conover and Matt Hayes and Ankit Mathur and Jianwei Xie and Jun Wan and Sam Shah and Ali Ghodsi and Patrick Wendell and Matei Zaharia and Reynold Xin. [[Source](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm)]
+1. **Free dolly: Introducing the world’s first truly open instruction-tuned llm**    
+Mike Conover and Matt Hayes and Ankit Mathur and Jianwei Xie and Jun Wan and Sam Shah and Ali Ghodsi and Patrick Wendell and Matei Zaharia and Reynold Xin. [[Source](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm)]
 
 #### Specific Domain Usage
 
@@ -155,7 +154,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 ### Data for Retrieval-Augmented Generation (RAG)
 
 1. **DH-RAG: A Dynamic Historical Context-Powered Retrieval-Augmented Generation Method for Multi-Turn Dialogue**  
-   Feiyuan Zhang, Dezhi Zhu, James Ming, Yilun Jin, Di Chai, Liu Yang, Han Tian, Zhaoxin Fan, Kai Chen. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2502.13847)]
+   Feiyuan Zhang, Dezhi Zhu, James Ming, et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2502.13847)]
 2. **Medical Graph RAG: Towards Safe Medical Large Language Model via Graph Retrieval-Augmented Generation**  
    Junde Wu, Jiayuan Zhu, Yunli Qi, Jingkun Chen, Min Xu, Filippo Menolascina, Vicente Grau. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2408.04187)]
 3. **ERAGent: Enhancing Retrieval-Augmented Language Models with Improved Accuracy, Efficiency, and Personalization**  
@@ -290,7 +289,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 3. **SimiSketch: Efficiently Estimating Similarity of streaming Multisets**   
    Fenghao Dong, Yang He, Yutong Liang, Zirui Liu, Yuhan Wu, Peiqing Chen, Tong Yang. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2405.19711)] 
 4. **DotHash: Estimating Set Similarity Metrics for Link Prediction and Document Deduplication**  
-   Igor Nunes, Mike Heddes, Pere Vergés, Danny Abraham, Alex Veidenbaum, Alex Nicolau, Tony Givargis. *KDD 2023.* [[Paper](https://doi.org/10.1145/3580305.3599314)]
+   Igor Nunes, Mike Heddes, Pere Vergés, et al. *KDD 2023.* [[Paper](https://doi.org/10.1145/3580305.3599314)]
 5. **Formalizing BPE Tokenization**  
    Martin Berglund (Umeå University), Brink van der Merwe (Stellenbosch University). *NCMA 2023*. [[Paper](https://arxiv.org/abs/2309.08715)]
 6. **SlimPajama-DC: Understanding Data Combinations for LLM Training**  
@@ -308,14 +307,14 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 #### Approximate Frequency-based Down-Weighting
 
 1. **SoftDedup: an Efficient Data Reweighting Method for Speeding Up Language Model Pre-training**  
-   Nan He, Weichen Xiong, Hanwen Liu, Yi Liao, Lei Ding, Kai Zhang, Guohua Tang, Xiao Han, Yang Wei. *ACL 2024.* [[Paper](https://aclanthology.org/2024.acl-long.220/)]
+   Nan He, Weichen Xiong, Hanwen Liu, et al. *ACL 2024.* [[Paper](https://aclanthology.org/2024.acl-long.220/)]
 
 #### Embedding-Based Clustering
 
 1. **FairDeDup: Detecting and Mitigating Vision-Language Fairness Disparities in Semantic Dataset Deduplication**  
    Eric Slyman, Stefan Lee, Scott Cohen, Kushal Kafle. *CVPR 2024.* [[Paper](https://arxiv.org/abs/2404.16123)]
 2. **Effective Pruning of Web-Scale Datasets Based on Complexity of Concept Clusters**  
-   Amro Abbas, Evgenia Rusak, Kushal Tirumala, Wieland Brendel, Kamalika Chaudhuri, Ari S. Morcos. *ICLR 2024.* [[Paper](https://doi.org/10.48550/arXiv.2401.04578)]
+   Amro Abbas, Evgenia Rusak, Kushal Tirumala, et al. *ICLR 2024.* [[Paper](https://doi.org/10.48550/arXiv.2401.04578)]
 3. **D4: Improving LLM Pretraining via Document De-Duplication and Diversification**  
    Kushal Tirumala, Daniel Simig, Armen Aghajanyan, Ari Morcos. *NeurIPS 2023.* [[Paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/a8f8cbd7f7a5fb2c837e578c75e5b615-Abstract-Datasets_and_Benchmarks.html)]
 4. **SemDeDup: Data-efficient learning at web-scale through semantic deduplication**  
@@ -359,7 +358,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 6. **WizardLM: Empowering Large Pre-Trained Language Models to Follow Complex Instructions**  
    Can Xu, Qingfeng Sun, Kai Zheng, et al. *ICLR 2024.* [[Paper](https://iclr.cc/virtual/2024/poster/19164)]
 7. **Superfiltering: Weak-to-Strong Data Filtering for Fast Instruction-Tuning**  
-   Ming Li, Yong Zhang, Shwai He, Zhitao Li, Hongyu Zhao, Jianzong Wang, Ning Cheng, Tianyi Zhou. *ACL 2024.* [[Paper](https://doi.org/10.48550/arXiv.2402.00530)]
+   Ming Li, Yong Zhang, Shwai He, et al. *ACL 2024.* [[Paper](https://doi.org/10.48550/arXiv.2402.00530)]
 8. **Smaller Language Models are capable of selecting Instruction-Tuning Training Data for Larger Language Models**  
    Dheeraj Mekala, Alex Nguyen, Jingbo Shang. *ACL 2024*. [[Paper](https://aclanthology.org/2024.findings-acl.623/)]
 9. **Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research**  
@@ -392,7 +391,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 3. **What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning**  
    Wei Liu, Weihao Zeng, Keqing He, Yong Jiang, Junxian He. *ICLR 2024.* [[Paper](https://arxiv.org/abs/2312.15685)]
 4. **LAB: Large-Scale Alignment for ChatBots**  
-   Shivchander Sudalairaj, Abhishek Bhandwaldar, Aldo Pareja, Kai Xu, David D. Cox, Akash Srivastava. *arXiv 2024.* [[Paper](https://doi.org/10.48550/arXiv.2403.01081)]
+   Shivchander Sudalairaj, Abhishek Bhandwaldar, Aldo Pareja, et al. *arXiv 2024.* [[Paper](https://doi.org/10.48550/arXiv.2403.01081)]
 5. **Biases in Large Language Models: Origins, Inventory, and Discussion**  
    Roberto Navigli, Simone Conia, Björn Ross. *ACM JDIQ, 2023.* [[Paper](https://doi.org/10.1145/3597307)]
 
@@ -419,7 +418,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 
 1. **spaCy**: An industrial-strength Natural Language Processing (NLP) library that supports tokenization, part-of-speech tagging, named entity recognition, dependency parsing, and more; well-suited for fast and accurate text processing and information extraction. [[Source](https://spacy.io/)]
 2. **CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer**  
-   Zhuoyi Yang, Jiayan Teng, Wendi Zheng, et al. ICLR 2025. [Paper]
+   Zhuoyi Yang, Jiayan Teng, Wendi Zheng, et al. ICLR 2025. [[Paper](https://arxiv.org/abs/2408.06072)]
 3. **HunyuanVideo: A Systematic Framework For Large Video Generative Models**  
    Weijie Kong, Qi Tian, Zijian Zhang, et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2412.03603v6)]
 4. **Wan: Open and Advanced Large-Scale Video Generative Models**  
@@ -438,7 +437,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
       Zheng Ge, Songtao Liu, Feng Wang, Zeming Li, Jian Sun. *arXiv 2021*. [[Paper](https://arxiv.org/abs/2107.08430)]
 11. **LAION-400M: Open Dataset of CLIP-Filtered 400 Million Image-Text Pairs** [[Paper](https://doi.org/10.48550/arXiv.2111.02114)]
 12. **FLAIR: An Easy-to-Use Framework for State-of-the-Art NLP**  
-    Alan Akbik, Tanja Bergmann, Duncan Blythe, Kashif Rasul, Stefan Schweter, Roland Vollgraf. *NAACL 2019 Demos.* [[Paper](https://aclanthology.org/N19-4010/)]
+    Alan Akbik, Tanja Bergmann, Duncan Blythe, et al. *NAACL 2019 Demos.* [[Paper](https://aclanthology.org/N19-4010/)]
 
 ### 1.4 Data Selection
 
@@ -454,9 +453,9 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 
 1. **spaCy**:  [[Source](https://spacy.io/)]
 2. **Enabling On-Device Large Language Model Personalization with Self-Supervised Data Selection and Synthesis**  
-   Ruiyang Qin, Jun Xia, Zhenge Jia, Meng Jiang, Ahmed Abbasi, Peipei Zhou, Jingtong Hu, Yiyu Shi. *DAC 2024.* [[Paper](https://doi.org/10.1145/3649329.3655665)]
+   Ruiyang Qin, Jun Xia, Zhenge Jia, et al. *DAC 2024.* [[Paper](https://doi.org/10.1145/3649329.3655665)]
 3. **CoLoR-Filter: Conditional Loss Reduction Filtering for Targeted Language Model Pre-training**  
-   David Brandfonbrener, Hanlin Zhang, Andreas Kirsch, Jonathan Richard Schwarz, Sham Kakade. *NeurIPS 2024.* [[Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/b0f25f0a63cc544d506e4c1374a3c807-Abstract-Conference.html)]
+   David Brandfonbrener, Hanlin Zhang, Andreas Kirsch, et al. *NeurIPS 2024.* [[Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/b0f25f0a63cc544d506e4c1374a3c807-Abstract-Conference.html)]
 4. **Efficient Continual Pre-training for Building Domain Specific Large Language Models**  
    Yong Xie, Karan Aggarwal, Aitzaz Ahmad. *Findings of ACL 2024*. [[Paper](https://aclanthology.org/2024.findings-acl.606/)]
 5. **Data Selection for Language Models via Importance Resampling**  
@@ -524,7 +523,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 #### Model-Based Optimization
 
 1. **RegMix: Data Mixture as Regression for Language Model Pre-training**  
-   Qian Liu, Xiaosen Zheng, Niklas Muennighoff, Guangtao Zeng, Longxu Dou, Tianyu Pang, Jing Jiang, Min Lin. *ICLR 2025.* [[Paper](https://iclr.cc/virtual/2025/poster/30960)]
+   Qian Liu, Xiaosen Zheng, Niklas Muennighoff, et al. *ICLR 2025.* [[Paper](https://iclr.cc/virtual/2025/poster/30960)]
 2. **Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance**  
    Jiasheng Ye, Peiju Liu, Tianxiang Sun, Yunhua Zhou, Jun Zhan, Xipeng Qiu. *ICLR 2025.* [[Paper](https://arxiv.org/abs/2403.16952)]
 3. **CMR Scaling Law: Predicting Critical Mixture Ratios for Continual Pre-training of Language Models**  
@@ -540,7 +539,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 9. **Training compute-optimal large language models**  
    Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor Cai, Eliza Rutherford, Diego de Las Casas, Lisa Anne Hendricks, Johannes Welbl, Aidan Clark, et al. *NeurIPS 2022.* [[Paper](https://dl.acm.org/doi/10.5555/3600270.3602446)]
 10. **LightGBM: a highly efficient gradient boosting decision tree**  
-    Guolin Ke, Qi Meng, Thomas Finley, Taifeng Wang, Wei Chen, Weidong Ma, Qiwei Ye, Tie-Yan Liu. *NeurIPS 2017.* [[Paper](https://dl.acm.org/doi/10.5555/3294996.3295074)]
+    Guolin Ke, Qi Meng, Thomas Finley, et al. *NeurIPS 2017.* [[Paper](https://dl.acm.org/doi/10.5555/3294996.3295074)]
 
 
 
@@ -579,7 +578,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 4. **JiuZhang3.0: Efficiently Improving Mathematical Reasoning by Training Small Data Synthesis Models**  
    Kun Zhou, Beichen Zhang, Jiapeng Wang, et al. *arXiv 2024.* [[Paper](https://arxiv.org/abs/2405.14365)]
 5. **Florence-2: Advancing a Unified Representation for a Variety of Vision Tasks**  
-   Bin Xiao, Haiping Wu, Weijian Xu, Xiyang Dai, Houdong Hu, Yumao Lu, Michael Zeng, Ce Liu, Lu Yuan. *CVPR 2024*. [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Xiao_Florence-2_Advancing_a_Unified_Representation_for_a_Variety_of_Vision_CVPR_2024_paper.pdf)]
+   Bin Xiao, Haiping Wu, Weijian Xu, et al. *CVPR 2024*. [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Xiao_Florence-2_Advancing_a_Unified_Representation_for_a_Variety_of_Vision_CVPR_2024_paper.pdf)]
 6. **DiffuseMix: Label-Preserving Data Augmentation with Diffusion Models**  
    Khawar Islam, Muhammad Zaigham Zaheer, Arif Mahmood, Karthik Nandakumar. *CVPR 2024*. [[Paper](https://arxiv.org/abs/2405.14881)]
 7. **Magicoder: Empowering Code Generation with OSS-Instruct**   
@@ -592,7 +591,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 11. **VeCLIP: Improving CLIP Training via Visual-Enriched Captions**  
     Zhengfeng Lai, Haotian Zhang, Bowen Zhang, et al. *ECCV 2024*. [[Paper](https://dl.acm.org/doi/10.1007/978-3-031-72946-1_7)]
 12. **Diffusion Models and Representation Learning: A Survey**  
-    Michael Fuest, Pingchuan Ma, Ming Gui, Johannes Schusterbauer, Vincent Tao Hu, Bjorn Ommer. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2407.00783)]
+    Michael Fuest, Pingchuan Ma, Ming Gui, et al. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2407.00783)]
 13. **CtrlSynth: Controllable Image Text Synthesis for Data-Efficient Multimodal Learning**  
     Qingqing Cao, Mahyar Najibi, Sachin Mehta. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2410.11963)]
 14. **Qwen2 Technical Report**  
@@ -775,9 +774,9 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 5. **Mix-of-Granularity: Optimize the Chunking Granularity for Retrieval-Augmented Generation**  
    Zijie Zhong, Hanwen Liu, Xiaoya Cui, Xiaofan Zhang, Zengchang Qin. *COLING 2025.* [[Paper](https://doi.org/10.48550/arXiv.2406.00456)]
 6. **Dense X Retrieval: What Retrieval Granularity Should We Use?**  
-   Tong Chen, Hongwei Wang, Sihao Chen, Wenhao Yu, Kaixin Ma, Xinran Zhao, Hongming Zhang, Dong Yu. *EMNLP 2024*. [[Paper](https://aclanthology.org/2024.emnlp-main.845/)]
+   Tong Chen, Hongwei Wang, Sihao Chen, et al. *EMNLP 2024*. [[Paper](https://aclanthology.org/2024.emnlp-main.845/)]
 7. **Scalable and Domain-General Abstractive Proposition Segmentation**  
-   Mohammad Javad Hosseini, Yang Gao, Tim Baumgärtner, Alex Fabrikant, Reinald Kim Amplayo. *Findings of EMNLP 2024*. [[Paper](https://aclanthology.org/2024.findings-emnlp.517/)]
+   Mohammad Javad Hosseini, Yang Gao, Tim Baumgärtner, et al. *Findings of EMNLP 2024*. [[Paper](https://aclanthology.org/2024.findings-emnlp.517/)]
 8. **A Hierarchical Context Augmentation Method to Improve Retrieval-Augmented LLMs on Scientific Papers**  
    Tian-Yi Che, Xian-Ling Mao, Tian Lan, Heyan Huang. *KDD 2024*. [[Paper](https://dl.acm.org/doi/10.1145/3637528.3671847)]
 9. **M3-Embedding: Multi-Linguality, Multi-Functionality, Multi-Granularity Text Embeddings Through Self-Knowledge Distillation**  
@@ -789,7 +788,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 12. **The Faiss Library**  
     Matthijs Douze, Alexandr Guzhva, Chengqi Deng, Jeff Johnson, Gergely Szilvasy, Pierre-Emmanuel Mazaré, Maria Lomeli, Lucas Hosseini, Hervé Jégou. *arXiv 2024.* [[Paper](https://doi.org/10.48550/arXiv.2401.08281)]
 13. **Similarity Search in the Blink of an Eye with Compressed Indices**  
-    Cecilia Aguerrebere, Ishwar Singh Bhati, Mark Hildebrand, Mariano Tepper, Theodore Willke. *VLDB Endowment 2023.* [[Paper](https://doi.org/10.14778/3611479.3611537)]
+    Cecilia Aguerrebere, Ishwar Singh Bhati, Mark Hildebrand, et al. *VLDB Endowment 2023.* [[Paper](https://doi.org/10.14778/3611479.3611537)]
 14. **LeanVec: Searching Vectors Faster by Making Them Fit**  
     Mariano Tepper, Ishwar Singh Bhati, Cecilia Aguerrebere, Mark Hildebrand, Ted Willke. *arXiv 2023.* [[Paper](https://doi.org/10.48550/arXiv.2312.16335)]
 15. **Towards General Text Embeddings with Multi-stage Contrastive Learning**  
@@ -841,9 +840,9 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 #### Overlapping of storage and computing
 
 1. **Optimizing RLHF Training for Large Language Models with Stage Fusion**  
-   Yinmin Zhong, Zili Zhang, Bingyang Wu, Shengyu Liu, Yukun Chen, Changyi Wan, Hanpeng Hu, Lei Xia, Ranchen Ming, Yibo Zhu, Xin Jin. *NSDI 2025*. [[Paper](https://www.usenix.org/conference/nsdi25/presentation/zhong)]
+   Yinmin Zhong, Zili Zhang, Bingyang Wu, et al. *NSDI 2025*. [[Paper](https://www.usenix.org/conference/nsdi25/presentation/zhong)]
 2. **SiloD: A Co-design of Caching and Scheduling for Deep Learning Clusters**  
-   Hanyu Zhao, Zhenhua Han, Zhi Yang, Quanlu Zhang, Mingxia Li, Fan Yang, Qianxi Zhang, Binyang Li, Yuqing Yang, Lili Qiu, Lintao Zhang, Lidong Zhou. *EuroSys 2023.* [[Paper](https://doi.org/10.1145/3552326.3567499)]
+   Hanyu Zhao, Zhenhua Han, Zhi Yang, et al. *EuroSys 2023.* [[Paper](https://doi.org/10.1145/3552326.3567499)]
 3. **Optimization by Simulated Annealing**  
    S. Kirkpatrick, C. D. Gelatt, Jr., M. P. Vecchi. *Science, 220(4598):671–680, 1983*. [[Paper](https://www.science.org/doi/10.1126/science.220.4598.671)]
 
@@ -890,7 +889,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 #### KV Placement
 
 1. **Cost-Efficient Large Language Model Serving for Multi-turn Conversations with CachedAttention**  
-   Bin Gao, Zhuomin He, Puru Sharma, Qingxuan Kang, Djordje Jevdjic, Junbo Deng, Xingkun Yang, Zhou Yu, Pengfei Zuo. *USENIX ATC 2024.* [[Paper](https://arxiv.org/abs/2403.19708)]
+   Bin Gao, Zhuomin He, Puru Sharma, et al. *USENIX ATC 2024.* [[Paper](https://arxiv.org/abs/2403.19708)]
 2. **RAGCache: Efficient Knowledge Caching for Retrieval-Augmented Generation**  
    Chao Jin, Zili Zhang, Xuanlin Jiang, Fangyue Liu, Xin Liu, Xuanzhe Liu, Xin Jin. *arXiv 2024.* [[Paper](https://arxiv.org/abs/2404.12457)]
 
@@ -957,7 +956,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 5. **Large Language Model Is Not a Good Few-shot Information Extractor, but a Good Reranker for Hard Samples!**  
    Yubo Ma, Yixin Cao, YongChing Hong, Aixin Sun. *Findings of EMNLP 2023*. [[Paper](https://aclanthology.org/2023.findings-emnlp.710/)]
 6. **Chatlaw: A Multi-Agent Collaborative Legal Assistant with Knowledge Graph Enhanced Mixture-of-Experts Large Language Model**  
-   Jiaxi Cui, Munan Ning, Zongjian Li, Bohua Chen, Yang Yan, Hao Li, Bin Ling, Yonghong Tian, Li Yuan. *arXiv 2023*.[[Paper](https://arxiv.org/abs/2306.16092v2)]
+   Jiaxi Cui, Munan Ning, Zongjian Li, et al. *arXiv 2023*.[[Paper](https://arxiv.org/abs/2306.16092v2)]
 7. **RankVicuna: Zero-Shot Listwise Document Reranking with Open-Source Large Language Models**  
    Ronak Pradeep, Sahel Sharifymoghaddam, Jimmy Lin. *arXiv 2023.* [[Paper](https://doi.org/10.48550/arXiv.2309.15088)]
 
@@ -972,7 +971,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 1. **Context Embeddings for Efficient Answer Generation in RAG**  
    David Rau, Shuai Wang, Hervé Déjean, Stéphane Clinchant. *WSDM 2025.* [[Paper](https://doi.org/10.48550/arXiv.2407.09252)]
 2. **xRAG: Extreme Context Compression for Retrieval-augmented Generation with One Token**  
-   Xin Cheng, Xun Wang, Xingxing Zhang, Tao Ge, Si-Qing Chen, Furu Wei, Huishuai Zhang, Dongyan Zhao. *NeurIPS 2024.* [[Paper](https://doi.org/10.48550/arXiv.2405.13792)]
+   Xin Cheng, Xun Wang, Xingxing Zhang, et al. *NeurIPS 2024.* [[Paper](https://doi.org/10.48550/arXiv.2405.13792)]
 3. **RECOMP: Improving Retrieval-Augmented LMs with Context Compression and Selective Augmentation**  
    Fangyuan Xu, Weijia Shi, Eunsol Choi. *ICLR 2024.* [[Paper](https://iclr.cc/virtual/2024/poster/17885)]
 4. **Compressing Long Context for Enhancing RAG with AMR-based Concept Distillation**   
@@ -1002,7 +1001,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 #### Short Sequence Insertion
 
 1. **Fewer Truncations Improve Language Modeling**  
-   Hantian Ding, Zijian Wang, Giovanni Paolini, Varun Kumar, Anoop Deoras, Dan Roth, Stefano Soatto. *ICML 2024.* [[Paper](https://doi.org/10.48550/arXiv.2404.10830)]
+   Hantian Ding, Zijian Wang, Giovanni Paolini, et al. *ICML 2024.* [[Paper](https://doi.org/10.48550/arXiv.2404.10830)]
 2. **Bucket Pre-training is All You Need**  
    Hongtao Liu, Qiyao Peng, Qing Yang, Kai Liu, Hongyan Xu. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2407.07495)]
 
@@ -1040,7 +1039,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 4. **A Watermark for Large Language Models**  
    John Kirchenbauer, Jonas Geiping, Yuxin Wen, Jonathan Katz, Ian Miers, Tom Goldstein. *ICML 2023*. [[Paper](https://arxiv.org/abs/2301.10226)]
 5. **Publicly-Detectable Watermarking for Language Models**   
-   Jaiden Fairoze, Sanjam Garg, Somesh Jha, Saeed Mahloujifar, Mohammad Mahmoody, Mingyuan Wang. *arXiv 2023*. [[Paper](https://arxiv.org/abs/2310.18491)]
+   Jaiden Fairoze, Sanjam Garg, Somesh Jha, et al. *arXiv 2023*. [[Paper](https://arxiv.org/abs/2310.18491)]
 
 #### Statistical Provenance
 
@@ -1160,34 +1159,34 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
    Wei Zhou, Yuyang Gao, Xuanhe Zhou, Guoliang Li. *SIGMOD 2025*. [[Paper](https://dbgroup.cs.tsinghua.edu.cn/ligl/SIGMOD25-CrackSQL.pdf)]
 2. **CrackSQL: A Hybrid SQL Dialect Translation System Powered by Large Language Models**    
    Wei Zhou, Yuyang Gao, Xuanhe Zhou, Guoliang Li. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2504.00882#:~:text=In%20this%20demonstration%2C%20we%20present%20CrackSQL%2C%20the%20first,rule%20and%20LLM-based%20methods%20to%20overcome%20these%20limitations.)]
-3. **Automatic Metadata Extraction for Text-to-SQL**
+3. **Automatic Metadata Extraction for Text-to-SQL**     
    Vladislav Shkapenyuk, Divesh Srivastava, Theodore Johnson, Parisa Ghane. *arXiv 2025* [[Paper](https://arxiv.org/abs/2505.19988)]
-4. **CSC-SQL: Corrective Self-Consistency in Text-to-SQL via Reinforcement Learning**
+4. **CSC-SQL: Corrective Self-Consistency in Text-to-SQL via Reinforcement Learning**     
    Lei Sheng, Shuai-Shuai Xu. *arXiv 2025* [[Paper](https://arxiv.org/abs/2505.13271)]
-5. **Reasoning-SQL: Reinforcement Learning with SQL Tailored Partial Rewards for Reasoning-Enhanced Text-to-SQL**
+5. **Reasoning-SQL: Reinforcement Learning with SQL Tailored Partial Rewards for Reasoning-Enhanced Text-to-SQL**       
    Lei Sheng, Shuai-Shuai Xu. *arXiv 2025* [[Paper](https://arxiv.org/abs/2505.13271)]
-6. **OmniSQL: Synthesizing High-quality Text-to-SQL Data at Scale**
+6. **OmniSQL: Synthesizing High-quality Text-to-SQL Data at Scale**    
    Haoyang Li, Shang Wu, Xiaokang Zhang, et al. *arXiv 2025* [[Paper](https://arxiv.org/abs/2503.02240)]
-7. **OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment**
+7. **OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment **   
    Xiangjin Xie, Guangwei Xu, Lingyan Zhao, Ruijie Guo. *arXiv 2025* [[Paper](https://arxiv.org/abs/2502.14913)]
-8. **Cheaper, Better, Faster, Stronger: Robust Text-to-SQL without Chain-of-Thought or Fine-Tuning**
+8. **Cheaper, Better, Faster, Stronger: Robust Text-to-SQL without Chain-of-Thought or Fine-Tuning**    
    Yusuf Denizay Dönder, Derek Hommel, Andrea W Wen-Yi, David Mimno, Unso Eun Seo Jo. *arXiv 2025* [[Paper](https://arxiv.org/abs/2505.14174)]
-9. **A Preview of XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL**
+9. **A Preview of XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL **   
    Yingqi Gao, Yifu Liu, Xiaoxia Li, et al. *arXiv 2025* [[Paper](https://arxiv.org/abs/2411.08599)]
 10. **FinSQL: Model-Agnostic LLMs-based Text-to-SQL Framework for Financial Analysis**  
-      Chao Zhang, Yuren Mao, Yijiang Fan, Yu Mi, Yunjun Gao, Lu Chen, Dongfang Lou, Jinshu Lin. *SIGMOD 2024.* [[Paper](https://doi.org/10.1145/3626246.3653375)]
+    Chao Zhang, Yuren Mao, Yijiang Fan, Yu Mi, Yunjun Gao, Lu Chen, Dongfang Lou, Jinshu Lin. *SIGMOD 2024.* [[Paper](https://doi.org/10.1145/3626246.3653375)]
 11. **CodeS: Towards Building Open-source Language Models for Text-to-SQL**  
-      Haoyang Li, Jing Zhang, Hanbing Liu, et al. *Proceedings of the ACM on Management of Data, Volume 2, Issue 3, 2024.* [[Paper](https://doi.org/10.1145/3654930)]
+    Haoyang Li, Jing Zhang, Hanbing Liu, et al. *Proceedings of the ACM on Management of Data, Volume 2, Issue 3, 2024.* [[Paper](https://doi.org/10.1145/3654930)]
 12. **The Dawn of Natural Language to SQL: Are We Fully Ready?**  
-      Boyan Li, Yuyu Luo, Chengliang Chai, Guoliang Li, Nan Tang. *VLDB 2024.* [[Paper](https://arxiv.org/abs/2406.01265)]
+    Boyan Li, Yuyu Luo, Chengliang Chai, Guoliang Li, Nan Tang. *VLDB 2024.* [[Paper](https://arxiv.org/abs/2406.01265)]
 13. **Contextualized Data-Wrangling Code Generation in Computational Notebooks**  
-      Junjie Huang, Daya Guo, Chenglong Wang, et al. *ASE 2024*. [[Paper](https://dl.acm.org/doi/abs/10.1145/3691620.3695503)]
+    Junjie Huang, Daya Guo, Chenglong Wang, et al. *ASE 2024*. [[Paper](https://dl.acm.org/doi/abs/10.1145/3691620.3695503)]
 14. **PET-SQL: A Prompt-Enhanced Two-Round Refinement of Text-to-SQL with Cross-consistency**  
-      Zhishuai Li, Xiang Wang, Jingjing Zhao, et al. *arXiv 2024.* [[Paper](https://doi.org/10.48550/arXiv.2403.09732)]
-15. **CHESS: Contextual Harnessing for Efficient SQL Synthesis**  
-      Shayan Talaei, Mohammadreza Pourreza, Yu-Chen Chang, Azalia Mirhoseini, Amin Saberi. *arXiv 2024.* [[Paper](https://doi.org/10.48550/arXiv.2405.16755)]
+    Zhishuai Li, Xiang Wang, Jingjing Zhao, et al. *arXiv 2024.* [[Paper](https://doi.org/10.48550/arXiv.2403.09732)]
+15. **CHESS: Contextual Harnessing for Efficient SQL Synthesis**   
+    Shayan Talaei, Mohammadreza Pourreza, Yu-Chen Chang, Azalia Mirhoseini, Amin Saberi. *arXiv 2024.* [[Paper](https://doi.org/10.48550/arXiv.2405.16755)]
 16. **Data Interpreter: An LLM Agent For Data Science**  
-      Sirui Hong, Yizhang Lin, Bang Liu, Bangbang Liu, et al. *arXiv 2024.* [[Paper](https://arxiv.org/abs/2402.18679)]
+    Sirui Hong, Yizhang Lin, Bang Liu, Bangbang Liu, et al. *arXiv 2024.* [[Paper](https://arxiv.org/abs/2402.18679)]
 17. **DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction**  
     Mohammadreza Pourreza, Davood Rafiei. *NeurIPS 2023*. [[Paper](https://dl.acm.org/doi/10.5555/3666122.3667699)]
 18. **Natural Language to Code Generation in Interactive Data Science Notebooks**   
@@ -1206,7 +1205,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 4. **TAT-LLM: A Specialized Language Model for Discrete Reasoning over Financial Tabular and Textual Data**  
    Fengbin Zhu, Ziyang Liu, Fuli Feng, Chao Wang, Moxin Li, Tat Seng Chua. *ICAIF 2024.* [[Paper](https://doi.org/10.1145/3677052.3698685)]
 5. **CABINET: Content Relevance based Noise Reduction for Table Question Answering**  
-   Sohan Patnaik, Heril Changwal, Milan Aggarwal, Sumit Bhatia, Yaman Kumar, Balaji Krishnamurthy. *ICLR 2024.* [[Paper](https://doi.org/10.48550/arXiv.2402.01155)]
+   Sohan Patnaik, Heril Changwal, Milan Aggarwal, et al. *ICLR 2024.* [[Paper](https://doi.org/10.48550/arXiv.2402.01155)]
 6. **Multimodal Table Understanding**  
    Mingyu Zheng, Xinwei Feng, Qingyi Si, Qiaoqiao She, Zheng Lin, Wenbin Jiang, Weiping Wang. *ACL 2024*. [[Paper](https://aclanthology.org/2024.acl-long.493/)]
 7. **TabPedia: Towards Comprehensive Visual Table Understanding with Concept Synergy**  
@@ -1261,7 +1260,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 6. **Call Me When Necessary: LLMs can Efficiently and Faithfully Reason over Structured Environments**  
    Sitao Cheng, Ziyuan Zhuang, Yong Xu, et a;. *Findings of ACL 2024.* [[Paper](https://doi.org/10.48550/arXiv.2403.08593)]
 7. **Direct Preference Optimization: Your Language Model is Secretly a Reward Model**   
-   Rafael Rafailov, Archit Sharma, Eric Mitchell, Christopher D. Manning, Stefano Ermon, Chelsea Finn. *NeurIPS 2023.* [[Paper](https://papers.nips.cc/paper_files/paper/2023/hash/a85b405ed65c6477a4fe8302b5e06ce7-Abstract-Conference.html)]
+   Rafael Rafailov, Archit Sharma, Eric Mitchell, et al. *NeurIPS 2023.* [[Paper](https://papers.nips.cc/paper_files/paper/2023/hash/a85b405ed65c6477a4fe8302b5e06ce7-Abstract-Conference.html)]
 8. **StructGPT: A General Framework for Large Language Model to Reason over Structured Data**   
    Jinhao Jiang, Kun Zhou, Zican Dong, Keming Ye, Wayne Xin Zhao, Ji-Rong Wen. *EMNLP 2023.* [[Paper](https://doi.org/10.48550/arXiv.2305.09645)]
 9. **UniKGQA: Unified Retrieval and Reasoning for Solving Multi-hop Question Answering Over Knowledge Graph**   
@@ -1350,7 +1349,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 1. **Improving Code Summarization With Tree Transformer Enhanced by Position-Related Syntax Complement**  
    Jie Song, Zexin Zhang, Zirui Tang, Shi Feng, Yu Gu. *IEEE TAI 2024.* [[Paper](https://ieeexplore.ieee.org/document/10510878/metrics#metrics)]
 2. **Large Language Models are Few-Shot Summarizers: Multi-Intent Comment Generation via In-Context Learning**  
-   Mingyang Geng, Shangwen Wang, Dezun Dong, Haotian Wang, Ge Li, Zhi Jin, Xiaoguang Mao, Xiangke Liao. *ICSE 2024.* [[Paper](https://doi.org/10.1145/3597503.3608134)]
+   Mingyang Geng, Shangwen Wang, Dezun Dong, et al. *ICSE 2024.* [[Paper](https://doi.org/10.1145/3597503.3608134)]
 3. **Automatic Semantic Augmentation of Language Model Prompts (for Code Summarization)**  
    Toufique Ahmed, Kunal Suresh Pai, Premkumar Devanbu, Earl Barr. *ICSE 2024.* [[Paper](https://doi.org/10.1145/3597503.3639183)]
 4. **CoCoMIC: Code Completion by Jointly Modeling In-file and Cross-file Context**  
@@ -1383,7 +1382,7 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 5. **Demonstration of ViTA: Visualizing, Testing and Analyzing Index Advisors**    
    Wei Zhou, Chen Lin, Xuanhe Zhou, Guoliang Li, Tianqing Wang. *CIKM 2023.* [[Paper](https://dl.acm.org/doi/abs/10.1145/3583780.3614738)]
 6. **An Efficient Transfer Learning Based Configuration Adviser for Database Tuning**  
-   Xinyi Zhang, Hong Wu, Yang Li, Zhengju Tang, Jian Tan, Feifei Li, Bin Cui. *Proceedings of the VLDB Endowment, Volume 17, Issue 3. 2023.* [[Paper](https://dl.acm.org/doi/abs/10.14778/3632093.3632114)]
+   Xinyi Zhang, Hong Wu, Yang Li, et al. *Proceedings of the VLDB Endowment, Volume 17, Issue 3. 2023.* [[Paper](https://dl.acm.org/doi/abs/10.14778/3632093.3632114)]
 7. **Code-aware cross-program transfer hyperparameter optimization**  
    Zijia Wang, Xiangyu He, Kehan Chen, Chen Lin, Jinsong Su. *AAAI 2023.* [[Paper](https://dl.acm.org/doi/10.1609/aaai.v37i9.26226)]
 8. **QTune: a query-aware database tuning system with deep reinforcement learning**  
