@@ -1181,11 +1181,6 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
 
 #### 4.2.1 LLM for Structured Data Analysis
 
-1. **Survey of graph database models**  
-   Renzo Angles, Claudio Gutierrez. *ACM Computing Surveys (CSUR), Volume 40, Issue 1, 2008*. [[Paper](https://dl.acm.org/doi/10.1145/1322432.1322433)]
-2. **A Relational Model of Data for Large Shared Data Banks**   
-   E. F. Codd. *Communications of the ACM 1970.* [[Paper](https://doi.org/10.1145/362384.362685)]
-
 ##### 4.2.1.1 Relational Data Analysis
 
 ###### LLM for Natural Language Interfaces
@@ -1194,54 +1189,70 @@ The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Ser
    Wei Zhou, Yuyang Gao, Xuanhe Zhou, Guoliang Li. *SIGMOD 2025*. [[Paper](https://dbgroup.cs.tsinghua.edu.cn/ligl/SIGMOD25-CrackSQL.pdf)]
 2. **CrackSQL: A Hybrid SQL Dialect Translation System Powered by Large Language Models**    
    Wei Zhou, Yuyang Gao, Xuanhe Zhou, Guoliang Li. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2504.00882#:~:text=In%20this%20demonstration%2C%20we%20present%20CrackSQL%2C%20the%20first,rule%20and%20LLM-based%20methods%20to%20overcome%20these%20limitations.)]
-3. **FinSQL: Model-Agnostic LLMs-based Text-to-SQL Framework for Financial Analysis**  
+3. **Automatic Metadata Extraction for Text-to-SQL**
+   Vladislav Shkapenyuk, Divesh Srivastava, Theodore Johnson, Parisa Ghane. *arXiv 2025* [[Paper](https://arxiv.org/abs/2505.19988)]
+4. **CSC-SQL: Corrective Self-Consistency in Text-to-SQL via Reinforcement Learning**
+   Lei Sheng, Shuai-Shuai Xu. *arXiv 2025* [[Paper](https://arxiv.org/abs/2505.13271)]
+5. **Reasoning-SQL: Reinforcement Learning with SQL Tailored Partial Rewards for Reasoning-Enhanced Text-to-SQL**
+   Lei Sheng, Shuai-Shuai Xu. *arXiv 2025* [[Paper](https://arxiv.org/abs/2505.13271)]
+6. **OmniSQL: Synthesizing High-quality Text-to-SQL Data at Scale**
+   Haoyang Li, Shang Wu, Xiaokang Zhang, Xinmei Huang, Jing Zhang, Fuxin Jiang, Shuai Wang, Tieying Zhang, Jianjun Chen, Rui Shi, Hong Chen, Cuiping Li. *arXiv 2025* [[Paper](https://arxiv.org/abs/2503.02240)]
+7. **OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment**
+   Xiangjin Xie, Guangwei Xu, Lingyan Zhao, Ruijie Guo. *arXiv 2025* [[Paper](https://arxiv.org/abs/2502.14913)]
+8. **Cheaper, Better, Faster, Stronger: Robust Text-to-SQL without Chain-of-Thought or Fine-Tuning**
+   Yusuf Denizay Dönder, Derek Hommel, Andrea W Wen-Yi, David Mimno, Unso Eun Seo Jo. *arXiv 2025* [[Paper](https://arxiv.org/abs/2505.14174)]
+9. **A Preview of XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL**
+   Yingqi Gao, Yifu Liu, Xiaoxia Li, Xiaorong Shi, Yin Zhu, Yiming Wang, Shiqi Li, Wei Li, Yuntao Hong, Zhiling Luo, Jinyang Gao, Liyu Mou, Yu Li. *arXiv 2025* [[Paper](https://arxiv.org/abs/2411.08599)]
+10. **FinSQL: Model-Agnostic LLMs-based Text-to-SQL Framework for Financial Analysis**  
    Chao Zhang, Yuren Mao, Yijiang Fan, Yu Mi, Yunjun Gao, Lu Chen, Dongfang Lou, Jinshu Lin. *SIGMOD 2024.* [[Paper](https://doi.org/10.1145/3626246.3653375)]
-4. **CodeS: Towards Building Open-source Language Models for Text-to-SQL**  
+11. **CodeS: Towards Building Open-source Language Models for Text-to-SQL**  
    Haoyang Li, Jing Zhang, Hanbing Liu, Ju Fan, Xiaokang Zhang, Jun Zhu, Renjie Wei, Hongyan Pan, Cuiping Li, Hong Chen. *Proceedings of the ACM on Management of Data, Volume 2, Issue 3, 2024.* [[Paper](https://doi.org/10.1145/3654930)]
-5. **The Dawn of Natural Language to SQL: Are We Fully Ready?**  
+12. **The Dawn of Natural Language to SQL: Are We Fully Ready?**  
    Boyan Li, Yuyu Luo, Chengliang Chai, Guoliang Li, Nan Tang. *VLDB 2024.* [[Paper](https://arxiv.org/abs/2406.01265)]
-6. **Contextualized Data-Wrangling Code Generation in Computational Notebooks**  
+13. **Contextualized Data-Wrangling Code Generation in Computational Notebooks**  
    Junjie Huang, Daya Guo, Chenglong Wang, Jiazhen Gu, Shuai Lu, Jeevana Priya Inala, Cong Yan, Jianfeng Gao, Nan Duan, Michael R. Lyu. *ASE 2024*. [[Paper](https://dl.acm.org/doi/abs/10.1145/3691620.3695503)]
-7. **PET-SQL: A Prompt-Enhanced Two-Round Refinement of Text-to-SQL with Cross-consistency**  
+14. **PET-SQL: A Prompt-Enhanced Two-Round Refinement of Text-to-SQL with Cross-consistency**  
    Zhishuai Li, Xiang Wang, Jingjing Zhao, Sun Yang, Guoqing Du, Xiaoru Hu, Bin Zhang, Yuxiao Ye, Ziyue Li, Rui Zhao, Hangyu Mao. *arXiv 2024.* [[Paper](https://doi.org/10.48550/arXiv.2403.09732)]
-8. **CHESS: Contextual Harnessing for Efficient SQL Synthesis**  
+15. **CHESS: Contextual Harnessing for Efficient SQL Synthesis**  
    Shayan Talaei, Mohammadreza Pourreza, Yu-Chen Chang, Azalia Mirhoseini, Amin Saberi. *arXiv 2024.* [[Paper](https://doi.org/10.48550/arXiv.2405.16755)]
-9. **Data Interpreter: An LLM Agent For Data Science**  
+16. **Data Interpreter: An LLM Agent For Data Science**  
    Sirui Hong, Yizhang Lin, Bang Liu, Bangbang Liu, et al. *arXiv 2024.* [[Paper](https://arxiv.org/abs/2402.18679)]
-10. **DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction**  
+17. **DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction**  
     Mohammadreza Pourreza, Davood Rafiei. *NeurIPS 2023*. [[Paper](https://dl.acm.org/doi/10.5555/3666122.3667699)]
-11. **Natural Language to Code Generation in Interactive Data Science Notebooks**   
+18. **Natural Language to Code Generation in Interactive Data Science Notebooks**   
     Pengcheng Yin, Wen-Ding Li, Kefan Xiao, Abhishek Rao, Yeming Wen, Kensen Shi, Joshua Howland, Paige Bailey, Michele Catasta, Henryk Michalewski, Oleksandr Polozov, Charles Sutton. *ACL 2023.* [[Paper](https://aclanthology.org/2023.acl-long.9/)]
-12. **PaLM: Scaling Language Modeling with Pathways**   
+19. **PaLM: Scaling Language Modeling with Pathways**   
     Aakanksha Chowdhery, Sharan Narang, Jacob Devlin, et al. *JMLR 2023.* [[Paper](https://dl.acm.org/doi/10.5555/3648699.3648939)]
 
 ###### LLM for Semantic Analysis
 
 1. **TableMaster: A Recipe to Advance Table Understanding with Language Models**  
    Lang Cao. *arXiv 2025.* [[Paper](https://doi.org/10.48550/arXiv.2501.19378)]
-2. **TAT-LLM: A Specialized Language Model for Discrete Reasoning over Financial Tabular and Textual Data**  
+2. **RoT: Enhancing Table Reasoning with Iterative Row-Wise Traversals**  
+   Xuanliang Zhang, Dingzirui Wang, Keyan Xu, Qingfu Zhu, Wanxiang Che. *arXiv 2025.* [[Paper](https://arxiv.org/abs/2505.15110)]
+3. **PPT: A Process-based Preference Learning Framework for Self Improving Table Question Answering Models**  
+   Wei Zhou, Mohsen Mesgar, Heike Adel, Annemarie Friedrich. *arXiv 2025.* [[Paper](https://arxiv.org/abs/2505.17565)]
+4. **TAT-LLM: A Specialized Language Model for Discrete Reasoning over Financial Tabular and Textual Data**  
    Fengbin Zhu, Ziyang Liu, Fuli Feng, Chao Wang, Moxin Li, Tat Seng Chua. *ICAIF 2024.* [[Paper](https://doi.org/10.1145/3677052.3698685)]
-3. **CABINET: Content Relevance based Noise Reduction for Table Question Answering**  
+5. **CABINET: Content Relevance based Noise Reduction for Table Question Answering**  
    Sohan Patnaik, Heril Changwal, Milan Aggarwal, Sumit Bhatia, Yaman Kumar, Balaji Krishnamurthy. *ICLR 2024.* [[Paper](https://doi.org/10.48550/arXiv.2402.01155)]
-4. **Multimodal Table Understanding**  
+6. **Multimodal Table Understanding**  
    Mingyu Zheng, Xinwei Feng, Qingyi Si, Qiaoqiao She, Zheng Lin, Wenbin Jiang, Weiping Wang. *ACL 2024*. [[Paper](https://aclanthology.org/2024.acl-long.493/)]
-5. **TabPedia: Towards Comprehensive Visual Table Understanding with Concept Synergy**  
+7. **TabPedia: Towards Comprehensive Visual Table Understanding with Concept Synergy**  
    Weichao Zhao, Hao Feng, Qi Liu, Jingqun Tang, Shu Wei, Binghong Wu, Lei Liao, Yongjie Ye, Hao Liu, Wengang Zhou, Houqiang Li, Can Huang. *NeurIPS 2024.* [[Paper](https://doi.org/10.48550/arXiv.2406.01326)]
-6. **TaPERA: Enhancing Faithfulness and Interpretability in Long-Form Table QA by Content Planning and Execution-based Reasoning**  
+8. **TaPERA: Enhancing Faithfulness and Interpretability in Long-Form Table QA by Content Planning and Execution-based Reasoning**  
    Yilun Zhao, Lyuhao Chen, Arman Cohan, Chen Zhao. *ACL 2024.* [[Paper](https://aclanthology.org/2024.acl-long.692/)]
-7. **ReAcTable: Enhancing ReAct for Table Question Answering**  
+9. **ReAcTable: Enhancing ReAct for Table Question Answering**  
    Yunjia Zhang, Jordan Henkel, Avrilia Floratou, Joyce Cahoon, Shaleen Deep, Jignesh M. Patel. *Proceedings of the VLDB Endowment, Volume 17, Issue 8, 2024.* [[Paper](https://doi.org/10.14778/3659437.3659452)]
-8. **Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding**  
+10. **Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding**  
    Zilong Wang, Hao Zhang, Chun-Liang Li, Julian Martin Eisenschlos, Vincent Perot, Zifeng Wang, Lesly Miculicich, Yasuhisa Fujii, Jingbo Shang, Chen-Yu Lee, Tomas Pfister. *ICLR 2024.* [[Paper](https://doi.org/10.48550/arXiv.2401.04398)]
-9. **Table-GPT: Table Fine-tuned GPT for Diverse Table Tasks**  
+11. **Table-GPT: Table Fine-tuned GPT for Diverse Table Tasks**  
    Peng Li, Yeye He, Dror Yashar, Weiwei Cui, Song Ge, Haidong Zhang, Danielle Rifinski Fainman, Dongmei Zhang, Surajit Chaudhuri. *Proceedings of the ACM on Management of Data, Volume 2, Issue 3, 2024*. [[Paper](https://dl.acm.org/doi/10.1145/3654979)]
-10. **Qwen2.5 Technical Report**  
-    Qwen Team. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2412.15115)]
-11. **TableGPT2: A Large Multimodal Model with Tabular Data Integration**  
+12. **TableGPT2: A Large Multimodal Model with Tabular Data Integration**  
     Aofeng Su, Aowen Wang, Chao Ye, Chen Zhou, et al. *arXiv 2024.* [[Paper](https://doi.org/10.48550/arXiv.2411.02059)]
-12. **S3HQA: A Three-Stage Approach for Multi-hop Text-Table Hybrid Question Answering**   
+13. **S3HQA: A Three-Stage Approach for Multi-hop Text-Table Hybrid Question Answering**   
     Fangyu Lei, Xiang Li, Yifan Wei, Shizhu He, Yiming Huang, Jun Zhao, Kang Liu. *ACL 2023.* [[Paper](https://aclanthology.org/2023.acl-short.147/)]
-13. **Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena**   
+14. **Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena**   
     Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, Eric P. Xing, Hao Zhang, Joseph E. Gonzalez, Ion Stoica. *NeurIPS 2023 Datasets and Benchmarks Track.* [[Paper](https://doi.org/10.48550/arXiv.2306.05685)]
 
 
