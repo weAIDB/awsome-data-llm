@@ -394,6 +394,8 @@ Mike Conover and Matt Hayes and Ankit Mathur and Jianwei Xie and Jun Wan and Sam
    Shivchander Sudalairaj, Abhishek Bhandwaldar, Aldo Pareja, et al. *arXiv 2024.* [[Paper](https://doi.org/10.48550/arXiv.2403.01081)]
 5. **Biases in Large Language Models: Origins, Inventory, and Discussion**  
    Roberto Navigli, Simone Conia, Björn Ross. *ACM JDIQ, 2023.* [[Paper](https://doi.org/10.1145/3597307)]
+6. **SCAR: Data Selection via Style-Consistency-Aware Response Ranking for Efficient Instruction Tuning of Large Language Models**  
+   Zhuang Li, Yuncheng Hua, Thuy-Trang Vu, Haolan Zhan, Lizhen Qu, Gholamreza Haffari. *ACL 2025.* [[Paper](https://arxiv.org/abs/2406.10882)] [[Github](https://github.com/zhuang-li/SCAR)]
 
 ##### (3) Hybrid Methods
 
