@@ -489,6 +489,7 @@ Mike Conover and Matt Hayes and Ankit Mathur and Jianwei Xie and Jun Wan and Sam
    Clara Na, Ian Magnusson, Ananya Harsh Jha, et al. *EMNLP 2024.* [[Paper](https://arxiv.org/abs/2410.15661v1)]
 2. **Mixture-of-LoRAs: An Efficient Multitask Tuning for Large Language Models**  
    Wenfeng Feng, Chuzhan Hao, Yuewei Zhang, Yu Han, Hao Wang. *COLING 2024.* [[Paper](https://arxiv.org/abs/2403.03432v1)]
+3. **Mixtera: A Data Plane for Foundation Model Training** Maximilian Böther, Xiaozhe Yao, Tolga Kerimoglu, Dan Graur, Viktor Gsteiger, Ana Klimovic. *arXiv 2025.* [[Paper](https://arxiv.org/abs/2502.19790)]
 
 #### Heuristic Optimization
 
@@ -682,6 +683,7 @@ Mike Conover and Matt Hayes and Ankit Mathur and Jianwei Xie and Jun Wan and Sam
    Yiding Sun, Feng Wang, Yutao Zhu, Wayne Xin Zhao, Jiaxin Mao. *SIGIR 2024.* [[Paper](https://doi.org/10.1145/3626772.3657671)]
 3. **Dataverse: Open-Source ETL (Extract, Transform, Load) Pipeline for Large Language Models**  
    Hyunbyung Park, Sukyung Lee, Gyoungjin Gim, Yungi Kim, Dahyun Kim, Chanjun Park. *arXiv 2024.* [[Paper](https://arxiv.org/abs/2403.19340v1)]
+4. **Mixtera: A Data Plane for Foundation Model Training** Maximilian Böther, Xiaozhe Yao, Tolga Kerimoglu, Dan Graur, Viktor Gsteiger, Ana Klimovic. *arXiv 2025.* [[Paper](https://arxiv.org/abs/2502.19790)]
 
 #### 1.7.2 Typical data pipelines
 
@@ -945,6 +947,7 @@ Mike Conover and Matt Hayes and Ankit Mathur and Jianwei Xie and Jun Wan and Sam
     James L. McClelland, Bruce L. McNaughton, Randall C. O’Reilly. *Psychological Review 1995.* [[Paper](https://cseweb.ucsd.edu/~gary/258/jay.pdf)]
 11. **Catastrophic Interference in Connectionist Networks: The Sequential Learning Problem**  
     M. McCloskey, N. J. Cohen. *Psychology of Learning and Motivation 1989.* [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0079742108605368)]
+12. **Mixtera: A Data Plane for Foundation Model Training** Maximilian Böther, Xiaozhe Yao, Tolga Kerimoglu, Dan Graur, Viktor Gsteiger, Ana Klimovic. *arXiv 2025.* [[Paper](https://arxiv.org/abs/2502.19790)]
 
 #### Data Selection for RAG
 
