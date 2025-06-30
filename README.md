@@ -1386,7 +1386,7 @@ Mike Conover and Matt Hayes and Ankit Mathur and Jianwei Xie and Jun Wan and Sam
    Wei Zhou, Chen Lin, Xuanhe Zhou, Guoliang Li. *Proceedings of the VLDB Endowment, Volume 17, Issue 10. 2024.* [[Paper](https://dl.acm.org/doi/10.14778/3675034.3675035)]
 5. **TRAP: Tailored Robustness Assessment for Index Advisors via Adversarial Perturbation**  
    Wei Zhou; Chen Lin; Xuanhe Zhou; Guoliang Li; Tianqing Wang. *ICDE 2024*. [[Paper](https://ieeexplore.ieee.org/document/10597867)]
-6. **Trustworthy and Efficient LLMs Meet Databases**
+6. **Trustworthy and Efficient LLMs Meet Databases**    
    Kyoungmin Kim, Anastasia Ailamaki. *arXiv 2024.* [[Paper](https://doi.org/10.48550/arXiv.2412.18022)]
 7. **Automatic Database Knob Tuning: A Survey**  
    Xinyang Zhao, Xuanhe Zhou, Guoliang Li. *IEEE Transactions on Knowledge and Data Engineering, Volume 35, Issue 12. 2023.*  [[Paper](https://dl.acm.org/doi/10.1109/TKDE.2023.3266893)]
@@ -1395,7 +1395,7 @@ Mike Conover and Matt Hayes and Ankit Mathur and Jianwei Xie and Jun Wan and Sam
 9. **An Efficient Transfer Learning Based Configuration Adviser for Database Tuning**  
    Xinyi Zhang, Hong Wu, Yang Li, et al. *Proceedings of the VLDB Endowment, Volume 17, Issue 3. 2023.* [[Paper](https://dl.acm.org/doi/abs/10.14778/3632093.3632114)]
 10. **Code-aware cross-program transfer hyperparameter optimization**  
-   Zijia Wang, Xiangyu He, Kehan Chen, Chen Lin, Jinsong Su. *AAAI 2023.* [[Paper](https://dl.acm.org/doi/10.1609/aaai.v37i9.26226)]
+      Zijia Wang, Xiangyu He, Kehan Chen, Chen Lin, Jinsong Su. *AAAI 2023.* [[Paper](https://dl.acm.org/doi/10.1609/aaai.v37i9.26226)]
 11. **QTune: a query-aware database tuning system with deep reinforcement learning**  
     Guoliang Li, Xuanhe Zhou, Shifu Li, Bo Gao. *Proceedings of the VLDB Endowment, Volume 12, Issue 12. 2019.* [[Paper](https://dl.acm.org/doi/10.14778/3352063.3352129)]
 
@@ -1450,7 +1450,7 @@ Mike Conover and Matt Hayes and Ankit Mathur and Jianwei Xie and Jun Wan and Sam
 9. **LLM-R2: A Large Language Model Enhanced Rule-Based Rewrite System for Boosting Query Efficiency**  
    Zhaodonghui Li, Haitao Yuan, Huiming Wang, Gao Cong, Lidong Bing. *VLDB 2024.* [[Paper](https://doi.org/10.14778/3696435.3696440)]
 10. **The Unreasonable Effectiveness of LLMs for Query Optimization**  
-   Peter Akioyamen, Zixuan Yi, Ryan Marcus. *ML for Systems Workshop at NeurIPS 2024.* [[Paper](https://doi.org/10.48550/arXiv.2411.02862)]
+      Peter Akioyamen, Zixuan Yi, Ryan Marcus. *ML for Systems Workshop at NeurIPS 2024.* [[Paper](https://doi.org/10.48550/arXiv.2411.02862)]
 11. **R-Bot: An LLM-based Query Rewrite System**  
     Zhaoyan Sun, Xuanhe Zhou, Guoliang Li. *arXiv 2024.* [[Paper](https://arxiv.org/abs/2412.01661)]
 12. **Query Rewriting via Large Language Models**  
