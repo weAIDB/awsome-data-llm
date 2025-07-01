@@ -1463,7 +1463,7 @@ Mike Conover and Matt Hayes and Ankit Mathur and Jianwei Xie and Jun Wan and Sam
 ##### Manually Crafted Prompts for Anomaly Diagnosis
 
 1. **Managing Complex Failure Analysis Workflows with LLM-based Reasoning and Acting Agents**    
-   Aline Dobrovsky, Konstantin Schekotihin, Christian Burmer. *arXiv 2025* [[Paper](https://doi.org/10.48550/arXiv.2506.15567)]
+   Aline Dobrovsky, Konstantin Schekotihin, Christian Burmer. *arXiv 2025*. [[Paper](https://doi.org/10.48550/arXiv.2506.15567)]
 2. **DBG-PT: A Large Language Model Assisted Query Performance Regression Debugger**  
    Victor Giannakouris, Immanuel Trummer. *Proceedings of the VLDB Endowment, Volume 17, Issue 12, 2024.* [[Paper](https://doi.org/10.14778/3685800.3685869)]
 
