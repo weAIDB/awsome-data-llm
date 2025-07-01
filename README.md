@@ -1480,16 +1480,18 @@ Mike Conover and Matt Hayes and Ankit Mathur and Jianwei Xie and Jun Wan and Sam
 
 ##### Multi-Agent Mechanism for Collaborative Diagnosis
 
-1. **D-Bot: Database Diagnosis System using Large Language Models** [[Paper](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/dbot_vldb_camera_ready_v1.pdf)]
-2. **Panda: Performance Debugging for Databases using LLM Agents**  
+1. **GaussMaster: An LLM-based Database Copilot System**  
+   Wei Zhou, Ji Sun, Xuanhe Zhou, et al. *arXiv 2025.* [[Paper](https://doi.org/10.48550/arXiv.2506.23322)]
+2. **D-Bot: Database Diagnosis System using Large Language Models** [[Paper](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/dbot_vldb_camera_ready_v1.pdf)]
+3. **Panda: Performance Debugging for Databases using LLM Agents**  
    Vikramank Singh, Kapil Eknath Vaidya, Vinayshekhar Bannihatti Kumar, et al. *CIDR 2024.* [[Paper](https://www.cidrdb.org/cidr2024/papers/p6-singh.pdf)]
-3. **Building AI Agents for Autonomous Clouds: Challenges and Design Principles**     
+4. **Building AI Agents for Autonomous Clouds: Challenges and Design Principles**     
    Manish Shetty, Yinfang Chen, Gagan Somashekar, et al. *SoCC 2024.* [[Paper](https://doi.org/10.1145/3698038.3698525)]
-4. **RCAgent: Cloud Root Cause Analysis by Autonomous Agents with Tool-Augmented Large Language Models**     
+5. **RCAgent: Cloud Root Cause Analysis by Autonomous Agents with Tool-Augmented Large Language Models**     
    Zefan Wang, Zichuan Liu, Yingying Zhang, et al. *CIKM 2024.* [[Paper](https://doi.org/10.1145/3627673.3680016)]
-5. **mABC: Multi-Agent Blockchain-Inspired Collaboration for Root Cause Analysis in Micro-Services Architecture**     
+6. **mABC: Multi-Agent Blockchain-Inspired Collaboration for Root Cause Analysis in Micro-Services Architecture**     
    Wei Zhang, Hongcheng Guo, Jian Yang, et al. *arXiv 2024*. [[Paper](https://doi.org/10.48550/arXiv.2404.12135)]
-6. **LLM As DBA** [[Paper](https://arxiv.org/abs/2308.05481)]
+7. **LLM As DBA** [[Paper](https://arxiv.org/abs/2308.05481)]
 
 ##### Localized LLM Enhancement via Specialized FineTuning
 
