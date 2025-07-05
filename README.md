@@ -4,6 +4,8 @@
 
 > A collection of papers and projects related to LLMs and corresponding data-centric methods. [![arXiv](https://camo.githubusercontent.com/dc1f84975e5d05724930d5c650e4b6eaea49e9f4c03d00de50bd7bf950394b4f/68747470733a2f2f68756767696e67666163652e636f2f64617461736574732f68756767696e67666163652f6261646765732f7261772f6d61696e2f70617065722d706167652d736d2d6461726b2e737667)](https://arxiv.org/abs/2505.18458)
 >
+> Other publicly-available materials: [[Slide]](./assets/DATA4LLM-en-v1.pdf)
+>
 > If you find our survey useful, please cite the paper:
 
 ```
