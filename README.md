@@ -1600,4 +1600,4 @@ Mike Conover and Matt Hayes and Ankit Mathur and Jianwei Xie and Jun Wan and Sam
 3. **LLM for Data Management**     
    Guoliang Li, Xuanhe Zhou, Xinyang Zhao. *PVLDB 17(12).* 2024. [[Paper](https://doi.org/10.14778/3685800.3685838)]
 4. **LLM-Enhanced Data Management**     
-   Xuanhe Zhou, Xinyang Zhao, Guoliang Li. *arXiv 2024*. [[Paper](https://doi.org/10.48550/arXiv.2402.02643)]Cross-Database 
+   Xuanhe Zhou, Xinyang Zhao, Guoliang Li. *arXiv 2024*. [[Paper](https://doi.org/10.48550/arXiv.2402.02643)]
