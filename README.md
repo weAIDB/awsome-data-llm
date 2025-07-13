@@ -1499,23 +1499,9 @@ Mike Conover and Matt Hayes and Ankit Mathur and Jianwei Xie and Jun Wan and Sam
 
 1. **ELMo-Tune-V2: LLM-Assisted Full-Cycle Auto-Tuning to Optimize LSM-Based Key-Value Stores**  
     Viraj Thakkar, Qi Lin, Kenanya Keandra Adriel Prasetyo, et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2502.17606)]
-3. **MLETune: Streamlining Database Knob Tuning via Multi-LLMs Experts Guided Deep Reinforcement Learning**    
+2. **MLETune: Streamlining Database Knob Tuning via Multi-LLMs Experts Guided Deep Reinforcement Learning**    
     Wenlong Dong, Wei Liu, Rui Xi, et al. *ICPADS 2024.* [[Paper](https://doi.org/10.1109/ICPADS63350.2024.00038)]
-4. **Breaking It Down: An In-Depth Study of Index Advisors**  
-   Wei Zhou, Chen Lin, Xuanhe Zhou, Guoliang Li. *Proceedings of the VLDB Endowment, Volume 17, Issue 10. 2024.* [[Paper](https://dl.acm.org/doi/10.14778/3675034.3675035)]
-5. **TRAP: Tailored Robustness Assessment for Index Advisors via Adversarial Perturbation**  
-   Wei Zhou; Chen Lin; Xuanhe Zhou; Guoliang Li; Tianqing Wang. *ICDE 2024*. [[Paper](https://ieeexplore.ieee.org/document/10597867)]
-6. **Automatic Database Knob Tuning: A Survey**  
-   Xinyang Zhao, Xuanhe Zhou, Guoliang Li. *IEEE Transactions on Knowledge and Data Engineering, Volume 35, Issue 12. 2023.*  [[Paper](https://dl.acm.org/doi/10.1109/TKDE.2023.3266893)]
-8. **Demonstration of ViTA: Visualizing, Testing and Analyzing Index Advisors**    
-   Wei Zhou, Chen Lin, Xuanhe Zhou, Guoliang Li, Tianqing Wang. *CIKM 2023.* [[Paper](https://dl.acm.org/doi/abs/10.1145/3583780.3614738)]
-9. **An Efficient Transfer Learning Based Configuration Adviser for Database Tuning**  
-   Xinyi Zhang, Hong Wu, Yang Li, et al. *Proceedings of the VLDB Endowment, Volume 17, Issue 3. 2023.* [[Paper](https://dl.acm.org/doi/abs/10.14778/3632093.3632114)]
-10. **Code-aware cross-program transfer hyperparameter optimization**  
-      Zijia Wang, Xiangyu He, Kehan Chen, Chen Lin, Jinsong Su. *AAAI 2023.* [[Paper](https://dl.acm.org/doi/10.1609/aaai.v37i9.26226)]
-11. **QTune: a query-aware database tuning system with deep reinforcement learning**  
-    Guoliang Li, Xuanhe Zhou, Shifu Li, Bo Gao. *Proceedings of the VLDB Endowment, Volume 12, Issue 12. 2019.* [[Paper](https://dl.acm.org/doi/10.14778/3352063.3352129)]
-
+   
 ##### Tuning Task-Aware Prompt Engineering
 
 1. **λ-Tune: Harnessing Large Language Models for Automated Database System Tuning**  
@@ -1531,8 +1517,8 @@ Mike Conover and Matt Hayes and Ankit Mathur and Jianwei Xie and Jun Wan and Sam
 
 1. **Automatic Database Configuration Debugging using Retrieval-Augmented Language Models**  
    Sibei Chen, Ju Fan, Bin Wu, et al. *Proceedings of the ACM on Management of Data, Volume 3, Issue 1, 2025.* [[Paper](https://dl.acm.org/doi/10.1145/3709663)]
-2. **GPTuner: An LLM-Based Database Tuning System**    
-   Jiale Lao, Yibo Wang, Yufei Li, et al. *ACM SIGMOD Record, Volume 54, Issue 1 2025.*[[Paper](https://dl.acm.org/doi/10.1145/3733620.3733641)]
+2. **GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization**  
+   Jiale Lao, Yibo Wang, Yufei Li, et al. *VLDB 2024.* [[Paper](https://doi.org/10.14778/3659437.3659449)]
 
 ##### Training Enhanced Tuning Goal Alignment
 
