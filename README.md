@@ -1499,27 +1499,9 @@ Mike Conover and Matt Hayes and Ankit Mathur and Jianwei Xie and Jun Wan and Sam
 
 1. **ELMo-Tune-V2: LLM-Assisted Full-Cycle Auto-Tuning to Optimize LSM-Based Key-Value Stores**  
     Viraj Thakkar, Qi Lin, Kenanya Keandra Adriel Prasetyo, et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2502.17606)]
-2. **LADs: Leveraging LLMs for AI-Driven DevOps**  
-    Ahmad Faraz Khan, Azal Ahmad Khan, Anas Mohamed, et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2502.20825)]
-3. **MLETune: Streamlining Database Knob Tuning via Multi-LLMs Experts Guided Deep Reinforcement Learning**    
+2. **MLETune: Streamlining Database Knob Tuning via Multi-LLMs Experts Guided Deep Reinforcement Learning**    
     Wenlong Dong, Wei Liu, Rui Xi, et al. *ICPADS 2024.* [[Paper](https://doi.org/10.1109/ICPADS63350.2024.00038)]
-4. **Breaking It Down: An In-Depth Study of Index Advisors**  
-   Wei Zhou, Chen Lin, Xuanhe Zhou, Guoliang Li. *Proceedings of the VLDB Endowment, Volume 17, Issue 10. 2024.* [[Paper](https://dl.acm.org/doi/10.14778/3675034.3675035)]
-5. **TRAP: Tailored Robustness Assessment for Index Advisors via Adversarial Perturbation**  
-   Wei Zhou; Chen Lin; Xuanhe Zhou; Guoliang Li; Tianqing Wang. *ICDE 2024*. [[Paper](https://ieeexplore.ieee.org/document/10597867)]
-6. **Trustworthy and Efficient LLMs Meet Databases**    
-   Kyoungmin Kim, Anastasia Ailamaki. *arXiv 2024.* [[Paper](https://doi.org/10.48550/arXiv.2412.18022)]
-7. **Automatic Database Knob Tuning: A Survey**  
-   Xinyang Zhao, Xuanhe Zhou, Guoliang Li. *IEEE Transactions on Knowledge and Data Engineering, Volume 35, Issue 12. 2023.*  [[Paper](https://dl.acm.org/doi/10.1109/TKDE.2023.3266893)]
-8. **Demonstration of ViTA: Visualizing, Testing and Analyzing Index Advisors**    
-   Wei Zhou, Chen Lin, Xuanhe Zhou, Guoliang Li, Tianqing Wang. *CIKM 2023.* [[Paper](https://dl.acm.org/doi/abs/10.1145/3583780.3614738)]
-9. **An Efficient Transfer Learning Based Configuration Adviser for Database Tuning**  
-   Xinyi Zhang, Hong Wu, Yang Li, et al. *Proceedings of the VLDB Endowment, Volume 17, Issue 3. 2023.* [[Paper](https://dl.acm.org/doi/abs/10.14778/3632093.3632114)]
-10. **Code-aware cross-program transfer hyperparameter optimization**  
-      Zijia Wang, Xiangyu He, Kehan Chen, Chen Lin, Jinsong Su. *AAAI 2023.* [[Paper](https://dl.acm.org/doi/10.1609/aaai.v37i9.26226)]
-11. **QTune: a query-aware database tuning system with deep reinforcement learning**  
-    Guoliang Li, Xuanhe Zhou, Shifu Li, Bo Gao. *Proceedings of the VLDB Endowment, Volume 12, Issue 12. 2019.* [[Paper](https://dl.acm.org/doi/10.14778/3352063.3352129)]
-
+   
 ##### Tuning Task-Aware Prompt Engineering
 
 1. **λ-Tune: Harnessing Large Language Models for Automated Database System Tuning**  
@@ -1553,29 +1535,23 @@ Mike Conover and Matt Hayes and Ankit Mathur and Jianwei Xie and Jun Wan and Sam
 
 ##### Optimization-Aware Prompt Engineering
 
-1. **Logical and Physical Optimizations for SQL Query Execution over Large Language Models**      
-   Dario Satriani, Enzo Veltri, Donatello Santoro, et al. *Proc. ACM Manag. Data 3(3) 2025.* [[Paper](https://doi.org/10.1145/3725411)]
-2. **Training-Free Query Optimization via LLM-Based Plan Similarity**     
-   Nikita Vasilenko, Alexander Demin, Vladimir Boorlakov. *arXiv 2025.* [[Paper](https://doi.org/10.48550/arXiv.2506.05853)]
-3. **Cross-Database Query Cost Estimation: A Comparative Study of Classic ML, Transformers, and LLMs**      
-   Junran Jia. *Honor Thesis, University of Michigan 2025*. [[Paper](https://lsa.umich.edu/content/dam/stats-assets/honors-theses/Jasmine%20Junran%20Jia%20Honor%20Thesis%20April%202025.pdf)]
-4. **QUITE: A Query Rewrite System Beyond Rules with LLM Agents**  
+1. **QUITE: A Query Rewrite System Beyond Rules with LLM Agents**  
    Yuyang Song, Hanxu Yan, Jiale Lao, Yibo Wang, et al. *arXiv 2025.* [[Paper](https://arxiv.org/pdf/2506.07675)]
-5. **Can Large Language Models Be Query Optimizer for Relational Databases?**  
+2. **Can Large Language Models Be Query Optimizer for Relational Databases?**  
    Jie Tan, Kangfei Zhao, Rui Li, et al. *arXiv 2025.* [[Paper](https://doi.org/10.48550/arXiv.2502.05562)]
-6. **A Query Optimization Method Utilizing Large Language Models**  
+3. **A Query Optimization Method Utilizing Large Language Models**  
    Zhiming Yao, Haoyang Li, Jing Zhang, Cuiping Li, Hong Chen. *arXiv 2025.* [[Paper](https://arxiv.org/abs/2503.06902)]
-7. **Query Rewriting via LLMs**  
+4. **Query Rewriting via LLMs**  
    Sriram Dharwada, Himanshu Devrani, Jayant Haritsa, Harish Doraiswamy. *arXiv 2025.* [[Paper](https://doi.org/10.48550/arXiv.2502.12918)]
-8. **DB-GPT: Large Language Model Meets Database** [[Paper](https://link.springer.com/article/10.1007/s41019-023-00235-6)]
-9. **LLM-R2: A Large Language Model Enhanced Rule-Based Rewrite System for Boosting Query Efficiency**  
+5. **DB-GPT: Large Language Model Meets Database** [[Paper](https://link.springer.com/article/10.1007/s41019-023-00235-6)]
+6. **LLM-R2: A Large Language Model Enhanced Rule-Based Rewrite System for Boosting Query Efficiency**  
    Zhaodonghui Li, Haitao Yuan, Huiming Wang, Gao Cong, Lidong Bing. *VLDB 2024.* [[Paper](https://doi.org/10.14778/3696435.3696440)]
-10. **The Unreasonable Effectiveness of LLMs for Query Optimization**  
-      Peter Akioyamen, Zixuan Yi, Ryan Marcus. *ML for Systems Workshop at NeurIPS 2024.* [[Paper](https://doi.org/10.48550/arXiv.2411.02862)]
-11. **R-Bot: An LLM-based Query Rewrite System**  
-    Zhaoyan Sun, Xuanhe Zhou, Guoliang Li. *arXiv 2024.* [[Paper](https://arxiv.org/abs/2412.01661)]
-12. **Query Rewriting via Large Language Models**  
-    Jie Liu, Barzan Mozafari. *arXiv 2024.* [[Paper](https://doi.org/10.48550/arXiv.2403.09060)]
+7. **The Unreasonable Effectiveness of LLMs for Query Optimization**  
+     Peter Akioyamen, Zixuan Yi, Ryan Marcus. *ML for Systems Workshop at NeurIPS 2024.* [[Paper](https://doi.org/10.48550/arXiv.2411.02862)]
+8. **R-Bot: An LLM-based Query Rewrite System**  
+   Zhaoyan Sun, Xuanhe Zhou, Guoliang Li. *arXiv 2024.* [[Paper](https://arxiv.org/abs/2412.01661)]
+9. **Query Rewriting via Large Language Models**  
+     Jie Liu, Barzan Mozafari. *arXiv 2024.* [[Paper](https://doi.org/10.48550/arXiv.2403.09060)]
 
 
 
@@ -1583,18 +1559,14 @@ Mike Conover and Matt Hayes and Ankit Mathur and Jianwei Xie and Jun Wan and Sam
 
 ##### Manually Crafted Prompts for Anomaly Diagnosis
 
-1. **Managing Complex Failure Analysis Workflows with LLM-based Reasoning and Acting Agents**    
-   Aline Dobrovsky, Konstantin Schekotihin, Christian Burmer. *arXiv 2025*. [[Paper](https://doi.org/10.48550/arXiv.2506.15567)]
-2. **DBG-PT: A Large Language Model Assisted Query Performance Regression Debugger**  
+1. **DBG-PT: A Large Language Model Assisted Query Performance Regression Debugger**  
    Victor Giannakouris, Immanuel Trummer. *Proceedings of the VLDB Endowment, Volume 17, Issue 12, 2024.* [[Paper](https://doi.org/10.14778/3685800.3685869)]
 
 ##### RAG Based Diagnosis Experience Enrichment
 
 1. **Query Performance Explanation through Large Language Model for HTAP Systems**   
    Haibo Xiu, Li Zhang, Tieying Zhang, Jun Yang, Jianjun Chen. *ICDE 2025.* [[Paper](https://doi.org/10.48550/arXiv.2412.01709)]
-2. **A Survey of AIOps in the Era of Large Language Models**    
-   Lingzhe Zhang, Tong Jia, Mengxi Jia, et al. *ACM Comput. Surv.* 2025. [[Paper](https://doi.org/10.1145/3746635)]
-3. **D-Bot: Database Diagnosis System using Large Language Models**  
+2. **D-Bot: Database Diagnosis System using Large Language Models**  
    Xuanhe Zhou, Guoliang Li, Zhaoyan Sun, et al. *Proceedings of the VLDB Endowment, Volume 17, Issue 10. 2024.* [[Paper](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/dbot_vldb_camera_ready_v1.pdf)]
 4. **LLM As DBA**  
    Xuanhe Zhou, Guoliang Li, Zhiyuan Liu. *arXiv 2023.* [[Paper](https://arxiv.org/abs/2308.05481)]
@@ -1606,19 +1578,11 @@ Mike Conover and Matt Hayes and Ankit Mathur and Jianwei Xie and Jun Wan and Sam
 2. **D-Bot: Database Diagnosis System using Large Language Models** [[Paper](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/dbot_vldb_camera_ready_v1.pdf)]
 3. **Panda: Performance Debugging for Databases using LLM Agents**  
    Vikramank Singh, Kapil Eknath Vaidya, Vinayshekhar Bannihatti Kumar, et al. *CIDR 2024.* [[Paper](https://www.cidrdb.org/cidr2024/papers/p6-singh.pdf)]
-4. **Building AI Agents for Autonomous Clouds: Challenges and Design Principles**     
-   Manish Shetty, Yinfang Chen, Gagan Somashekar, et al. *SoCC 2024.* [[Paper](https://doi.org/10.1145/3698038.3698525)]
-5. **RCAgent: Cloud Root Cause Analysis by Autonomous Agents with Tool-Augmented Large Language Models**     
-   Zefan Wang, Zichuan Liu, Yingying Zhang, et al. *CIKM 2024.* [[Paper](https://doi.org/10.1145/3627673.3680016)]
-6. **mABC: Multi-Agent Blockchain-Inspired Collaboration for Root Cause Analysis in Micro-Services Architecture**     
-   Wei Zhang, Hongcheng Guo, Jian Yang, et al. *arXiv 2024*. [[Paper](https://doi.org/10.48550/arXiv.2404.12135)]
 7. **LLM As DBA** [[Paper](https://arxiv.org/abs/2308.05481)]
 
 ##### Localized LLM Enhancement via Specialized FineTuning
 
 1. **D-Bot: Database Diagnosis System using Large Language Models** [[Paper](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/dbot_vldb_camera_ready_v1.pdf)]
-2. **Leveraging Large Language Model for Intelligent Log Processing and Autonomous Debugging in Cloud AI Platforms**    
-   Cheng Ji, Huaiying Luo. *AEMCSE 2025.* [[Paper](https://doi.org/10.1109/AEMCSE65292.2025.11042521)]
 3. **LLM for Data Management**     
    Guoliang Li, Xuanhe Zhou, Xinyang Zhao. *PVLDB 17(12).* 2024. [[Paper](https://doi.org/10.14778/3685800.3685838)]
 4. **LLM-Enhanced Data Management**     
